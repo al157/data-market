@@ -1,0 +1,25 @@
+name = "data-market"
+compatibility_date = "2026-07-01"
+compatibility_flags = ["nodejs_compat"]
+main = "src/index.ts"
+
+# ============================================================
+# R2 bucket for static data files (CSV, JSON, PDF, images, etc.)
+# ============================================================
+[[r2_buckets]]
+binding = "DATA_BUCKET"
+bucket_name = "data-market-files"
+
+# ============================================================
+# D1 database for dynamic query data (optional)
+# ============================================================
+# [[d1_databases]]
+# binding = "DATA_DB"
+# database_name = "data-market-db"
+# database_id = "your-database-id"
+
+# ============================================================
+# Environment: set your wallet address via `wrangler secret`
+# ============================================================
+# wrangler secret put MERCHANT_ADDRESS
+# wrangler secret put FACILITATOR_URL

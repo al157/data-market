@@ -1,0 +1,196 @@
+{
+  "schema": [
+    "name",
+    "ticker",
+    "country",
+    "price",
+    "change",
+    "change_pct",
+    "updated"
+  ],
+  "count": 20,
+  "updated": "2026-07-11",
+  "source": "https://finance.yahoo.com",
+  "data": [
+    {
+      "name": "S&P 500",
+      "ticker": "SPX",
+      "country": "USA",
+      "price": 5875.25,
+      "change": 12.4,
+      "change_pct": 0.21,
+      "updated": "2026-07-11"
+    },
+    {
+      "name": "NASDAQ 100",
+      "ticker": "NDX",
+      "country": "USA",
+      "price": 20450.8,
+      "change": 85.3,
+      "change_pct": 0.42,
+      "updated": "2026-07-11"
+    },
+    {
+      "name": "Dow Jones",
+      "ticker": "DJI",
+      "country": "USA",
+      "price": 42150.0,
+      "change": 120.5,
+      "change_pct": 0.29,
+      "updated": "2026-07-11"
+    },
+    {
+      "name": "FTSE 100",
+      "ticker": "FTSE",
+      "country": "UK",
+      "price": 8560.4,
+      "change": -18.2,
+      "change_pct": -0.21,
+      "updated": "2026-07-11"
+    },
+    {
+      "name": "DAX 40",
+      "ticker": "DAX",
+      "country": "Germany",
+      "price": 19580.6,
+      "change": 45.8,
+      "change_pct": 0.23,
+      "updated": "2026-07-11"
+    },
+    {
+      "name": "CAC 40",
+      "ticker": "CAC",
+      "country": "France",
+      "price": 7850.3,
+      "change": -12.5,
+      "change_pct": -0.16,
+      "updated": "2026-07-11"
+    },
+    {
+      "name": "Nikkei 225",
+      "ticker": "N225",
+      "country": "Japan",
+      "price": 41280.5,
+      "change": 380.2,
+      "change_pct": 0.92,
+      "updated": "2026-07-11"
+    },
+    {
+      "name": "HSI",
+      "ticker": "HSI",
+      "country": "HongKong",
+      "price": 18560.4,
+      "change": -85.6,
+      "change_pct": -0.46,
+      "updated": "2026-07-11"
+    },
+    {
+      "name": "Shanghai Composite",
+      "ticker": "SSEC",
+      "country": "China",
+      "price": 3120.8,
+      "change": 8.4,
+      "change_pct": 0.27,
+      "updated": "2026-07-11"
+    },
+    {
+      "name": "SENSEX",
+      "ticker": "SENSEX",
+      "country": "India",
+      "price": 82450.6,
+      "change": 320.4,
+      "change_pct": 0.39,
+      "updated": "2026-07-11"
+    },
+    {
+      "name": "ASX 200",
+      "ticker": "ASX",
+      "country": "Australia",
+      "price": 8120.3,
+      "change": 22.1,
+      "change_pct": 0.27,
+      "updated": "2026-07-11"
+    },
+    {
+      "name": "KOSPI",
+      "ticker": "KOSPI",
+      "country": "SouthKorea",
+      "price": 2820.5,
+      "change": -5.8,
+      "change_pct": -0.21,
+      "updated": "2026-07-11"
+    },
+    {
+      "name": "Bovespa",
+      "ticker": "IBOV",
+      "country": "Brazil",
+      "price": 134500.0,
+      "change": 850.0,
+      "change_pct": 0.63,
+      "updated": "2026-07-11"
+    },
+    {
+      "name": "TSX 60",
+      "ticker": "TSX",
+      "country": "Canada",
+      "price": 2350.4,
+      "change": 6.3,
+      "change_pct": 0.27,
+      "updated": "2026-07-11"
+    },
+    {
+      "name": "SMI",
+      "ticker": "SMI",
+      "country": "Switzerland",
+      "price": 12350.8,
+      "change": -15.2,
+      "change_pct": -0.12,
+      "updated": "2026-07-11"
+    },
+    {
+      "name": "AEX",
+      "ticker": "AEX",
+      "country": "Netherlands",
+      "price": 925.5,
+      "change": 2.8,
+      "change_pct": 0.3,
+      "updated": "2026-07-11"
+    },
+    {
+      "name": "STOXX 600",
+      "ticker": "STOXX",
+      "country": "Europe",
+      "price": 542.6,
+      "change": 1.4,
+      "change_pct": 0.26,
+      "updated": "2026-07-11"
+    },
+    {
+      "name": "NIFTY 50",
+      "ticker": "NIFTY",
+      "country": "India",
+      "price": 25180.4,
+      "change": 105.2,
+      "change_pct": 0.42,
+      "updated": "2026-07-11"
+    },
+    {
+      "name": "Tadawul",
+      "ticker": "TASI",
+      "country": "Saudi",
+      "price": 12580.6,
+      "change": 45.3,
+      "change_pct": 0.36,
+      "updated": "2026-07-11"
+    },
+    {
+      "name": "MSCI World",
+      "ticker": "MSCI",
+      "country": "Global",
+      "price": 3520.8,
+      "change": 8.5,
+      "change_pct": 0.24,
+      "updated": "2026-07-11"
+    }
+  ]
+}

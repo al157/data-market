@@ -1,0 +1,24 @@
+{
+  "name": "data-market",
+  "private": true,
+  "version": "0.1.0",
+  "description": "AI-purchasable data market on Cloudflare Workers + x402",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@x402/core": "^2.18.0",
+    "@x402/evm": "^2.18.0",
+    "@x402/hono": "^2.18.0",
+    "agents": "^0.17.3",
+    "hono": "^4.6.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260711.1",
+    "typescript": "^5.6.0",
+    "wrangler": "^4.110.0"
+  }
+}

@@ -1,0 +1,413 @@
+{
+  "schema": [
+    "code",
+    "name",
+    "description",
+    "rfc",
+    "category"
+  ],
+  "count": 57,
+  "updated": "2026-07-11",
+  "source": "IANA HTTP Status Code Registry, RFC 9110",
+  "data": [
+    {
+      "code": 100,
+      "name": "Continue",
+      "description": "Server has received the request headers and client should proceed",
+      "rfc": "RFC 9110",
+      "category": "1xx Informational"
+    },
+    {
+      "code": 101,
+      "name": "Switching Protocols",
+      "description": "Server is switching protocols as requested by client",
+      "rfc": "RFC 9110",
+      "category": "1xx Informational"
+    },
+    {
+      "code": 102,
+      "name": "Processing",
+      "description": "Server has received and is processing the request (WebDAV)",
+      "rfc": "RFC 2518",
+      "category": "1xx Informational"
+    },
+    {
+      "code": 103,
+      "name": "Early Hints",
+      "description": "Server is sending early headers while main response is being prepared",
+      "rfc": "RFC 8297",
+      "category": "1xx Informational"
+    },
+    {
+      "code": 103,
+      "name": "Early Hints",
+      "description": "",
+      "rfc": "RFC 8297",
+      "category": "1xx Informational"
+    },
+    {
+      "code": 200,
+      "name": "OK",
+      "description": "Standard success response",
+      "rfc": "RFC 9110",
+      "category": "2xx Success"
+    },
+    {
+      "code": 201,
+      "name": "Created",
+      "description": "Resource created successfully",
+      "rfc": "RFC 9110",
+      "category": "2xx Success"
+    },
+    {
+      "code": 202,
+      "name": "Accepted",
+      "description": "Request accepted but not yet completed",
+      "rfc": "RFC 9110",
+      "category": "2xx Success"
+    },
+    {
+      "code": 204,
+      "name": "No Content",
+      "description": "Request succeeded but no content to return",
+      "rfc": "RFC 9110",
+      "category": "2xx Success"
+    },
+    {
+      "code": 206,
+      "name": "Partial Content",
+      "description": "",
+      "rfc": "RFC 9110",
+      "category": "2xx Success"
+    },
+    {
+      "code": 300,
+      "name": "Multiple Choices",
+      "description": "",
+      "rfc": "RFC 9110",
+      "category": "3xx Redirection"
+    },
+    {
+      "code": 301,
+      "name": "Moved Permanently",
+      "description": "Resource permanently moved to new URL",
+      "rfc": "RFC 9110",
+      "category": "3xx Redirection"
+    },
+    {
+      "code": 302,
+      "name": "Found",
+      "description": "Resource temporarily at a different URL",
+      "rfc": "RFC 9110",
+      "category": "3xx Redirection"
+    },
+    {
+      "code": 303,
+      "name": "See Other",
+      "description": "",
+      "rfc": "RFC 9110",
+      "category": "3xx Redirection"
+    },
+    {
+      "code": 304,
+      "name": "Not Modified",
+      "description": "Resource not modified since last request (caching)",
+      "rfc": "RFC 9110",
+      "category": "3xx Redirection"
+    },
+    {
+      "code": 305,
+      "name": "Use Proxy",
+      "description": "",
+      "rfc": "RFC 9110",
+      "category": "3xx Redirection"
+    },
+    {
+      "code": 307,
+      "name": "Temporary Redirect",
+      "description": "Temporary redirect, method must not change",
+      "rfc": "RFC 9110",
+      "category": "3xx Redirection"
+    },
+    {
+      "code": 308,
+      "name": "Permanent Redirect",
+      "description": "Permanent redirect, method must not change",
+      "rfc": "RFC 9110",
+      "category": "3xx Redirection"
+    },
+    {
+      "code": 400,
+      "name": "Bad Request",
+      "description": "Request could not be understood by server",
+      "rfc": "RFC 9110",
+      "category": "4xx Client Error"
+    },
+    {
+      "code": 401,
+      "name": "Unauthorized",
+      "description": "Authentication required",
+      "rfc": "RFC 9110",
+      "category": "4xx Client Error"
+    },
+    {
+      "code": 402,
+      "name": "Payment Required",
+      "description": "Payment is required to access the resource (x402 protocol)",
+      "rfc": "RFC 9110",
+      "category": "4xx Client Error"
+    },
+    {
+      "code": 403,
+      "name": "Forbidden",
+      "description": "Server understood but refuses to authorize",
+      "rfc": "RFC 9110",
+      "category": "4xx Client Error"
+    },
+    {
+      "code": 404,
+      "name": "Not Found",
+      "description": "Resource not found on server",
+      "rfc": "RFC 9110",
+      "category": "4xx Client Error"
+    },
+    {
+      "code": 405,
+      "name": "Method Not Allowed",
+      "description": "HTTP method not supported for this resource",
+      "rfc": "RFC 9110",
+      "category": "4xx Client Error"
+    },
+    {
+      "code": 406,
+      "name": "Not Acceptable",
+      "description": "",
+      "rfc": "RFC 9110",
+      "category": "4xx Client Error"
+    },
+    {
+      "code": 407,
+      "name": "Proxy Authentication Required",
+      "description": "",
+      "rfc": "RFC 9110",
+      "category": "4xx Client Error"
+    },
+    {
+      "code": 408,
+      "name": "Request Timeout",
+      "description": "Server timed out waiting for request",
+      "rfc": "RFC 9110",
+      "category": "4xx Client Error"
+    },
+    {
+      "code": 409,
+      "name": "Conflict",
+      "description": "Request conflicts with current state",
+      "rfc": "RFC 9110",
+      "category": "4xx Client Error"
+    },
+    {
+      "code": 410,
+      "name": "Gone",
+      "description": "Resource permanently deleted",
+      "rfc": "RFC 9110",
+      "category": "4xx Client Error"
+    },
+    {
+      "code": 411,
+      "name": "Length Required",
+      "description": "",
+      "rfc": "RFC 9110",
+      "category": "4xx Client Error"
+    },
+    {
+      "code": 412,
+      "name": "Precondition Failed",
+      "description": "",
+      "rfc": "RFC 9110",
+      "category": "4xx Client Error"
+    },
+    {
+      "code": 413,
+      "name": "Content Too Large",
+      "description": "",
+      "rfc": "RFC 9110",
+      "category": "4xx Client Error"
+    },
+    {
+      "code": 414,
+      "name": "URI Too Long",
+      "description": "",
+      "rfc": "RFC 9110",
+      "category": "4xx Client Error"
+    },
+    {
+      "code": 415,
+      "name": "Unsupported Media Type",
+      "description": "",
+      "rfc": "RFC 9110",
+      "category": "4xx Client Error"
+    },
+    {
+      "code": 416,
+      "name": "Range Not Satisfiable",
+      "description": "",
+      "rfc": "RFC 9110",
+      "category": "4xx Client Error"
+    },
+    {
+      "code": 417,
+      "name": "Expectation Failed",
+      "description": "",
+      "rfc": "RFC 9110",
+      "category": "4xx Client Error"
+    },
+    {
+      "code": 421,
+      "name": "Misdirected Request",
+      "description": "",
+      "rfc": "RFC 9110",
+      "category": "4xx Client Error"
+    },
+    {
+      "code": 422,
+      "name": "Unprocessable Entity",
+      "description": "Request semantic errors (WebDAV)",
+      "rfc": "RFC 9110",
+      "category": "4xx Client Error"
+    },
+    {
+      "code": 423,
+      "name": "Locked",
+      "description": "",
+      "rfc": "RFC 4918",
+      "category": "4xx Client Error"
+    },
+    {
+      "code": 424,
+      "name": "Failed Dependency",
+      "description": "",
+      "rfc": "RFC 4918",
+      "category": "4xx Client Error"
+    },
+    {
+      "code": 425,
+      "name": "Too Early",
+      "description": "",
+      "rfc": "RFC 8470",
+      "category": "4xx Client Error"
+    },
+    {
+      "code": 426,
+      "name": "Upgrade Required",
+      "description": "",
+      "rfc": "RFC 9110",
+      "category": "4xx Client Error"
+    },
+    {
+      "code": 428,
+      "name": "Precondition Required",
+      "description": "",
+      "rfc": "RFC 6585",
+      "category": "4xx Client Error"
+    },
+    {
+      "code": 429,
+      "name": "Too Many Requests",
+      "description": "Rate limit exceeded",
+      "rfc": "RFC 6585",
+      "category": "4xx Client Error"
+    },
+    {
+      "code": 431,
+      "name": "Request Header Fields Too Large",
+      "description": "",
+      "rfc": "RFC 6585",
+      "category": "4xx Client Error"
+    },
+    {
+      "code": 451,
+      "name": "Unavailable For Legal Reasons",
+      "description": "",
+      "rfc": "RFC 7725",
+      "category": "4xx Client Error"
+    },
+    {
+      "code": 500,
+      "name": "Internal Server Error",
+      "description": "Generic server error",
+      "rfc": "RFC 9110",
+      "category": "5xx Server Error"
+    },
+    {
+      "code": 501,
+      "name": "Not Implemented",
+      "description": "",
+      "rfc": "RFC 9110",
+      "category": "5xx Server Error"
+    },
+    {
+      "code": 502,
+      "name": "Bad Gateway",
+      "description": "Upstream server returned invalid response",
+      "rfc": "RFC 9110",
+      "category": "5xx Server Error"
+    },
+    {
+      "code": 503,
+      "name": "Service Unavailable",
+      "description": "Server temporarily overloaded or down",
+      "rfc": "RFC 9110",
+      "category": "5xx Server Error"
+    },
+    {
+      "code": 504,
+      "name": "Gateway Timeout",
+      "description": "Upstream server did not respond in time",
+      "rfc": "RFC 9110",
+      "category": "5xx Server Error"
+    },
+    {
+      "code": 505,
+      "name": "HTTP Version Not Supported",
+      "description": "",
+      "rfc": "RFC 9110",
+      "category": "5xx Server Error"
+    },
+    {
+      "code": 506,
+      "name": "Variant Also Negotiates",
+      "description": "",
+      "rfc": "RFC 2295",
+      "category": "5xx Server Error"
+    },
+    {
+      "code": 507,
+      "name": "Insufficient Storage",
+      "description": "",
+      "rfc": "RFC 4918",
+      "category": "5xx Server Error"
+    },
+    {
+      "code": 508,
+      "name": "Loop Detected",
+      "description": "",
+      "rfc": "RFC 5842",
+      "category": "5xx Server Error"
+    },
+    {
+      "code": 510,
+      "name": "Not Extended",
+      "description": "",
+      "rfc": "RFC 2774",
+      "category": "5xx Server Error"
+    },
+    {
+      "code": 511,
+      "name": "Network Authentication Required",
+      "description": "",
+      "rfc": "RFC 6585",
+      "category": "5xx Server Error"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+code,name,description,rfc,category
+100,Continue,Server has received the request headers and client should proceed,RFC 9110,1xx Informational
+101,Switching Protocols,Server is switching protocols as requested by client,RFC 9110,1xx Informational
+102,Processing,Server has received and is processing the request (WebDAV),RFC 2518,1xx Informational
+103,Early Hints,Server is sending early headers while main response is being prepared,RFC 8297,1xx Informational
+103,Early Hints,,RFC 8297,1xx Informational
+200,OK,Standard success response,RFC 9110,2xx Success
+201,Created,Resource created successfully,RFC 9110,2xx Success
+202,Accepted,Request accepted but not yet completed,RFC 9110,2xx Success
+204,No Content,Request succeeded but no content to return,RFC 9110,2xx Success
+206,Partial Content,,RFC 9110,2xx Success
+300,Multiple Choices,,RFC 9110,3xx Redirection
+301,Moved Permanently,Resource permanently moved to new URL,RFC 9110,3xx Redirection
+302,Found,Resource temporarily at a different URL,RFC 9110,3xx Redirection
+303,See Other,,RFC 9110,3xx Redirection
+304,Not Modified,Resource not modified since last request (caching),RFC 9110,3xx Redirection
+305,Use Proxy,,RFC 9110,3xx Redirection
+307,Temporary Redirect,"Temporary redirect, method must not change",RFC 9110,3xx Redirection
+308,Permanent Redirect,"Permanent redirect, method must not change",RFC 9110,3xx Redirection
+400,Bad Request,Request could not be understood by server,RFC 9110,4xx Client Error
+401,Unauthorized,Authentication required,RFC 9110,4xx Client Error
+402,Payment Required,Payment is required to access the resource (x402 protocol),RFC 9110,4xx Client Error
+403,Forbidden,Server understood but refuses to authorize,RFC 9110,4xx Client Error
+404,Not Found,Resource not found on server,RFC 9110,4xx Client Error
+405,Method Not Allowed,HTTP method not supported for this resource,RFC 9110,4xx Client Error
+406,Not Acceptable,,RFC 9110,4xx Client Error
+407,Proxy Authentication Required,,RFC 9110,4xx Client Error
+408,Request Timeout,Server timed out waiting for request,RFC 9110,4xx Client Error
+409,Conflict,Request conflicts with current state,RFC 9110,4xx Client Error
+410,Gone,Resource permanently deleted,RFC 9110,4xx Client Error
+411,Length Required,,RFC 9110,4xx Client Error
+412,Precondition Failed,,RFC 9110,4xx Client Error
+413,Content Too Large,,RFC 9110,4xx Client Error
+414,URI Too Long,,RFC 9110,4xx Client Error
+415,Unsupported Media Type,,RFC 9110,4xx Client Error
+416,Range Not Satisfiable,,RFC 9110,4xx Client Error
+417,Expectation Failed,,RFC 9110,4xx Client Error
+421,Misdirected Request,,RFC 9110,4xx Client Error
+422,Unprocessable Entity,Request semantic errors (WebDAV),RFC 9110,4xx Client Error
+423,Locked,,RFC 4918,4xx Client Error
+424,Failed Dependency,,RFC 4918,4xx Client Error
+425,Too Early,,RFC 8470,4xx Client Error
+426,Upgrade Required,,RFC 9110,4xx Client Error
+428,Precondition Required,,RFC 6585,4xx Client Error
+429,Too Many Requests,Rate limit exceeded,RFC 6585,4xx Client Error
+431,Request Header Fields Too Large,,RFC 6585,4xx Client Error
+451,Unavailable For Legal Reasons,,RFC 7725,4xx Client Error
+500,Internal Server Error,Generic server error,RFC 9110,5xx Server Error
+501,Not Implemented,,RFC 9110,5xx Server Error
+502,Bad Gateway,Upstream server returned invalid response,RFC 9110,5xx Server Error
+503,Service Unavailable,Server temporarily overloaded or down,RFC 9110,5xx Server Error
+504,Gateway Timeout,Upstream server did not respond in time,RFC 9110,5xx Server Error
+505,HTTP Version Not Supported,,RFC 9110,5xx Server Error
+506,Variant Also Negotiates,,RFC 2295,5xx Server Error
+507,Insufficient Storage,,RFC 4918,5xx Server Error
+508,Loop Detected,,RFC 5842,5xx Server Error
+510,Not Extended,,RFC 2774,5xx Server Error
+511,Network Authentication Required,,RFC 6585,5xx Server Error

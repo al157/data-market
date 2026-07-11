@@ -1,0 +1,5 @@
+# data-market
+node_modules/
+dist/
+.dev.vars
+.wrangler/

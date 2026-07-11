@@ -1,0 +1,3248 @@
+[
+  {
+    "acronym": "AGI",
+    "full_name": "Artificial General Intelligence",
+    "category": "AI/ML",
+    "description": "Hypothetical AI with human-level reasoning across any domain."
+  },
+  {
+    "acronym": "AI",
+    "full_name": "Artificial Intelligence",
+    "category": "AI/ML",
+    "description": "Simulation of human intelligence by machines, including learning, reasoning, and self-correction."
+  },
+  {
+    "acronym": "AIOps",
+    "full_name": "AI for IT Operations",
+    "category": "AI/ML",
+    "description": "Application of ML to automate and enhance IT operations, anomaly detection, and incident management."
+  },
+  {
+    "acronym": "API",
+    "full_name": "Application Programming Interface",
+    "category": "AI/ML",
+    "description": "Interface enabling programmatic access to AI model inference endpoints."
+  },
+  {
+    "acronym": "ASR",
+    "full_name": "Automatic Speech Recognition",
+    "category": "AI/ML",
+    "description": "Technology that converts spoken language into written text."
+  },
+  {
+    "acronym": "AUC",
+    "full_name": "Area Under the Curve",
+    "category": "AI/ML",
+    "description": "Aggregate measure of classifier performance across all classification thresholds."
+  },
+  {
+    "acronym": "AutoML",
+    "full_name": "Automated Machine Learning",
+    "category": "AI/ML",
+    "description": "Automation of the end-to-end ML pipeline including data prep, model selection, and hyperparameter tuning."
+  },
+  {
+    "acronym": "BERT",
+    "full_name": "Bidirectional Encoder Representations from Transformers",
+    "category": "AI/ML",
+    "description": "Transformer model pre-trained on masked language modeling for deep bidirectional context."
+  },
+  {
+    "acronym": "BLEU",
+    "full_name": "Bilingual Evaluation Understudy",
+    "category": "AI/ML",
+    "description": "N-gram precision-based metric for evaluating machine-translation quality."
+  },
+  {
+    "acronym": "BLEU",
+    "full_name": "Bilingual Evaluation Understudy",
+    "category": "AI/ML",
+    "description": "Metric comparing n-gram overlap between generated and reference translations."
+  },
+  {
+    "acronym": "BPE",
+    "full_name": "Byte-Pair Encoding",
+    "category": "AI/ML",
+    "description": "Subword tokenization algorithm that iteratively merges frequent byte pairs."
+  },
+  {
+    "acronym": "BoW",
+    "full_name": "Bag of Words",
+    "category": "AI/ML",
+    "description": "Text representation model that treats documents as unordered word-frequency vectors."
+  },
+  {
+    "acronym": "CART",
+    "full_name": "Classification and Regression Trees",
+    "category": "AI/ML",
+    "description": "Decision-tree algorithm supporting both categorical and continuous target variables."
+  },
+  {
+    "acronym": "CBOW",
+    "full_name": "Continuous Bag of Words",
+    "category": "AI/ML",
+    "description": "Word2vec training objective that predicts a word from its surrounding context."
+  },
+  {
+    "acronym": "CER",
+    "full_name": "Character Error Rate",
+    "category": "AI/ML",
+    "description": "Edit-distance-based metric for evaluating OCR and speech recognition at character level."
+  },
+  {
+    "acronym": "CNN",
+    "full_name": "Convolutional Neural Network",
+    "category": "AI/ML",
+    "description": "Neural network specialized for grid-like data such as images."
+  },
+  {
+    "acronym": "COT",
+    "full_name": "Chain of Thought",
+    "category": "AI/ML",
+    "description": "Prompting technique that elicits step-by-step reasoning in LLM outputs."
+  },
+  {
+    "acronym": "CRF",
+    "full_name": "Conditional Random Field",
+    "category": "AI/ML",
+    "description": "Probabilistic sequence-modeling framework for labeling structured data."
+  },
+  {
+    "acronym": "CV",
+    "full_name": "Computer Vision",
+    "category": "AI/ML",
+    "description": "AI field enabling machines to interpret and understand visual information from the world."
+  },
+  {
+    "acronym": "CatBoost",
+    "full_name": "Categorical Boosting",
+    "category": "AI/ML",
+    "description": "Gradient-boosting library with native support for categorical features."
+  },
+  {
+    "acronym": "DAG",
+    "full_name": "Directed Acyclic Graph",
+    "category": "AI/ML",
+    "description": "Graph structure with directed edges and no cycles, used for probabilistic graphical models and ML pipelines."
+  },
+  {
+    "acronym": "DL",
+    "full_name": "Deep Learning",
+    "category": "AI/ML",
+    "description": "Multi-layered neural networks that learn hierarchical representations from data."
+  },
+  {
+    "acronym": "DNN",
+    "full_name": "Deep Neural Network",
+    "category": "AI/ML",
+    "description": "Neural network with multiple hidden layers between input and output."
+  },
+  {
+    "acronym": "DPO",
+    "full_name": "Direct Preference Optimization",
+    "category": "AI/ML",
+    "description": "RLHF alternative that directly optimizes a policy from preference data without an explicit reward model."
+  },
+  {
+    "acronym": "DQN",
+    "full_name": "Deep Q-Network",
+    "category": "AI/ML",
+    "description": "Deep neural network approximating the Q-value function for reinforcement learning."
+  },
+  {
+    "acronym": "EM",
+    "full_name": "Expectation-Maximization",
+    "category": "AI/ML",
+    "description": "Iterative method for finding maximum-likelihood estimates with latent variables."
+  },
+  {
+    "acronym": "F1",
+    "full_name": "F1 Score",
+    "category": "AI/ML",
+    "description": "Harmonic mean of precision and recall, used for imbalanced classification evaluation."
+  },
+  {
+    "acronym": "FPGA",
+    "full_name": "Field-Programmable Gate Array",
+    "category": "AI/ML",
+    "description": "Reconfigurable semiconductor device used for low-latency ML inference acceleration."
+  },
+  {
+    "acronym": "GAN",
+    "full_name": "Generative Adversarial Network",
+    "category": "AI/ML",
+    "description": "Two-network architecture (generator + discriminator) that learns to produce realistic data."
+  },
+  {
+    "acronym": "GPT",
+    "full_name": "Generative Pre-trained Transformer",
+    "category": "AI/ML",
+    "description": "Decoder-only transformer model pre-trained on large text corpora for generative tasks."
+  },
+  {
+    "acronym": "GPU",
+    "full_name": "Graphics Processing Unit",
+    "category": "AI/ML",
+    "description": "Parallel processor originally for graphics, now widely used for ML training and inference."
+  },
+  {
+    "acronym": "GRU",
+    "full_name": "Gated Recurrent Unit",
+    "category": "AI/ML",
+    "description": "Simplified RNN gating architecture with fewer parameters than LSTM."
+  },
+  {
+    "acronym": "HMM",
+    "full_name": "Hidden Markov Model",
+    "category": "AI/ML",
+    "description": "Statistical model for systems with hidden states that generate observable outputs."
+  },
+  {
+    "acronym": "IoU",
+    "full_name": "Intersection over Union",
+    "category": "AI/ML",
+    "description": "Evaluation metric measuring overlap between predicted and ground-truth bounding boxes."
+  },
+  {
+    "acronym": "KNN",
+    "full_name": "K-Nearest Neighbors",
+    "category": "AI/ML",
+    "description": "Non-parametric lazy-learning algorithm that classifies by majority of k nearest points."
+  },
+  {
+    "acronym": "LIME",
+    "full_name": "Local Interpretable Model-agnostic Explanations",
+    "category": "AI/ML",
+    "description": "Technique that approximates model behavior locally with an interpretable surrogate."
+  },
+  {
+    "acronym": "LLM",
+    "full_name": "Large Language Model",
+    "category": "AI/ML",
+    "description": "Transformer-based model with billions of parameters trained on vast text data."
+  },
+  {
+    "acronym": "LSTM",
+    "full_name": "Long Short-Term Memory",
+    "category": "AI/ML",
+    "description": "RNN variant with gating mechanisms that mitigate the vanishing-gradient problem."
+  },
+  {
+    "acronym": "LightGBM",
+    "full_name": "Light Gradient Boosting Machine",
+    "category": "AI/ML",
+    "description": "Fast gradient-boosting framework using histogram-based leaf-wise tree growth."
+  },
+  {
+    "acronym": "LoRA",
+    "full_name": "Low-Rank Adaptation",
+    "category": "AI/ML",
+    "description": "Parameter-efficient fine-tuning method that injects trainable low-rank matrices into frozen weights."
+  },
+  {
+    "acronym": "MAB",
+    "full_name": "Multi-Armed Bandit",
+    "category": "AI/ML",
+    "description": "Online learning framework balancing exploration of new options and exploitation of known rewards."
+  },
+  {
+    "acronym": "MAP",
+    "full_name": "Mean Average Precision",
+    "category": "AI/ML",
+    "description": "Average of precision scores at each relevant item rank across queries."
+  },
+  {
+    "acronym": "MCMC",
+    "full_name": "Markov Chain Monte Carlo",
+    "category": "AI/ML",
+    "description": "Class of sampling algorithms for approximating complex probability distributions."
+  },
+  {
+    "acronym": "MDP",
+    "full_name": "Markov Decision Process",
+    "category": "AI/ML",
+    "description": "Mathematical framework for modeling sequential decision-making under uncertainty."
+  },
+  {
+    "acronym": "ML",
+    "full_name": "Machine Learning",
+    "category": "AI/ML",
+    "description": "Algorithms that improve through experience without being explicitly programmed for every task."
+  },
+  {
+    "acronym": "MLE",
+    "full_name": "Machine Learning Engineer",
+    "category": "AI/ML",
+    "description": "Role focused on building, deploying, and maintaining machine learning systems in production."
+  },
+  {
+    "acronym": "MLOps",
+    "full_name": "Machine Learning Operations",
+    "category": "AI/ML",
+    "description": "Practices for deploying, monitoring, and maintaining ML models in production."
+  },
+  {
+    "acronym": "MLP",
+    "full_name": "Multilayer Perceptron",
+    "category": "AI/ML",
+    "description": "Feedforward neural network with at least one hidden layer and non-linear activation."
+  },
+  {
+    "acronym": "MMLU",
+    "full_name": "Massive Multitask Language Understanding",
+    "category": "AI/ML",
+    "description": "Benchmark covering 57 subjects to measure LLM knowledge and reasoning."
+  },
+  {
+    "acronym": "MSE",
+    "full_name": "Mean Squared Error",
+    "category": "AI/ML",
+    "description": "Average of squared differences between predicted and actual values."
+  },
+  {
+    "acronym": "MoE",
+    "full_name": "Mixture of Experts",
+    "category": "AI/ML",
+    "description": "Architecture where different sub-networks (experts) are activated conditionally per input."
+  },
+  {
+    "acronym": "NCE",
+    "full_name": "Noise Contrastive Estimation",
+    "category": "AI/ML",
+    "description": "Parameter estimation method that distinguishes observed data from artificial noise."
+  },
+  {
+    "acronym": "NLG",
+    "full_name": "Natural Language Generation",
+    "category": "AI/ML",
+    "description": "Automated production of human-readable text from structured data."
+  },
+  {
+    "acronym": "NLP",
+    "full_name": "Natural Language Processing",
+    "category": "AI/ML",
+    "description": "AI subfield focused on interaction between computers and human language."
+  },
+  {
+    "acronym": "NLU",
+    "full_name": "Natural Language Understanding",
+    "category": "AI/ML",
+    "description": "Machine comprehension of human language meaning and intent."
+  },
+  {
+    "acronym": "NMS",
+    "full_name": "Non-Maximum Suppression",
+    "category": "AI/ML",
+    "description": "Post-processing technique removing duplicate detections in object detection pipelines."
+  },
+  {
+    "acronym": "NPU",
+    "full_name": "Neural Processing Unit",
+    "category": "AI/ML",
+    "description": "Specialized processor designed for accelerating neural network inference."
+  },
+  {
+    "acronym": "OCR",
+    "full_name": "Optical Character Recognition",
+    "category": "AI/ML",
+    "description": "Conversion of images of printed or handwritten text into machine-encoded text."
+  },
+  {
+    "acronym": "ONNX",
+    "full_name": "Open Neural Network Exchange",
+    "category": "AI/ML",
+    "description": "Interchange format for deep-learning models across different frameworks."
+  },
+  {
+    "acronym": "PCA",
+    "full_name": "Principal Component Analysis",
+    "category": "AI/ML",
+    "description": "Unsupervised dimensionality-reduction technique that maximizes variance along orthogonal components."
+  },
+  {
+    "acronym": "PPO",
+    "full_name": "Proximal Policy Optimization",
+    "category": "AI/ML",
+    "description": "Policy-gradient RL algorithm that constrains update size for stable training."
+  },
+  {
+    "acronym": "RAG",
+    "full_name": "Retrieval-Augmented Generation",
+    "category": "AI/ML",
+    "description": "Hybrid architecture that retrieves relevant documents before generating an answer."
+  },
+  {
+    "acronym": "RL",
+    "full_name": "Reinforcement Learning",
+    "category": "AI/ML",
+    "description": "Learning paradigm where an agent maximizes cumulative reward through environment interaction."
+  },
+  {
+    "acronym": "RLHF",
+    "full_name": "Reinforcement Learning from Human Feedback",
+    "category": "AI/ML",
+    "description": "Fine-tuning approach that uses human preferences as reward signals for RL."
+  },
+  {
+    "acronym": "RNN",
+    "full_name": "Recurrent Neural Network",
+    "category": "AI/ML",
+    "description": "Neural network with internal memory for sequential data processing."
+  },
+  {
+    "acronym": "ROC",
+    "full_name": "Receiver Operating Characteristic",
+    "category": "AI/ML",
+    "description": "Graphical plot of true-positive vs false-positive rate across thresholds."
+  },
+  {
+    "acronym": "ROUGE",
+    "full_name": "Recall-Oriented Understudy for Gisting Evaluation",
+    "category": "AI/ML",
+    "description": "Set of recall-oriented metrics for automatic summarization evaluation."
+  },
+  {
+    "acronym": "ReLU",
+    "full_name": "Rectified Linear Unit",
+    "category": "AI/ML",
+    "description": "Activation function outputting max(0, x), widely used in deep networks."
+  },
+  {
+    "acronym": "SFT",
+    "full_name": "Supervised Fine-Tuning",
+    "category": "AI/ML",
+    "description": "Training a pre-trained model on labeled task-specific data."
+  },
+  {
+    "acronym": "SGD",
+    "full_name": "Stochastic Gradient Descent",
+    "category": "AI/ML",
+    "description": "Iterative optimization method using random subsets of data per step."
+  },
+  {
+    "acronym": "SHAP",
+    "full_name": "SHapley Additive exPlanations",
+    "category": "AI/ML",
+    "description": "Game-theoretic approach to explain model predictions via Shapley values."
+  },
+  {
+    "acronym": "SVM",
+    "full_name": "Support Vector Machine",
+    "category": "AI/ML",
+    "description": "Supervised learning model that finds the optimal separating hyperplane."
+  },
+  {
+    "acronym": "TF-IDF",
+    "full_name": "Term Frequency–Inverse Document Frequency",
+    "category": "AI/ML",
+    "description": "Numerical statistic reflecting the importance of a word in a document corpus."
+  },
+  {
+    "acronym": "TPU",
+    "full_name": "Tensor Processing Unit",
+    "category": "AI/ML",
+    "description": "Google's custom ASIC for accelerating tensor computations in machine learning."
+  },
+  {
+    "acronym": "TRL",
+    "full_name": "Transformer Reinforcement Learning",
+    "category": "AI/ML",
+    "description": "Library and methodology for fine-tuning transformers with RL, notably RLHF."
+  },
+  {
+    "acronym": "TTS",
+    "full_name": "Text-to-Speech",
+    "category": "AI/ML",
+    "description": "Synthesis of human-like speech from written text input."
+  },
+  {
+    "acronym": "VAE",
+    "full_name": "Variational Autoencoder",
+    "category": "AI/ML",
+    "description": "Generative model that learns latent probabilistic representations of input data."
+  },
+  {
+    "acronym": "VLM",
+    "full_name": "Vision-Language Model",
+    "category": "AI/ML",
+    "description": "Multimodal model that processes both visual and textual inputs jointly."
+  },
+  {
+    "acronym": "WER",
+    "full_name": "Word Error Rate",
+    "category": "AI/ML",
+    "description": "Metric for evaluating speech recognition systems by counting word-level substitutions, insertions, and deletions."
+  },
+  {
+    "acronym": "XAI",
+    "full_name": "Explainable AI",
+    "category": "AI/ML",
+    "description": "Techniques and methods that make AI model decisions interpretable and transparent to humans."
+  },
+  {
+    "acronym": "XGBoost",
+    "full_name": "Extreme Gradient Boosting",
+    "category": "AI/ML",
+    "description": "Optimized gradient-boosting library with regularization and parallel processing."
+  },
+  {
+    "acronym": "k-fold",
+    "full_name": "k-Fold Cross-Validation",
+    "category": "AI/ML",
+    "description": "Resampling procedure evaluating model performance by rotating train/test splits across k folds."
+  },
+  {
+    "acronym": "mAP",
+    "full_name": "Mean Average Precision",
+    "category": "AI/ML",
+    "description": "Average of average precision scores across all classes in object detection tasks."
+  },
+  {
+    "acronym": "t-SNE",
+    "full_name": "t-Distributed Stochastic Neighbor Embedding",
+    "category": "AI/ML",
+    "description": "Non-linear dimensionality reduction for visualizing high-dimensional data in 2D/3D."
+  },
+  {
+    "acronym": "AA",
+    "full_name": "Account Abstraction",
+    "category": "Blockchain",
+    "description": "Ethereum standard enabling smart-contract wallets with programmable transaction logic."
+  },
+  {
+    "acronym": "ABI",
+    "full_name": "Application Binary Interface",
+    "category": "Blockchain",
+    "description": "Interface defining how to interact with a smart contract on EVM-compatible chains."
+  },
+  {
+    "acronym": "AML",
+    "full_name": "Anti-Money Laundering",
+    "category": "Blockchain",
+    "description": "Regulatory compliance framework preventing illicit financial flows."
+  },
+  {
+    "acronym": "AMM",
+    "full_name": "Automated Market Maker",
+    "category": "Blockchain",
+    "description": "Decentralized exchange mechanism using algorithmic pricing instead of order books."
+  },
+  {
+    "acronym": "APR",
+    "full_name": "Annual Percentage Rate",
+    "category": "Blockchain",
+    "description": "Simple annual interest rate without compounding."
+  },
+  {
+    "acronym": "APY",
+    "full_name": "Annual Percentage Yield",
+    "category": "Blockchain",
+    "description": "Effective annual rate of return including compounding effects."
+  },
+  {
+    "acronym": "Aptos",
+    "full_name": "Aptos L1 Blockchain",
+    "category": "Blockchain",
+    "description": "Move-based L1 blockchain with parallel execution and BFT consensus."
+  },
+  {
+    "acronym": "Arbitrum",
+    "full_name": "Arbitrum L2 Scaling",
+    "category": "Blockchain",
+    "description": "Optimistic rollup securing Ethereum transactions with interactive fraud proofs."
+  },
+  {
+    "acronym": "Avalanche",
+    "full_name": "Avalanche C-Chain",
+    "category": "Blockchain",
+    "description": "EVM-compatible Subnet with high throughput and sub-second finality."
+  },
+  {
+    "acronym": "BIP-32",
+    "full_name": "Bitcoin Improvement Proposal 32",
+    "category": "Blockchain",
+    "description": "Standard for hierarchical deterministic wallet key derivation."
+  },
+  {
+    "acronym": "BIP-39",
+    "full_name": "Bitcoin Improvement Proposal 39",
+    "category": "Blockchain",
+    "description": "Standard defining mnemonic seed phrases for deterministic wallets."
+  },
+  {
+    "acronym": "BIP-44",
+    "full_name": "Bitcoin Improvement Proposal 44",
+    "category": "Blockchain",
+    "description": "Multi-coin hierarchy for deterministic wallets with separate account paths."
+  },
+  {
+    "acronym": "BPS",
+    "full_name": "Basis Points",
+    "category": "Blockchain",
+    "description": "Unit equal to 0.01%, commonly used for fees and spreads in DeFi."
+  },
+  {
+    "acronym": "BTC",
+    "full_name": "Bitcoin",
+    "category": "Blockchain",
+    "description": "First decentralized cryptocurrency, enabling peer-to-peer transactions without intermediaries."
+  },
+  {
+    "acronym": "Base",
+    "full_name": "Base L2 Chain",
+    "category": "Blockchain",
+    "description": "Coinbase's EVM-equivalent L2 built on the OP Stack."
+  },
+  {
+    "acronym": "Bridge",
+    "full_name": "Blockchain Bridge",
+    "category": "Blockchain",
+    "description": "Protocol transferring assets or data between different blockchains."
+  },
+  {
+    "acronym": "CCIP",
+    "full_name": "Cross-Chain Interoperability Protocol",
+    "category": "Blockchain",
+    "description": "Chainlink's open standard for secure cross-chain messaging and token transfers."
+  },
+  {
+    "acronym": "CEX",
+    "full_name": "Centralized Exchange",
+    "category": "Blockchain",
+    "description": "Cryptocurrency exchange operated by a company that holds user funds."
+  },
+  {
+    "acronym": "CEX",
+    "full_name": "Centralized Exchange",
+    "category": "Blockchain",
+    "description": "Exchange operated by a company that holds user funds and matches orders internally."
+  },
+  {
+    "acronym": "DAI",
+    "full_name": "DAI Stablecoin",
+    "category": "Blockchain",
+    "description": "Decentralized, collateral-backed stablecoin pegged to the US dollar."
+  },
+  {
+    "acronym": "DAO",
+    "full_name": "Decentralized Autonomous Organization",
+    "category": "Blockchain",
+    "description": "Organization governed by smart contracts and community voting rather than central management."
+  },
+  {
+    "acronym": "DAO",
+    "full_name": "Decentralized Autonomous Organization",
+    "category": "Blockchain",
+    "description": "Entity managed by coded rules and collective member voting on a blockchain."
+  },
+  {
+    "acronym": "DApp",
+    "full_name": "Decentralized Application",
+    "category": "Blockchain",
+    "description": "Application running on a peer-to-peer blockchain network rather than a central server."
+  },
+  {
+    "acronym": "DEX",
+    "full_name": "Decentralized Exchange",
+    "category": "Blockchain",
+    "description": "Peer-to-peer exchange operating without a central custodian of funds."
+  },
+  {
+    "acronym": "DEX",
+    "full_name": "Decentralized Exchange",
+    "category": "Blockchain",
+    "description": "Exchange operating autonomously via smart contracts without custodial control."
+  },
+  {
+    "acronym": "DID",
+    "full_name": "Decentralized Identifier",
+    "category": "Blockchain",
+    "description": "Self-sovereign identifier not dependent on any centralized registry."
+  },
+  {
+    "acronym": "DPoS",
+    "full_name": "Delegated Proof of Stake",
+    "category": "Blockchain",
+    "description": "PoS variant where token holders vote for delegates who validate transactions."
+  },
+  {
+    "acronym": "DeFi",
+    "full_name": "Decentralized Finance",
+    "category": "Blockchain",
+    "description": "Financial applications built on blockchain without traditional intermediaries."
+  },
+  {
+    "acronym": "ECDSA",
+    "full_name": "Elliptic Curve Digital Signature Algorithm",
+    "category": "Blockchain",
+    "description": "Cryptographic algorithm used for digital signatures in most blockchain protocols."
+  },
+  {
+    "acronym": "EIP-1559",
+    "full_name": "Ethereum Improvement Proposal 1559",
+    "category": "Blockchain",
+    "description": "Ethereum fee-market overhaul burning base fees and introducing variable block size."
+  },
+  {
+    "acronym": "EIP-4844",
+    "full_name": "Ethereum Improvement Proposal 4844 (Proto-Danksharding)",
+    "category": "Blockchain",
+    "description": "EIP introducing blob-carrying transactions for cheaper L2 data availability."
+  },
+  {
+    "acronym": "ERC-1155",
+    "full_name": "Ethereum Request for Comment 1155",
+    "category": "Blockchain",
+    "description": "Multi-token standard supporting both fungible and non-fungible assets in one contract."
+  },
+  {
+    "acronym": "ERC-20",
+    "full_name": "Ethereum Request for Comment 20",
+    "category": "Blockchain",
+    "description": "Standard interface for fungible tokens on Ethereum."
+  },
+  {
+    "acronym": "ERC-4337",
+    "full_name": "Ethereum Request for Comment 4337",
+    "category": "Blockchain",
+    "description": "Account abstraction standard enabling smart-contract wallets without protocol changes."
+  },
+  {
+    "acronym": "ERC-4626",
+    "full_name": "Ethereum Request for Comment 4626",
+    "category": "Blockchain",
+    "description": "Standardized yield-bearing vault interface for tokenized strategies."
+  },
+  {
+    "acronym": "ERC-721",
+    "full_name": "Ethereum Request for Comment 721",
+    "category": "Blockchain",
+    "description": "Standard interface for non-fungible tokens (NFTs) on Ethereum."
+  },
+  {
+    "acronym": "ETH",
+    "full_name": "Ethereum",
+    "category": "Blockchain",
+    "description": "Decentralized smart-contract platform enabling programmable blockchain applications."
+  },
+  {
+    "acronym": "EVM",
+    "full_name": "Ethereum Virtual Machine",
+    "category": "Blockchain",
+    "description": "Runtime environment executing smart contracts on the Ethereum blockchain."
+  },
+  {
+    "acronym": "FDV",
+    "full_name": "Fully Diluted Valuation",
+    "category": "Blockchain",
+    "description": "Project market cap assuming all tokens are circulating at current price."
+  },
+  {
+    "acronym": "GM",
+    "full_name": "Gas Meter / Global Market",
+    "category": "Blockchain",
+    "description": "Common crypto slang for 'good morning' and shared community greeting."
+  },
+  {
+    "acronym": "GMP",
+    "full_name": "General Message Passing",
+    "category": "Blockchain",
+    "description": "Cross-chain communication standard enabling arbitrary data transfer between blockchains."
+  },
+  {
+    "acronym": "HD Wallet",
+    "full_name": "Hierarchical Deterministic Wallet",
+    "category": "Blockchain",
+    "description": "Wallet generating multiple key pairs from a single mnemonic seed."
+  },
+  {
+    "acronym": "IBC",
+    "full_name": "Inter-Blockchain Communication",
+    "category": "Blockchain",
+    "description": "Cosmos protocol enabling data and token transfers across heterogeneous blockchains."
+  },
+  {
+    "acronym": "ICO",
+    "full_name": "Initial Coin Offering",
+    "category": "Blockchain",
+    "description": "Crowdfunding method selling tokens to early investors."
+  },
+  {
+    "acronym": "IDO",
+    "full_name": "Initial DEX Offering",
+    "category": "Blockchain",
+    "description": "Token launch conducted on a decentralized exchange."
+  },
+  {
+    "acronym": "IEO",
+    "full_name": "Initial Exchange Offering",
+    "category": "Blockchain",
+    "description": "Token launch conducted through a centralized exchange."
+  },
+  {
+    "acronym": "IPFS",
+    "full_name": "InterPlanetary File System",
+    "category": "Blockchain",
+    "description": "Decentralized peer-to-peer hypermedia protocol for content-addressed storage."
+  },
+  {
+    "acronym": "KYC",
+    "full_name": "Know Your Customer",
+    "category": "Blockchain",
+    "description": "Identity verification processes required by regulated cryptocurrency platforms."
+  },
+  {
+    "acronym": "L1",
+    "full_name": "Layer 1 (Blockchain)",
+    "category": "Blockchain",
+    "description": "Base blockchain protocol handling consensus, security, and finality."
+  },
+  {
+    "acronym": "L2",
+    "full_name": "Layer 2 (Scaling)",
+    "category": "Blockchain",
+    "description": "Off-chain or side-chain solution scaling a base blockchain's throughput."
+  },
+  {
+    "acronym": "LP",
+    "full_name": "Liquidity Provider",
+    "category": "Blockchain",
+    "description": "User who deposits tokens into a DeFi liquidity pool to earn fees."
+  },
+  {
+    "acronym": "LayerZero",
+    "full_name": "LayerZero Omnichain Protocol",
+    "category": "Blockchain",
+    "description": "Omnichain interoperability protocol enabling trustless cross-chain messaging."
+  },
+  {
+    "acronym": "MC",
+    "full_name": "Market Capitalization",
+    "category": "Blockchain",
+    "description": "Total circulating supply multiplied by current token price."
+  },
+  {
+    "acronym": "MEV",
+    "full_name": "Maximal Extractable Value",
+    "category": "Blockchain",
+    "description": "Profit block producers can extract by reordering, including, or excluding transactions."
+  },
+  {
+    "acronym": "MPC",
+    "full_name": "Multi-Party Computation",
+    "category": "Blockchain",
+    "description": "Cryptographic protocol enabling joint computation without revealing private inputs."
+  },
+  {
+    "acronym": "Merkle",
+    "full_name": "Merkle Tree",
+    "category": "Blockchain",
+    "description": "Hash-based data structure allowing efficient verification of large data sets."
+  },
+  {
+    "acronym": "Multisig",
+    "full_name": "Multi-Signature Wallet",
+    "category": "Blockchain",
+    "description": "Wallet requiring multiple private key signatures to authorize a transaction."
+  },
+  {
+    "acronym": "NEAR",
+    "full_name": "NEAR Protocol",
+    "category": "Blockchain",
+    "description": "Sharded L1 blockchain with human-readable account names and Nightshade consensus."
+  },
+  {
+    "acronym": "NFT",
+    "full_name": "Non-Fungible Token",
+    "category": "Blockchain",
+    "description": "Unique cryptographic token representing ownership of a specific digital or physical asset."
+  },
+  {
+    "acronym": "OR",
+    "full_name": "Optimistic Rollup",
+    "category": "Blockchain",
+    "description": "Rollup that assumes transactions are valid unless challenged via fraud proof."
+  },
+  {
+    "acronym": "Optimism",
+    "full_name": "Optimism OP Stack",
+    "category": "Blockchain",
+    "description": "Optimistic rollup using single-round fraud proofs and EVM equivalence."
+  },
+  {
+    "acronym": "Oracle",
+    "full_name": "Blockchain Oracle",
+    "category": "Blockchain",
+    "description": "Service providing off-chain data to smart contracts on-chain."
+  },
+  {
+    "acronym": "PBFT",
+    "full_name": "Practical Byzantine Fault Tolerance",
+    "category": "Blockchain",
+    "description": "Consensus algorithm tolerating Byzantine faults in distributed networks."
+  },
+  {
+    "acronym": "Plasma",
+    "full_name": "Plasma Scaling Framework",
+    "category": "Blockchain",
+    "description": "Layer-2 framework with child chains committing state roots to the main chain."
+  },
+  {
+    "acronym": "PoS",
+    "full_name": "Proof of Stake",
+    "category": "Blockchain",
+    "description": "Consensus mechanism where validators stake tokens for transaction validation."
+  },
+  {
+    "acronym": "PoW",
+    "full_name": "Proof of Work",
+    "category": "Blockchain",
+    "description": "Consensus mechanism requiring computational work to validate transactions and mint blocks."
+  },
+  {
+    "acronym": "Polygon",
+    "full_name": "Polygon zkEVM",
+    "category": "Blockchain",
+    "description": "L2 scaling solution offering ZK-rollup with EVM compatibility."
+  },
+  {
+    "acronym": "Rollup",
+    "full_name": "Rollup Scaling Solution",
+    "category": "Blockchain",
+    "description": "L2 technology that bundles transactions off-chain and posts compressed data to L1."
+  },
+  {
+    "acronym": "SHA-256",
+    "full_name": "Secure Hash Algorithm 256-bit",
+    "category": "Blockchain",
+    "description": "Cryptographic hash function used in Bitcoin's proof-of-work and address generation."
+  },
+  {
+    "acronym": "Seed Phrase",
+    "full_name": "Seed Phrase / Mnemonic",
+    "category": "Blockchain",
+    "description": "Human-readable mnemonic encoding the entropy for HD wallet key derivation."
+  },
+  {
+    "acronym": "Sidechain",
+    "full_name": "Sidechain Scaling",
+    "category": "Blockchain",
+    "description": "Separate blockchain running in parallel to a main chain with its own consensus."
+  },
+  {
+    "acronym": "Slippage",
+    "full_name": "Slippage Tolerance",
+    "category": "Blockchain",
+    "description": "Allowed price deviation between trade submission and execution on a DEX."
+  },
+  {
+    "acronym": "Solana",
+    "full_name": "Solana L1 Blockchain",
+    "category": "Blockchain",
+    "description": "High-performance L1 blockchain using Proof of History for parallel transaction processing."
+  },
+  {
+    "acronym": "StarkNet",
+    "full_name": "StarkNet L2 Scaling",
+    "category": "Blockchain",
+    "description": "ZK-rollup using STARK proofs for scalable, trustless computation."
+  },
+  {
+    "acronym": "State Channel",
+    "full_name": "State Channel Scaling",
+    "category": "Blockchain",
+    "description": "Off-chain transaction channel settled on the main chain only on open/close."
+  },
+  {
+    "acronym": "Sui",
+    "full_name": "Sui L1 Blockchain",
+    "category": "Blockchain",
+    "description": "Move-based L1 blockchain with object-centric data model and horizontal scaling."
+  },
+  {
+    "acronym": "TGE",
+    "full_name": "Token Generation Event",
+    "category": "Blockchain",
+    "description": "Event where a project creates and distributes its native tokens."
+  },
+  {
+    "acronym": "TON",
+    "full_name": "The Open Network",
+    "category": "Blockchain",
+    "description": "Telegram-backed L1 blockchain with sharding and asynchronous smart contracts."
+  },
+  {
+    "acronym": "TVL",
+    "full_name": "Total Value Locked",
+    "category": "Blockchain",
+    "description": "Total value of assets deposited in a DeFi protocol, measured in USD."
+  },
+  {
+    "acronym": "TVL",
+    "full_name": "Total Value Locked",
+    "category": "Blockchain",
+    "description": "Capital deposited into a DeFi protocol's smart contracts."
+  },
+  {
+    "acronym": "USDC",
+    "full_name": "USD Coin",
+    "category": "Blockchain",
+    "description": "Regulated stablecoin pegged to the US dollar by Circle."
+  },
+  {
+    "acronym": "USDT",
+    "full_name": "Tether USD",
+    "category": "Blockchain",
+    "description": "Stablecoin pegged to the US dollar, issued on multiple blockchains."
+  },
+  {
+    "acronym": "Validium",
+    "full_name": "Validium Scaling",
+    "category": "Blockchain",
+    "description": "L2 solution using validity proofs with off-chain data availability."
+  },
+  {
+    "acronym": "WBTC",
+    "full_name": "Wrapped Bitcoin",
+    "category": "Blockchain",
+    "description": "ERC-20 token pegged 1:1 to Bitcoin, enabling BTC use on Ethereum."
+  },
+  {
+    "acronym": "WETH",
+    "full_name": "Wrapped Ether",
+    "category": "Blockchain",
+    "description": "ERC-20–wrapped version of Ether for DeFi composability."
+  },
+  {
+    "acronym": "Wormhole",
+    "full_name": "Wormhole Bridge Protocol",
+    "category": "Blockchain",
+    "description": "Cross-chain messaging bridge connecting multiple blockchains via guardian validators."
+  },
+  {
+    "acronym": "ZK",
+    "full_name": "Zero Knowledge",
+    "category": "Blockchain",
+    "description": "Cryptographic technique enabling verification of truth without revealing underlying data."
+  },
+  {
+    "acronym": "ZKR",
+    "full_name": "Zero-Knowledge Rollup",
+    "category": "Blockchain",
+    "description": "Rollup using validity proofs to instantly confirm transaction batches."
+  },
+  {
+    "acronym": "zk-SNARK",
+    "full_name": "Zero-Knowledge Succinct Non-Interactive Argument of Knowledge",
+    "category": "Blockchain",
+    "description": "Compact zero-knowledge proof requiring minimal verification computation."
+  },
+  {
+    "acronym": "zk-STARK",
+    "full_name": "Zero-Knowledge Scalable Transparent ARgument of Knowledge",
+    "category": "Blockchain",
+    "description": "ZK proof without trusted setup, scalable via transparent verification."
+  },
+  {
+    "acronym": "zkSync",
+    "full_name": "zkSync Era",
+    "category": "Blockchain",
+    "description": "ZK-rollup L2 providing low-cost scaling with validity proofs."
+  },
+  {
+    "acronym": "ACIDi",
+    "full_name": "Atomicity, Consistency, Isolation, Durability (infra)",
+    "category": "Cloud/Infra",
+    "description": "Infrastructure design principles ensuring reliable state changes akin to database ACID."
+  },
+  {
+    "acronym": "AMI",
+    "full_name": "Amazon Machine Image",
+    "category": "Cloud/Infra",
+    "description": "Pre-configured virtual machine template used to launch EC2 instances."
+  },
+  {
+    "acronym": "API",
+    "full_name": "Application Programming Interface",
+    "category": "Cloud/Infra",
+    "description": "Set of defined protocols enabling software components to communicate."
+  },
+  {
+    "acronym": "APT",
+    "full_name": "Advanced Package Tool",
+    "category": "Cloud/Infra",
+    "description": "Package management system used by Debian-based Linux distributions."
+  },
+  {
+    "acronym": "Ansible",
+    "full_name": "Ansible Automation",
+    "category": "Cloud/Infra",
+    "description": "Red Hat agentless configuration management and automation tool using YAML playbooks."
+  },
+  {
+    "acronym": "CD",
+    "full_name": "Continuous Delivery/Deployment",
+    "category": "Cloud/Infra",
+    "description": "Practice of automatically releasing integrated changes to production."
+  },
+  {
+    "acronym": "CDN",
+    "full_name": "Content Delivery Network",
+    "category": "Cloud/Infra",
+    "description": "Globally distributed network of proxy servers that deliver content with low latency."
+  },
+  {
+    "acronym": "CI",
+    "full_name": "Continuous Integration",
+    "category": "Cloud/Infra",
+    "description": "Practice of automatically building and testing code changes on every push."
+  },
+  {
+    "acronym": "CLI",
+    "full_name": "Command-Line Interface",
+    "category": "Cloud/Infra",
+    "description": "Text-based interface for issuing commands to a computer program."
+  },
+  {
+    "acronym": "CNI",
+    "full_name": "Container Network Interface",
+    "category": "Cloud/Infra",
+    "description": "Plugin-based networking layer for Linux containers."
+  },
+  {
+    "acronym": "CORS",
+    "full_name": "Cross-Origin Resource Sharing",
+    "category": "Cloud/Infra",
+    "description": "Browser security mechanism allowing controlled access to resources from a different origin."
+  },
+  {
+    "acronym": "COS",
+    "full_name": "Container-Optimized OS",
+    "category": "Cloud/Infra",
+    "description": "Google's minimal OS image for running containers on Compute Engine and GKE."
+  },
+  {
+    "acronym": "CRD",
+    "full_name": "Custom Resource Definition",
+    "category": "Cloud/Infra",
+    "description": "Kubernetes extension mechanism for defining custom resource types."
+  },
+  {
+    "acronym": "CRI",
+    "full_name": "Container Runtime Interface",
+    "category": "Cloud/Infra",
+    "description": "Kubernetes API enabling pluggable container runtimes."
+  },
+  {
+    "acronym": "CSI",
+    "full_name": "Container Storage Interface",
+    "category": "Cloud/Infra",
+    "description": "Standard interface for exposing storage systems to container workloads."
+  },
+  {
+    "acronym": "CaaS",
+    "full_name": "Containers as a Service",
+    "category": "Cloud/Infra",
+    "description": "Cloud service that provides container orchestration and management."
+  },
+  {
+    "acronym": "Crossplane",
+    "full_name": "Crossplane Control Plane",
+    "category": "Cloud/Infra",
+    "description": "Open-source control plane framework orchestrating infrastructure via Kubernetes CRDs."
+  },
+  {
+    "acronym": "DDoS",
+    "full_name": "Distributed Denial of Service",
+    "category": "Cloud/Infra",
+    "description": "Malicious attempt to disrupt service by overwhelming it with traffic from multiple sources."
+  },
+  {
+    "acronym": "DHCP",
+    "full_name": "Dynamic Host Configuration Protocol",
+    "category": "Cloud/Infra",
+    "description": "Network protocol that automatically assigns IP addresses and network configs to devices."
+  },
+  {
+    "acronym": "DNS",
+    "full_name": "Domain Name System",
+    "category": "Cloud/Infra",
+    "description": "Hierarchical naming system that translates domain names to IP addresses."
+  },
+  {
+    "acronym": "Docker",
+    "full_name": "Docker Container Engine",
+    "category": "Cloud/Infra",
+    "description": "Platform for developing, shipping, and running applications in lightweight containers."
+  },
+  {
+    "acronym": "EBS",
+    "full_name": "Elastic Block Store",
+    "category": "Cloud/Infra",
+    "description": "AWS persistent block-level storage volume for EC2 instances."
+  },
+  {
+    "acronym": "EC2",
+    "full_name": "Elastic Compute Cloud",
+    "category": "Cloud/Infra",
+    "description": "AWS virtual server offering resizable compute capacity in the cloud."
+  },
+  {
+    "acronym": "ECS",
+    "full_name": "Elastic Container Service",
+    "category": "Cloud/Infra",
+    "description": "AWS container orchestration service supporting Docker containers."
+  },
+  {
+    "acronym": "EKS",
+    "full_name": "Elastic Kubernetes Service",
+    "category": "Cloud/Infra",
+    "description": "AWS managed Kubernetes service for container orchestration."
+  },
+  {
+    "acronym": "FaaS",
+    "full_name": "Function as a Service",
+    "category": "Cloud/Infra",
+    "description": "Serverless compute model where individual functions execute in response to events."
+  },
+  {
+    "acronym": "Flatcar",
+    "full_name": "Flatcar Container Linux",
+    "category": "Cloud/Infra",
+    "description": "Immutable Linux distribution optimized for container workloads and K8s."
+  },
+  {
+    "acronym": "HAProxy",
+    "full_name": "High Availability Proxy",
+    "category": "Cloud/Infra",
+    "description": "Open-source TCP/HTTP load balancer and proxy server."
+  },
+  {
+    "acronym": "HPA",
+    "full_name": "Horizontal Pod Autoscaler",
+    "category": "Cloud/Infra",
+    "description": "Kubernetes component that automatically scales pod replicas based on metrics."
+  },
+  {
+    "acronym": "HTTPS",
+    "full_name": "Hypertext Transfer Protocol Secure",
+    "category": "Cloud/Infra",
+    "description": "HTTP over TLS/SSL, ensuring encrypted web communication."
+  },
+  {
+    "acronym": "Helm",
+    "full_name": "Helm Package Manager for Kubernetes",
+    "category": "Cloud/Infra",
+    "description": "Kubernetes package manager that simplifies deploying and managing applications."
+  },
+  {
+    "acronym": "Hyper-V",
+    "full_name": "Hyper-Visor",
+    "category": "Cloud/Infra",
+    "description": "Microsoft hardware virtualization product for running multiple OS instances."
+  },
+  {
+    "acronym": "IAM",
+    "full_name": "Identity and Access Management",
+    "category": "Cloud/Infra",
+    "description": "Framework of policies and technologies for managing digital identities and access."
+  },
+  {
+    "acronym": "IaC",
+    "full_name": "Infrastructure as Code",
+    "category": "Cloud/Infra",
+    "description": "Managing and provisioning infrastructure through machine-readable definition files."
+  },
+  {
+    "acronym": "IaaS",
+    "full_name": "Infrastructure as a Service",
+    "category": "Cloud/Infra",
+    "description": "Cloud model providing virtualized computing resources over the internet."
+  },
+  {
+    "acronym": "K8s",
+    "full_name": "Kubernetes",
+    "category": "Cloud/Infra",
+    "description": "Open-source container orchestration platform for automating deployment, scaling, and management."
+  },
+  {
+    "acronym": "KVM",
+    "full_name": "Kernel-based Virtual Machine",
+    "category": "Cloud/Infra",
+    "description": "Linux kernel module providing full virtualization capabilities."
+  },
+  {
+    "acronym": "LB",
+    "full_name": "Load Balancer",
+    "category": "Cloud/Infra",
+    "description": "Device or software that distributes network traffic across multiple servers."
+  },
+  {
+    "acronym": "LKE",
+    "full_name": "Linode Kubernetes Engine",
+    "category": "Cloud/Infra",
+    "description": "Managed Kubernetes service on Linode cloud infrastructure."
+  },
+  {
+    "acronym": "LVM",
+    "full_name": "Logical Volume Manager",
+    "category": "Cloud/Infra",
+    "description": "Storage management layer providing flexible volume management for Linux."
+  },
+  {
+    "acronym": "MTBF",
+    "full_name": "Mean Time Between Failures",
+    "category": "Cloud/Infra",
+    "description": "Average elapsed time between system failures, used as a reliability metric."
+  },
+  {
+    "acronym": "MTTR",
+    "full_name": "Mean Time to Recovery",
+    "category": "Cloud/Infra",
+    "description": "Average time required to restore a failed system to working state."
+  },
+  {
+    "acronym": "NAT",
+    "full_name": "Network Address Translation",
+    "category": "Cloud/Infra",
+    "description": "Method of remapping one IP address space to another by modifying packet headers."
+  },
+  {
+    "acronym": "Nix",
+    "full_name": "Nix Package Manager",
+    "category": "Cloud/Infra",
+    "description": "Purely functional package manager with reproducible builds and declarative configurations."
+  },
+  {
+    "acronym": "NixOS",
+    "full_name": "NixOS Linux Distribution",
+    "category": "Cloud/Infra",
+    "description": "Linux distribution built on Nix package manager with declarative system configuration."
+  },
+  {
+    "acronym": "OIDC",
+    "full_name": "OpenID Connect",
+    "category": "Cloud/Infra",
+    "description": "Identity authentication layer built on top of OAuth 2.0."
+  },
+  {
+    "acronym": "PaaS",
+    "full_name": "Platform as a Service",
+    "category": "Cloud/Infra",
+    "description": "Cloud model offering a platform for application development and deployment without managing underlying infrastructure."
+  },
+  {
+    "acronym": "Pulumi",
+    "full_name": "Pulumi Infrastructure as Code",
+    "category": "Cloud/Infra",
+    "description": "IaC tool using general-purpose programming languages instead of DSLs."
+  },
+  {
+    "acronym": "QoS",
+    "full_name": "Quality of Service",
+    "category": "Cloud/Infra",
+    "description": "Mechanisms to prioritize network traffic types and guarantee performance."
+  },
+  {
+    "acronym": "RAID",
+    "full_name": "Redundant Array of Independent Disks",
+    "category": "Cloud/Infra",
+    "description": "Data storage virtualization combining multiple drives for redundancy or performance."
+  },
+  {
+    "acronym": "RBAC",
+    "full_name": "Role-Based Access Control",
+    "category": "Cloud/Infra",
+    "description": "Authorization framework restricting system access based on user roles."
+  },
+  {
+    "acronym": "RDS",
+    "full_name": "Relational Database Service",
+    "category": "Cloud/Infra",
+    "description": "AWS managed relational database service supporting multiple database engines."
+  },
+  {
+    "acronym": "REST",
+    "full_name": "Representational State Transfer",
+    "category": "Cloud/Infra",
+    "description": "Architectural style for distributed hypermedia systems using stateless operations."
+  },
+  {
+    "acronym": "RPM",
+    "full_name": "Revolutions Per Minute / Red Hat Package Manager",
+    "category": "Cloud/Infra",
+    "description": "Package management system for Red Hat–based Linux distributions."
+  },
+  {
+    "acronym": "S3",
+    "full_name": "Simple Storage Service",
+    "category": "Cloud/Infra",
+    "description": "AWS object storage service with virtually unlimited scalability."
+  },
+  {
+    "acronym": "SDK",
+    "full_name": "Software Development Kit",
+    "category": "Cloud/Infra",
+    "description": "Collection of tools, libraries, and documentation for building software on a platform."
+  },
+  {
+    "acronym": "SELinux",
+    "full_name": "Security-Enhanced Linux",
+    "category": "Cloud/Infra",
+    "description": "Linux kernel security module providing mandatory access control policies."
+  },
+  {
+    "acronym": "SLA",
+    "full_name": "Service Level Agreement",
+    "category": "Cloud/Infra",
+    "description": "Contract defining expected service levels, uptime guarantees, and remedies."
+  },
+  {
+    "acronym": "SLI",
+    "full_name": "Service Level Indicator",
+    "category": "Cloud/Infra",
+    "description": "Quantitative metric measuring a specific aspect of service performance."
+  },
+  {
+    "acronym": "SLO",
+    "full_name": "Service Level Objective",
+    "category": "Cloud/Infra",
+    "description": "Target value or range for a service level indicator over a time window."
+  },
+  {
+    "acronym": "SRE",
+    "full_name": "Site Reliability Engineering",
+    "category": "Cloud/Infra",
+    "description": "Discipline applying software engineering to infrastructure operations and reliability."
+  },
+  {
+    "acronym": "SSH",
+    "full_name": "Secure Shell",
+    "category": "Cloud/Infra",
+    "description": "Cryptographic network protocol for secure remote login and command execution."
+  },
+  {
+    "acronym": "SSL",
+    "full_name": "Secure Sockets Layer",
+    "category": "Cloud/Infra",
+    "description": "Predecessor to TLS, providing encrypted communication between client and server."
+  },
+  {
+    "acronym": "SaaS",
+    "full_name": "Software as a Service",
+    "category": "Cloud/Infra",
+    "description": "Software delivery model where applications are hosted and accessed via the internet."
+  },
+  {
+    "acronym": "TDD",
+    "full_name": "Time Division Duplexing",
+    "category": "Cloud/Infra",
+    "description": "Communication channel sharing technique where uplink and downlink use the same frequency but different time slots."
+  },
+  {
+    "acronym": "TLS",
+    "full_name": "Transport Layer Security",
+    "category": "Cloud/Infra",
+    "description": "Cryptographic protocol providing secure communication over a network."
+  },
+  {
+    "acronym": "TUI",
+    "full_name": "Text User Interface",
+    "category": "Cloud/Infra",
+    "description": "Full-screen terminal interface with interactive elements beyond plain CLI."
+  },
+  {
+    "acronym": "Talos",
+    "full_name": "Talos Linux",
+    "category": "Cloud/Infra",
+    "description": "Immutable Linux distribution designed specifically for Kubernetes deployment."
+  },
+  {
+    "acronym": "Terraform",
+    "full_name": "Terraform Infrastructure Provisioning",
+    "category": "Cloud/Infra",
+    "description": "HashiCorp tool for building, changing, and versioning infrastructure declaratively."
+  },
+  {
+    "acronym": "Terraform",
+    "full_name": "Terraform by HashiCorp",
+    "category": "Cloud/Infra",
+    "description": "Declarative infrastructure-as-code tool provisioning resources across multiple cloud providers."
+  },
+  {
+    "acronym": "VM",
+    "full_name": "Virtual Machine",
+    "category": "Cloud/Infra",
+    "description": "Software emulation of a physical computer running an operating system and applications."
+  },
+  {
+    "acronym": "VMware",
+    "full_name": "Virtual Machine ware",
+    "category": "Cloud/Infra",
+    "description": "Virtualization platform enabling multiple VMs on a single physical host."
+  },
+  {
+    "acronym": "VPA",
+    "full_name": "Vertical Pod Autoscaler",
+    "category": "Cloud/Infra",
+    "description": "Kubernetes component that adjusts CPU/memory requests of containers dynamically."
+  },
+  {
+    "acronym": "VPC",
+    "full_name": "Virtual Private Cloud",
+    "category": "Cloud/Infra",
+    "description": "Isolated private network section within a public cloud environment."
+  },
+  {
+    "acronym": "VPN",
+    "full_name": "Virtual Private Network",
+    "category": "Cloud/Infra",
+    "description": "Encrypted tunnel that provides secure remote access to a private network."
+  },
+  {
+    "acronym": "WAF",
+    "full_name": "Web Application Firewall",
+    "category": "Cloud/Infra",
+    "description": "Security appliance that filters and monitors HTTP traffic to and from web applications."
+  },
+  {
+    "acronym": "YUM",
+    "full_name": "Yellowdog Updater Modified",
+    "category": "Cloud/Infra",
+    "description": "Command-line package manager for RPM-based Linux systems."
+  },
+  {
+    "acronym": "gRPC",
+    "full_name": "gRPC Remote Procedure Call",
+    "category": "Cloud/Infra",
+    "description": "High-performance RPC framework using HTTP/2 and Protocol Buffers."
+  },
+  {
+    "acronym": "nginx",
+    "full_name": "Engine X",
+    "category": "Cloud/Infra",
+    "description": "High-performance web server, reverse proxy, and load balancer."
+  },
+  {
+    "acronym": "ACID",
+    "full_name": "Atomicity, Consistency, Isolation, Durability",
+    "category": "Data",
+    "description": "Set of properties guaranteeing reliable processing of database transactions."
+  },
+  {
+    "acronym": "AOF",
+    "full_name": "Append-Only File",
+    "category": "Data",
+    "description": "Redis persistence method logging every write operation for crash recovery."
+  },
+  {
+    "acronym": "Airflow",
+    "full_name": "Apache Airflow",
+    "category": "Data",
+    "description": "Workflow orchestration platform for authoring, scheduling, and monitoring data pipelines."
+  },
+  {
+    "acronym": "Athena",
+    "full_name": "AWS Athena",
+    "category": "Data",
+    "description": "Serverless interactive query service analyzing data directly in S3 using SQL."
+  },
+  {
+    "acronym": "Avro",
+    "full_name": "Apache Avro",
+    "category": "Data",
+    "description": "Row-oriented data serialization framework with rich schema evolution."
+  },
+  {
+    "acronym": "B-tree",
+    "full_name": "Balanced Tree Index",
+    "category": "Data",
+    "description": "Self-balancing tree data structure maintaining sorted data for efficient insertions and lookups."
+  },
+  {
+    "acronym": "BASE",
+    "full_name": "Basically Available, Soft state, Eventually consistent",
+    "category": "Data",
+    "description": "Design philosophy for distributed databases prioritizing availability over strict consistency."
+  },
+  {
+    "acronym": "BLOB",
+    "full_name": "Binary Large Object",
+    "category": "Data",
+    "description": "Database data type for storing binary files such as images, audio, or video."
+  },
+  {
+    "acronym": "BWT",
+    "full_name": "Burrows-Wheeler Transform",
+    "category": "Data",
+    "description": "Block-sorting data compression preprocessing used in bzip2."
+  },
+  {
+    "acronym": "BigQuery",
+    "full_name": "Google BigQuery",
+    "category": "Data",
+    "description": "Serverless multi-cloud data warehouse with built-in ML capabilities."
+  },
+  {
+    "acronym": "Bloom Filter",
+    "full_name": "Bloom Filter",
+    "category": "Data",
+    "description": "Probabilistic set membership data structure with configurable false-positive rate."
+  },
+  {
+    "acronym": "CAP",
+    "full_name": "Consistency, Availability, Partition tolerance",
+    "category": "Data",
+    "description": "Theorem stating a distributed data system can guarantee only two of three properties at once."
+  },
+  {
+    "acronym": "CDC",
+    "full_name": "Change Data Capture",
+    "category": "Data",
+    "description": "Technique capturing database changes in real time for replication or streaming."
+  },
+  {
+    "acronym": "CRUD",
+    "full_name": "Create, Read, Update, Delete",
+    "category": "Data",
+    "description": "Four basic operations of persistent storage in database systems."
+  },
+  {
+    "acronym": "CSV",
+    "full_name": "Comma-Separated Values",
+    "category": "Data",
+    "description": "Simple delimited text format for tabular data."
+  },
+  {
+    "acronym": "CTE",
+    "full_name": "Common Table Expression",
+    "category": "Data",
+    "description": "Named temporary result set within a SQL query, improving readability and recursion."
+  },
+  {
+    "acronym": "Cassandra",
+    "full_name": "Apache Cassandra",
+    "category": "Data",
+    "description": "Distributed wide-column NoSQL database with high availability and no single point of failure."
+  },
+  {
+    "acronym": "ClickHouse",
+    "full_name": "ClickHouse Columnar DB",
+    "category": "Data",
+    "description": "Column-oriented DBMS for real-time analytical queries on large datasets."
+  },
+  {
+    "acronym": "DCL",
+    "full_name": "Data Control Language",
+    "category": "Data",
+    "description": "SQL subset for access control (GRANT, REVOKE)."
+  },
+  {
+    "acronym": "DDL",
+    "full_name": "Data Definition Language",
+    "category": "Data",
+    "description": "SQL subset for defining and modifying database structures (CREATE, ALTER, DROP)."
+  },
+  {
+    "acronym": "DL",
+    "full_name": "Data Lake",
+    "category": "Data",
+    "description": "Storage repository holding vast amounts of raw data in native formats."
+  },
+  {
+    "acronym": "DM",
+    "full_name": "Data Mart",
+    "category": "Data",
+    "description": "Subset of a data warehouse focused on a specific business domain."
+  },
+  {
+    "acronym": "DML",
+    "full_name": "Data Manipulation Language",
+    "category": "Data",
+    "description": "SQL subset for manipulating data (INSERT, UPDATE, DELETE)."
+  },
+  {
+    "acronym": "DQL",
+    "full_name": "Data Query Language",
+    "category": "Data",
+    "description": "SQL subset for querying and reading data (SELECT statements)."
+  },
+  {
+    "acronym": "DW",
+    "full_name": "Data Warehouse",
+    "category": "Data",
+    "description": "Centralized repository for structured, cleaned data optimized for analytics and reporting."
+  },
+  {
+    "acronym": "Dagster",
+    "full_name": "Dagster Data Orchestrator",
+    "category": "Data",
+    "description": "Data orchestrator focusing on asset-based workflow definitions and observability."
+  },
+  {
+    "acronym": "Data Fabric",
+    "full_name": "Data Fabric Architecture",
+    "category": "Data",
+    "description": "Architecture enabling automated, connected data management across hybrid environments."
+  },
+  {
+    "acronym": "Data Mesh",
+    "full_name": "Data Mesh Architecture",
+    "category": "Data",
+    "description": "Decentralized sociotechnical architecture treating data as a product by domain."
+  },
+  {
+    "acronym": "Data Vault",
+    "full_name": "Data Vault Modeling",
+    "category": "Data",
+    "description": "Enterprise data warehouse modeling method with hubs, links, and satellites."
+  },
+  {
+    "acronym": "DataOps",
+    "full_name": "Data Operations",
+    "category": "Data",
+    "description": "Agile methodology for automating and orchestrating data pipeline lifecycles."
+  },
+  {
+    "acronym": "Databricks",
+    "full_name": "Databricks Lakehouse",
+    "category": "Data",
+    "description": "Unified data analytics platform combining data lake and warehouse capabilities."
+  },
+  {
+    "acronym": "Delta Lake",
+    "full_name": "Delta Lake",
+    "category": "Data",
+    "description": "Open-source storage layer bringing ACID transactions to data lakes."
+  },
+  {
+    "acronym": "DuckDB",
+    "full_name": "DuckDB Analytical Database",
+    "category": "Data",
+    "description": "In-process columnar analytical database optimized for data science and analytics."
+  },
+  {
+    "acronym": "EDW",
+    "full_name": "Enterprise Data Warehouse",
+    "category": "Data",
+    "description": "Centralized warehouse covering an entire organization's structured data."
+  },
+  {
+    "acronym": "ELT",
+    "full_name": "Extract, Load, Transform",
+    "category": "Data",
+    "description": "Modern pipeline variant loading raw data first and transforming in the target database."
+  },
+  {
+    "acronym": "ETL",
+    "full_name": "Extract, Transform, Load",
+    "category": "Data",
+    "description": "Pipeline process of extracting data from sources, transforming it, and loading it into a target system."
+  },
+  {
+    "acronym": "Elasticsearch",
+    "full_name": "Elasticsearch Search Engine",
+    "category": "Data",
+    "description": "Distributed search and analytics engine based on the Lucene library."
+  },
+  {
+    "acronym": "FK",
+    "full_name": "Foreign Key",
+    "category": "Data",
+    "description": "Database constraint maintaining referential integrity between tables."
+  },
+  {
+    "acronym": "Feast",
+    "full_name": "Feast Feature Store",
+    "category": "Data",
+    "description": "Open-source feature store for managing and serving ML features."
+  },
+  {
+    "acronym": "Flink",
+    "full_name": "Apache Flink",
+    "category": "Data",
+    "description": "Stream-processing framework for stateful computations over data streams."
+  },
+  {
+    "acronym": "Glue",
+    "full_name": "AWS Glue",
+    "category": "Data",
+    "description": "Serverless ETL service for preparing and transforming data for analytics."
+  },
+  {
+    "acronym": "Grafana",
+    "full_name": "Grafana Observability",
+    "category": "Data",
+    "description": "Open-source analytics and monitoring platform for time-series data."
+  },
+  {
+    "acronym": "Great Expectations",
+    "full_name": "Great Expectations",
+    "category": "Data",
+    "description": "Open-source data quality framework for validating, documenting, and profiling data."
+  },
+  {
+    "acronym": "HBase",
+    "full_name": "Apache HBase",
+    "category": "Data",
+    "description": "Distributed, scalable, big data NoSQL store modeled after Google Bigtable."
+  },
+  {
+    "acronym": "HDFS",
+    "full_name": "Hadoop Distributed File System",
+    "category": "Data",
+    "description": "Distributed file system designed to run on commodity hardware for big data."
+  },
+  {
+    "acronym": "Hadoop",
+    "full_name": "Apache Hadoop",
+    "category": "Data",
+    "description": "Framework for distributed storage and processing of large datasets across clusters."
+  },
+  {
+    "acronym": "Hive",
+    "full_name": "Apache Hive",
+    "category": "Data",
+    "description": "Data warehouse infrastructure built on Hadoop for data summarization and querying."
+  },
+  {
+    "acronym": "Hopsworks",
+    "full_name": "Hopsworks Feature Store",
+    "category": "Data",
+    "description": "Feature store and ML platform with online and offline feature serving."
+  },
+  {
+    "acronym": "HyperLogLog",
+    "full_name": "HyperLogLog Cardinality Estimation",
+    "category": "Data",
+    "description": "Probabilistic algorithm for approximating the number of distinct elements."
+  },
+  {
+    "acronym": "Index",
+    "full_name": "Database Index",
+    "category": "Data",
+    "description": "Data structure improving the speed of data retrieval operations on a table."
+  },
+  {
+    "acronym": "Inmon",
+    "full_name": "Inmon Data Vault",
+    "category": "Data",
+    "description": "Data warehouse methodology emphasizing normalized enterprise data models."
+  },
+  {
+    "acronym": "JSON",
+    "full_name": "JavaScript Object Notation",
+    "category": "Data",
+    "description": "Lightweight data-interchange format based on key-value pairs and arrays."
+  },
+  {
+    "acronym": "Kafka",
+    "full_name": "Apache Kafka",
+    "category": "Data",
+    "description": "Distributed event-streaming platform for high-throughput data pipelines."
+  },
+  {
+    "acronym": "Kibana",
+    "full_name": "Kibana Visualization",
+    "category": "Data",
+    "description": "Data visualization dashboard for Elasticsearch data."
+  },
+  {
+    "acronym": "Kimball",
+    "full_name": "Kimball Dimensional Modeling",
+    "category": "Data",
+    "description": "Data warehouse methodology based on star schemas and dimension facts."
+  },
+  {
+    "acronym": "Kubeflow",
+    "full_name": "Kubeflow ML Platform",
+    "category": "Data",
+    "description": "Kubernetes-native platform for deploying and managing ML workflows."
+  },
+  {
+    "acronym": "LSM",
+    "full_name": "Log-Structured Merge-Tree",
+    "category": "Data",
+    "description": "Write-optimized data structure used by many NoSQL and time-series databases."
+  },
+  {
+    "acronym": "Logstash",
+    "full_name": "Logstash Data Pipeline",
+    "category": "Data",
+    "description": "Server-side data processing pipeline for ingesting and transforming logs."
+  },
+  {
+    "acronym": "Looker",
+    "full_name": "Looker BI Platform",
+    "category": "Data",
+    "description": "Business intelligence platform for data exploration and embedded analytics."
+  },
+  {
+    "acronym": "MLOps",
+    "full_name": "Machine Learning Operations",
+    "category": "Data",
+    "description": "Practices and tools for automating and managing production ML pipelines."
+  },
+  {
+    "acronym": "MLflow",
+    "full_name": "MLflow ML Platform",
+    "category": "Data",
+    "description": "Open-source platform managing the ML lifecycle: experimentation, reproducibility, deployment."
+  },
+  {
+    "acronym": "MVCC",
+    "full_name": "Multi-Version Concurrency Control",
+    "category": "Data",
+    "description": "Concurrency control method providing snapshots of data for consistent reads without locking."
+  },
+  {
+    "acronym": "MapReduce",
+    "full_name": "MapReduce Programming Model",
+    "category": "Data",
+    "description": "Programming paradigm for processing large datasets in parallel across a cluster."
+  },
+  {
+    "acronym": "MongoDB",
+    "full_name": "MongoDB Document Database",
+    "category": "Data",
+    "description": "Document-oriented NoSQL database with flexible schemas and horizontal scaling."
+  },
+  {
+    "acronym": "MySQL",
+    "full_name": "MySQL RDBMS",
+    "category": "Data",
+    "description": "Popular open-source relational database management system."
+  },
+  {
+    "acronym": "Neo4j",
+    "full_name": "Neo4j Graph Database",
+    "category": "Data",
+    "description": "Leading graph database management system using labeled property graph model."
+  },
+  {
+    "acronym": "NoSQL",
+    "full_name": "Not Only SQL",
+    "category": "Data",
+    "description": "Database paradigm embracing non-relational models including document, key-value, columnar, and graph."
+  },
+  {
+    "acronym": "ODS",
+    "full_name": "Operational Data Store",
+    "category": "Data",
+    "description": "Database integrating data from multiple source systems for operational reporting."
+  },
+  {
+    "acronym": "OLAP",
+    "full_name": "Online Analytical Processing",
+    "category": "Data",
+    "description": "Database workload optimized for complex analytical queries and aggregations."
+  },
+  {
+    "acronym": "OLTP",
+    "full_name": "Online Transaction Processing",
+    "category": "Data",
+    "description": "Database workload characterized by high-volume, short, atomic transactions."
+  },
+  {
+    "acronym": "ORC",
+    "full_name": "Optimized Row Columnar",
+    "category": "Data",
+    "description": "Columnar storage format from Apache Hive, optimized for large-scale read operations."
+  },
+  {
+    "acronym": "PACELC",
+    "full_name": "Partition, Availability, Consistency — Else, Latency, Consistency",
+    "category": "Data",
+    "description": "Extension of CAP theorem addressing trade-offs during normal operation."
+  },
+  {
+    "acronym": "PK",
+    "full_name": "Primary Key",
+    "category": "Data",
+    "description": "Uniquely identifying column or column set for each row in a table."
+  },
+  {
+    "acronym": "Parquet",
+    "full_name": "Apache Parquet",
+    "category": "Data",
+    "description": "Columnar storage file format optimized for analytical workloads and compression."
+  },
+  {
+    "acronym": "Postgres",
+    "full_name": "PostgreSQL",
+    "category": "Data",
+    "description": "Advanced open-source relational database with extensibility and SQL compliance."
+  },
+  {
+    "acronym": "Prefect",
+    "full_name": "Prefect Workflow Orchestration",
+    "category": "Data",
+    "description": "Modern workflow orchestration framework with Python-native DAG definitions."
+  },
+  {
+    "acronym": "Pub/Sub",
+    "full_name": "Publish/Subscribe",
+    "category": "Data",
+    "description": "Messaging pattern where producers send messages to topics consumed by subscribers."
+  },
+  {
+    "acronym": "Query",
+    "full_name": "Database Query",
+    "category": "Data",
+    "description": "Request for data from a database using SQL or other query languages."
+  },
+  {
+    "acronym": "RDB",
+    "full_name": "Redis Database Snapshot",
+    "category": "Data",
+    "description": "Point-in-time Redis snapshot persistence file."
+  },
+  {
+    "acronym": "RDBMS",
+    "full_name": "Relational Database Management System",
+    "category": "Data",
+    "description": "Database system storing data in structured tables with defined relationships."
+  },
+  {
+    "acronym": "RDP",
+    "full_name": "Row-Level Security",
+    "category": "Data",
+    "description": "Database security feature restricting access to rows based on user context."
+  },
+  {
+    "acronym": "RLE",
+    "full_name": "Run-Length Encoding",
+    "category": "Data",
+    "description": "Data compression technique replacing repeated consecutive values with count-value pairs."
+  },
+  {
+    "acronym": "RQ",
+    "full_name": "Reservoir Sampling",
+    "category": "Data",
+    "description": "Algorithm for selecting a random sample of k items from a stream of unknown size."
+  },
+  {
+    "acronym": "Redis",
+    "full_name": "Redis In-Memory Store",
+    "category": "Data",
+    "description": "In-memory data structure store used as cache, message broker, and database."
+  },
+  {
+    "acronym": "Redshift",
+    "full_name": "Amazon Redshift",
+    "category": "Data",
+    "description": "AWS cloud data warehouse using columnar storage and massively parallel processing."
+  },
+  {
+    "acronym": "Replica",
+    "full_name": "Database Replica",
+    "category": "Data",
+    "description": "Copy of a database used for read scaling, availability, or disaster recovery."
+  },
+  {
+    "acronym": "S3",
+    "full_name": "Simple Storage Service",
+    "category": "Data",
+    "description": "AWS object storage commonly used as a data-lake foundation."
+  },
+  {
+    "acronym": "SP",
+    "full_name": "Stored Procedure",
+    "category": "Data",
+    "description": "Precompiled SQL routine stored in the database for reuse."
+  },
+  {
+    "acronym": "SQL",
+    "full_name": "Structured Query Language",
+    "category": "Data",
+    "description": "Standardized language for managing and querying relational databases."
+  },
+  {
+    "acronym": "SQLite",
+    "full_name": "SQLite Embedded Database",
+    "category": "Data",
+    "description": "Self-contained, serverless, zero-config SQL database engine."
+  },
+  {
+    "acronym": "SageMaker",
+    "full_name": "AWS SageMaker",
+    "category": "Data",
+    "description": "AWS managed service for building, training, and deploying ML models."
+  },
+  {
+    "acronym": "Shard",
+    "full_name": "Database Sharding",
+    "category": "Data",
+    "description": "Horizontal partitioning of a database across multiple servers."
+  },
+  {
+    "acronym": "Snowflake",
+    "full_name": "Snowflake Data Cloud",
+    "category": "Data",
+    "description": "Multi-cloud data platform with separate compute and storage for analytics."
+  },
+  {
+    "acronym": "Spark",
+    "full_name": "Apache Spark",
+    "category": "Data",
+    "description": "Unified analytics engine for large-scale data processing with in-memory computation."
+  },
+  {
+    "acronym": "Superset",
+    "full_name": "Apache Superset",
+    "category": "Data",
+    "description": "Open-source business intelligence web application with rich visualization."
+  },
+  {
+    "acronym": "TCL",
+    "full_name": "Transaction Control Language",
+    "category": "Data",
+    "description": "SQL subset for managing transactions (COMMIT, ROLLBACK, SAVEPOINT)."
+  },
+  {
+    "acronym": "TDE",
+    "full_name": "Transparent Data Encryption",
+    "category": "Data",
+    "description": "Database feature encrypting data at rest without application changes."
+  },
+  {
+    "acronym": "TFX",
+    "full_name": "TensorFlow Extended",
+    "category": "Data",
+    "description": "Production ML pipeline platform for deploying and managing TF models."
+  },
+  {
+    "acronym": "Tableau",
+    "full_name": "Tableau Analytics",
+    "category": "Data",
+    "description": "Visual analytics platform for creating interactive dashboards and data discovery."
+  },
+  {
+    "acronym": "TimescaleDB",
+    "full_name": "TimescaleDB Time-Series DB",
+    "category": "Data",
+    "description": "PostgreSQL extension for time-series data with automatic partitioning."
+  },
+  {
+    "acronym": "UDF",
+    "full_name": "User-Defined Function",
+    "category": "Data",
+    "description": "Custom function created by a user extending a database's built-in capabilities."
+  },
+  {
+    "acronym": "Vertex AI",
+    "full_name": "Google Vertex AI",
+    "category": "Data",
+    "description": "Managed ML platform for building, training, and deploying models at scale."
+  },
+  {
+    "acronym": "View",
+    "full_name": "Database View",
+    "category": "Data",
+    "description": "Virtual table representing the result of a stored query."
+  },
+  {
+    "acronym": "WAL",
+    "full_name": "Write-Ahead Log",
+    "category": "Data",
+    "description": "Database journaling technique ensuring durability by logging changes before applying them."
+  },
+  {
+    "acronym": "Window",
+    "full_name": "Window Function",
+    "category": "Data",
+    "description": "SQL function performing calculations across a set of rows related to the current row."
+  },
+  {
+    "acronym": "YARN",
+    "full_name": "Yet Another Resource Negotiator",
+    "category": "Data",
+    "description": "Hadoop cluster resource-management and job-scheduling layer."
+  },
+  {
+    "acronym": "dbt",
+    "full_name": "Data Build Tool",
+    "category": "Data",
+    "description": "Transformation tool enabling analytics engineers to transform data in warehouse using SQL."
+  },
+  {
+    "acronym": "dbt",
+    "full_name": "Data Build Tool",
+    "category": "Data",
+    "description": "Transformation workflow tool enabling SQL-first data modeling in warehouses."
+  },
+  {
+    "acronym": "2FA",
+    "full_name": "Two-Factor Authentication",
+    "category": "Security",
+    "description": "Authentication requiring exactly two distinct verification factors."
+  },
+  {
+    "acronym": "ACL",
+    "full_name": "Access Control List",
+    "category": "Security",
+    "description": "List of permissions attached to a resource defining who can access it and how."
+  },
+  {
+    "acronym": "AD",
+    "full_name": "Active Directory",
+    "category": "Security",
+    "description": "Microsoft directory service for managing domain networks and identity."
+  },
+  {
+    "acronym": "APT",
+    "full_name": "Advanced Persistent Threat",
+    "category": "Security",
+    "description": "Covert, prolonged cyber attack by a sophisticated adversary."
+  },
+  {
+    "acronym": "BYOD",
+    "full_name": "Bring Your Own Device",
+    "category": "Security",
+    "description": "Organizational policy allowing employees to use personal devices for work."
+  },
+  {
+    "acronym": "C2",
+    "full_name": "Command and Control",
+    "category": "Security",
+    "description": "Infrastructure used by attackers to remotely control compromised systems."
+  },
+  {
+    "acronym": "CA",
+    "full_name": "Certificate Authority",
+    "category": "Security",
+    "description": "Entity that issues and signs digital certificates for identity verification."
+  },
+  {
+    "acronym": "CASB",
+    "full_name": "Cloud Access Security Broker",
+    "category": "Security",
+    "description": "Policy enforcement point between cloud service consumers and providers."
+  },
+  {
+    "acronym": "CIEM",
+    "full_name": "Cloud Infrastructure Entitlement Management",
+    "category": "Security",
+    "description": "Identity security solution managing cloud permissions and minimizing excessive access."
+  },
+  {
+    "acronym": "CIS",
+    "full_name": "Center for Internet Security",
+    "category": "Security",
+    "description": "Nonprofit publishing benchmark hardening guides and security configuration standards."
+  },
+  {
+    "acronym": "CRL",
+    "full_name": "Certificate Revocation List",
+    "category": "Security",
+    "description": "List of certificates that have been revoked before their expiration date."
+  },
+  {
+    "acronym": "CSPM",
+    "full_name": "Cloud Security Posture Management",
+    "category": "Security",
+    "description": "Automated tooling identifying misconfigurations and compliance violations in cloud environments."
+  },
+  {
+    "acronym": "CSRF",
+    "full_name": "Cross-Site Request Forgery",
+    "category": "Security",
+    "description": "Attack vector that forces authenticated users to execute unwanted actions."
+  },
+  {
+    "acronym": "CVE",
+    "full_name": "Common Vulnerabilities and Exposures",
+    "category": "Security",
+    "description": "Publicly disclosed cybersecurity vulnerabilities with unique identifiers."
+  },
+  {
+    "acronym": "CVSS",
+    "full_name": "Common Vulnerability Scoring System",
+    "category": "Security",
+    "description": "Standard framework for rating the severity of security vulnerabilities."
+  },
+  {
+    "acronym": "CWPP",
+    "full_name": "Cloud Workload Protection Platform",
+    "category": "Security",
+    "description": "Security solution protecting workloads across cloud environments."
+  },
+  {
+    "acronym": "DAST",
+    "full_name": "Dynamic Application Security Testing",
+    "category": "Security",
+    "description": "Black-box security testing scanning running applications for vulnerabilities."
+  },
+  {
+    "acronym": "DDoS",
+    "full_name": "Distributed Denial of Service",
+    "category": "Security",
+    "description": "DoS attack originating from many distributed sources simultaneously."
+  },
+  {
+    "acronym": "DKIM",
+    "full_name": "DomainKeys Identified Mail",
+    "category": "Security",
+    "description": "Email authentication method using digital signatures to verify sender domain."
+  },
+  {
+    "acronym": "DLP",
+    "full_name": "Data Loss Prevention",
+    "category": "Security",
+    "description": "Strategies and tools preventing unauthorized access or transmission of sensitive data."
+  },
+  {
+    "acronym": "DMARC",
+    "full_name": "Domain-based Message Authentication, Reporting & Conformance",
+    "category": "Security",
+    "description": "Email authentication policy framework combining SPF and DKIM."
+  },
+  {
+    "acronym": "DNSSEC",
+    "full_name": "DNS Security Extensions",
+    "category": "Security",
+    "description": "Suite of extensions securing DNS data with digital signatures."
+  },
+  {
+    "acronym": "DoS",
+    "full_name": "Denial of Service",
+    "category": "Security",
+    "description": "Attack that makes a resource unavailable by overwhelming it with traffic or requests."
+  },
+  {
+    "acronym": "EDR",
+    "full_name": "Endpoint Detection and Response",
+    "category": "Security",
+    "description": "Security solution continuously monitoring endpoints for threats and automating responses."
+  },
+  {
+    "acronym": "FDE",
+    "full_name": "Full Disk Encryption",
+    "category": "Security",
+    "description": "Encryption converting all data on a drive to an unreadable format without the key."
+  },
+  {
+    "acronym": "FedRAMP",
+    "full_name": "Federal Risk and Authorization Management Program",
+    "category": "Security",
+    "description": "US government program standardizing security assessment for cloud services."
+  },
+  {
+    "acronym": "GDPR",
+    "full_name": "General Data Protection Regulation",
+    "category": "Security",
+    "description": "EU regulation governing data protection and privacy for individuals."
+  },
+  {
+    "acronym": "HE",
+    "full_name": "Homomorphic Encryption",
+    "category": "Security",
+    "description": "Encryption scheme allowing computation on ciphertexts without decrypting."
+  },
+  {
+    "acronym": "HIPAA",
+    "full_name": "Health Insurance Portability and Accountability Act",
+    "category": "Security",
+    "description": "US law establishing data privacy and security for medical information."
+  },
+  {
+    "acronym": "HOTP",
+    "full_name": "HMAC-Based One-Time Password",
+    "category": "Security",
+    "description": "Event-driven OTP generated from a counter increment."
+  },
+  {
+    "acronym": "HSM",
+    "full_name": "Hardware Security Module",
+    "category": "Security",
+    "description": "Physical device that safeguards and manages cryptographic keys."
+  },
+  {
+    "acronym": "IAST",
+    "full_name": "Interactive Application Security Testing",
+    "category": "Security",
+    "description": "Security testing combining SAST and DAST by instrumenting the running application."
+  },
+  {
+    "acronym": "IDS",
+    "full_name": "Intrusion Detection System",
+    "category": "Security",
+    "description": "System that monitors network traffic for suspicious activity and alerts."
+  },
+  {
+    "acronym": "IOC",
+    "full_name": "Indicator of Compromise",
+    "category": "Security",
+    "description": "Forensic evidence suggesting a system may be breached."
+  },
+  {
+    "acronym": "IPS",
+    "full_name": "Intrusion Prevention System",
+    "category": "Security",
+    "description": "System that actively blocks detected threats in addition to monitoring."
+  },
+  {
+    "acronym": "IPSec",
+    "full_name": "Internet Protocol Security",
+    "category": "Security",
+    "description": "Protocol suite for secure encrypted IP communication."
+  },
+  {
+    "acronym": "ISO 27001",
+    "full_name": "ISO 27001 Information Security Standard",
+    "category": "Security",
+    "description": "International standard for information security management systems."
+  },
+  {
+    "acronym": "JWE",
+    "full_name": "JSON Web Encryption",
+    "category": "Security",
+    "description": "JWT variant that provides encrypted claims."
+  },
+  {
+    "acronym": "JWK",
+    "full_name": "JSON Web Key",
+    "category": "Security",
+    "description": "JSON data structure representing a cryptographic key."
+  },
+  {
+    "acronym": "JWS",
+    "full_name": "JSON Web Signature",
+    "category": "Security",
+    "description": "JWT variant providing signed payloads."
+  },
+  {
+    "acronym": "JWT",
+    "full_name": "JSON Web Token",
+    "category": "Security",
+    "description": "Compact URL-safe token format for representing claims between parties."
+  },
+  {
+    "acronym": "KMS",
+    "full_name": "Key Management Service",
+    "category": "Security",
+    "description": "Cloud service managing encryption keys with HSM-backed security."
+  },
+  {
+    "acronym": "LDAP",
+    "full_name": "Lightweight Directory Access Protocol",
+    "category": "Security",
+    "description": "Open protocol for accessing and maintaining distributed directory information."
+  },
+  {
+    "acronym": "MFA",
+    "full_name": "Multi-Factor Authentication",
+    "category": "Security",
+    "description": "Authentication method requiring two or more verification factors."
+  },
+  {
+    "acronym": "MITM",
+    "full_name": "Man-in-the-Middle",
+    "category": "Security",
+    "description": "Attack where an adversary secretly intercepts and relays communications."
+  },
+  {
+    "acronym": "NAC",
+    "full_name": "Network Access Control",
+    "category": "Security",
+    "description": "Security solution enforcing access policies on devices connecting to a network."
+  },
+  {
+    "acronym": "NIST",
+    "full_name": "National Institute of Standards and Technology",
+    "category": "Security",
+    "description": "US agency producing cybersecurity frameworks and standards."
+  },
+  {
+    "acronym": "OAuth",
+    "full_name": "Open Authorization",
+    "category": "Security",
+    "description": "Open standard for token-based access delegation without sharing passwords."
+  },
+  {
+    "acronym": "OCSP",
+    "full_name": "Online Certificate Status Protocol",
+    "category": "Security",
+    "description": "Protocol for checking the revocation status of a digital certificate in real time."
+  },
+  {
+    "acronym": "OTP",
+    "full_name": "One-Time Password",
+    "category": "Security",
+    "description": "Password valid for only a single login session or transaction."
+  },
+  {
+    "acronym": "OWASP",
+    "full_name": "Open Web Application Security Project",
+    "category": "Security",
+    "description": "Nonprofit foundation improving software security through community-led open-source resources."
+  },
+  {
+    "acronym": "PCI DSS",
+    "full_name": "Payment Card Industry Data Security Standard",
+    "category": "Security",
+    "description": "Security standard for organizations handling cardholder data."
+  },
+  {
+    "acronym": "PGP",
+    "full_name": "Pretty Good Privacy",
+    "category": "Security",
+    "description": "Encryption program providing cryptographic privacy and authentication for data communication."
+  },
+  {
+    "acronym": "PII",
+    "full_name": "Personally Identifiable Information",
+    "category": "Security",
+    "description": "Data that can identify an individual, such as name, SSN, or email."
+  },
+  {
+    "acronym": "PKI",
+    "full_name": "Public Key Infrastructure",
+    "category": "Security",
+    "description": "System managing public-key encryption and digital certificates."
+  },
+  {
+    "acronym": "RASP",
+    "full_name": "Runtime Application Self-Protection",
+    "category": "Security",
+    "description": "Security technology embedded in runtime environments detecting and blocking attacks."
+  },
+  {
+    "acronym": "RAT",
+    "full_name": "Remote Access Trojan",
+    "category": "Security",
+    "description": "Malware providing remote control of a compromised system."
+  },
+  {
+    "acronym": "RCE",
+    "full_name": "Remote Code Execution",
+    "category": "Security",
+    "description": "Vulnerability allowing an attacker to execute arbitrary code on a target system."
+  },
+  {
+    "acronym": "SAML",
+    "full_name": "Security Assertion Markup Language",
+    "category": "Security",
+    "description": "XML-based open standard for exchanging authentication and authorization data."
+  },
+  {
+    "acronym": "SAST",
+    "full_name": "Static Application Security Testing",
+    "category": "Security",
+    "description": "White-box security testing analyzing source code for vulnerabilities without executing it."
+  },
+  {
+    "acronym": "SEIM",
+    "full_name": "Security Event and Incident Management",
+    "category": "Security",
+    "description": "Real-time analysis of security alerts generated by network hardware and applications."
+  },
+  {
+    "acronym": "SIEM",
+    "full_name": "Security Information and Event Management",
+    "category": "Security",
+    "description": "System aggregating and analyzing security logs from across an organization."
+  },
+  {
+    "acronym": "SOAR",
+    "full_name": "Security Orchestration, Automation, and Response",
+    "category": "Security",
+    "description": "Platform automating security incident response workflows."
+  },
+  {
+    "acronym": "SOC",
+    "full_name": "Security Operations Center",
+    "category": "Security",
+    "description": "Centralized team and facility monitoring and defending an organization's security posture."
+  },
+  {
+    "acronym": "SOC2",
+    "full_name": "Service Organization Control 2",
+    "category": "Security",
+    "description": "Auditing framework for service organizations' data security controls."
+  },
+  {
+    "acronym": "SPF",
+    "full_name": "Sender Policy Framework",
+    "category": "Security",
+    "description": "Email authentication method verifying sender IP against domain policies."
+  },
+  {
+    "acronym": "SQLi",
+    "full_name": "SQL Injection",
+    "category": "Security",
+    "description": "Attack exploiting unsafe database queries to execute arbitrary SQL."
+  },
+  {
+    "acronym": "SSO",
+    "full_name": "Single Sign-On",
+    "category": "Security",
+    "description": "Authentication scheme allowing users to log in once across multiple applications."
+  },
+  {
+    "acronym": "SSRF",
+    "full_name": "Server-Side Request Forgery",
+    "category": "Security",
+    "description": "Attack inducing a server to make unintended internal network requests."
+  },
+  {
+    "acronym": "TEE",
+    "full_name": "Trusted Execution Environment",
+    "category": "Security",
+    "description": "Secure area within a main processor ensuring sensitive data is stored and processed securely."
+  },
+  {
+    "acronym": "TLS",
+    "full_name": "Transport Layer Security",
+    "category": "Security",
+    "description": "Cryptographic protocol ensuring secure data transmission over networks."
+  },
+  {
+    "acronym": "TOTP",
+    "full_name": "Time-Based One-Time Password",
+    "category": "Security",
+    "description": "OTP that changes after a fixed time interval using a shared secret."
+  },
+  {
+    "acronym": "TPM",
+    "full_name": "Trusted Platform Module",
+    "category": "Security",
+    "description": "Dedicated microcontroller for hardware-level cryptographic operations."
+  },
+  {
+    "acronym": "WAF",
+    "full_name": "Web Application Firewall",
+    "category": "Security",
+    "description": "Security appliance filtering, monitoring, and blocking malicious HTTP traffic."
+  },
+  {
+    "acronym": "XDR",
+    "full_name": "Extended Detection and Response",
+    "category": "Security",
+    "description": "Unified security platform integrating multiple detection and response capabilities."
+  },
+  {
+    "acronym": "XSS",
+    "full_name": "Cross-Site Scripting",
+    "category": "Security",
+    "description": "Injection attack where malicious scripts are inserted into trusted web pages."
+  },
+  {
+    "acronym": "XXE",
+    "full_name": "XML External Entity",
+    "category": "Security",
+    "description": "Attack exploiting XML parsers that process external entity references."
+  },
+  {
+    "acronym": "ZKP",
+    "full_name": "Zero-Knowledge Proof",
+    "category": "Security",
+    "description": "Cryptographic method allowing one party to prove knowledge without revealing the knowledge itself."
+  },
+  {
+    "acronym": "ZTNA",
+    "full_name": "Zero Trust Network Access",
+    "category": "Security",
+    "description": "Security model requiring strict identity verification for every access request."
+  },
+  {
+    "acronym": "mTLS",
+    "full_name": "Mutual Transport Layer Security",
+    "category": "Security",
+    "description": "TLS variant where both client and server authenticate each other."
+  },
+  {
+    "acronym": "AJAX",
+    "full_name": "Asynchronous JavaScript and XML",
+    "category": "Web/Dev",
+    "description": "Technique for creating asynchronous web requests without reloading the page."
+  },
+  {
+    "acronym": "API",
+    "full_name": "Application Programming Interface",
+    "category": "Web/Dev",
+    "description": "Defined protocol enabling software components to request and exchange data."
+  },
+  {
+    "acronym": "ARIA",
+    "full_name": "Accessible Rich Internet Applications",
+    "category": "Web/Dev",
+    "description": "W3C specification for improving web accessibility via HTML attributes."
+  },
+  {
+    "acronym": "Angular",
+    "full_name": "Angular Web Framework",
+    "category": "Web/Dev",
+    "description": "TypeScript-based web application framework developed by Google."
+  },
+  {
+    "acronym": "Astro",
+    "full_name": "Astro Web Framework",
+    "category": "Web/Dev",
+    "description": "Multi-page framework that ships zero JavaScript by default."
+  },
+  {
+    "acronym": "BFF",
+    "full_name": "Backend for Frontend",
+    "category": "Web/Dev",
+    "description": "Service layer tailored specifically to a single frontend client."
+  },
+  {
+    "acronym": "BOM",
+    "full_name": "Browser Object Model",
+    "category": "Web/Dev",
+    "description": "Browser-specific API exposing the browser window and navigator to JavaScript."
+  },
+  {
+    "acronym": "Babel",
+    "full_name": "Babel JavaScript Compiler",
+    "category": "Web/Dev",
+    "description": "Tool that transpiles modern JavaScript into backward-compatible versions."
+  },
+  {
+    "acronym": "Biome",
+    "full_name": "Biome Toolchain",
+    "category": "Web/Dev",
+    "description": "Modern toolchain for JavaScript/TypeScript including formatter and linter."
+  },
+  {
+    "acronym": "Bootstrap",
+    "full_name": "Bootstrap CSS Framework",
+    "category": "Web/Dev",
+    "description": "Popular CSS framework with pre-built responsive components and grid system."
+  },
+  {
+    "acronym": "CJS",
+    "full_name": "CommonJS",
+    "category": "Web/Dev",
+    "description": "Legacy JavaScript module system using require() and module.exports."
+  },
+  {
+    "acronym": "CLS",
+    "full_name": "Cumulative Layout Shift",
+    "category": "Web/Dev",
+    "description": "Core Web Vital measuring visual stability of a page during loading."
+  },
+  {
+    "acronym": "CMS",
+    "full_name": "Content Management System",
+    "category": "Web/Dev",
+    "description": "Software that enables creating, editing, and publishing digital content."
+  },
+  {
+    "acronym": "CQRS",
+    "full_name": "Command Query Responsibility Segregation",
+    "category": "Web/Dev",
+    "description": "Pattern separating read and write operations into different models."
+  },
+  {
+    "acronym": "CSR",
+    "full_name": "Client-Side Rendering",
+    "category": "Web/Dev",
+    "description": "Rendering web pages entirely in the browser using JavaScript."
+  },
+  {
+    "acronym": "CSR",
+    "full_name": "Client-Side Rendering",
+    "category": "Web/Dev",
+    "description": "Rendering web page content entirely in the browser via JavaScript."
+  },
+  {
+    "acronym": "CSRF",
+    "full_name": "Cross-Site Request Forgery",
+    "category": "Web/Dev",
+    "description": "Attack that tricks a user into performing unintended actions on a web application."
+  },
+  {
+    "acronym": "CSS",
+    "full_name": "Cascading Style Sheets",
+    "category": "Web/Dev",
+    "description": "Stylesheet language for describing the presentation of a document written in HTML."
+  },
+  {
+    "acronym": "Canvas",
+    "full_name": "Canvas 2D API",
+    "category": "Web/Dev",
+    "description": "HTML5 element and JavaScript API for drawing 2D graphics programmatically."
+  },
+  {
+    "acronym": "Cypress",
+    "full_name": "Cypress E2E Testing",
+    "category": "Web/Dev",
+    "description": "End-to-end testing framework running in-browser with real-time reloading."
+  },
+  {
+    "acronym": "DAM",
+    "full_name": "Digital Asset Management",
+    "category": "Web/Dev",
+    "description": "System for organizing, storing, and retrieving digital media assets."
+  },
+  {
+    "acronym": "DOM",
+    "full_name": "Document Object Model",
+    "category": "Web/Dev",
+    "description": "Cross-platform API that treats HTML/XML documents as a tree structure."
+  },
+  {
+    "acronym": "ESBuild",
+    "full_name": "ESBuild Bundler",
+    "category": "Web/Dev",
+    "description": "Extremely fast JavaScript bundler and minifier written in Go."
+  },
+  {
+    "acronym": "ESLint",
+    "full_name": "ESLint Linter",
+    "category": "Web/Dev",
+    "description": "Pluggable linting utility for JavaScript and TypeScript."
+  },
+  {
+    "acronym": "ESM",
+    "full_name": "ECMAScript Modules",
+    "category": "Web/Dev",
+    "description": "Standard module system for JavaScript using import/export syntax."
+  },
+  {
+    "acronym": "FCP",
+    "full_name": "First Contentful Paint",
+    "category": "Web/Dev",
+    "description": "Time when the browser first renders content like text or images."
+  },
+  {
+    "acronym": "FID",
+    "full_name": "First Input Delay",
+    "category": "Web/Dev",
+    "description": "Core Web Vital measuring the time from first user interaction to event handler response."
+  },
+  {
+    "acronym": "FOUC",
+    "full_name": "Flash of Unstyled Content",
+    "category": "Web/Dev",
+    "description": "Brief appearance of unstyled content before CSS loads during page rendering."
+  },
+  {
+    "acronym": "FP",
+    "full_name": "First Paint",
+    "category": "Web/Dev",
+    "description": "Time when the browser first renders any pixel on the screen."
+  },
+  {
+    "acronym": "FSD",
+    "full_name": "Feature-Sliced Design",
+    "category": "Web/Dev",
+    "description": "Frontend architectural methodology organizing code by business features and layers."
+  },
+  {
+    "acronym": "GA",
+    "full_name": "Google Analytics",
+    "category": "Web/Dev",
+    "description": "Web analytics service for tracking and reporting website traffic."
+  },
+  {
+    "acronym": "GTM",
+    "full_name": "Google Tag Manager",
+    "category": "Web/Dev",
+    "description": "Tag management system for deploying marketing and analytics tags."
+  },
+  {
+    "acronym": "GraphQL",
+    "full_name": "Graph Query Language",
+    "category": "Web/Dev",
+    "description": "API query language that allows clients to request exactly the data they need."
+  },
+  {
+    "acronym": "HMR",
+    "full_name": "Hot Module Replacement",
+    "category": "Web/Dev",
+    "description": "Dev-server feature that updates modified modules in-place without a full page reload."
+  },
+  {
+    "acronym": "HTML",
+    "full_name": "HyperText Markup Language",
+    "category": "Web/Dev",
+    "description": "Standard markup language for creating web pages and web applications."
+  },
+  {
+    "acronym": "HTTP",
+    "full_name": "Hypertext Transfer Protocol",
+    "category": "Web/Dev",
+    "description": "Application protocol for distributed, collaborative hypermedia information systems."
+  },
+  {
+    "acronym": "HTTPS",
+    "full_name": "Hypertext Transfer Protocol Secure",
+    "category": "Web/Dev",
+    "description": "HTTP over TLS/SSL for secure web communication."
+  },
+  {
+    "acronym": "IIFE",
+    "full_name": "Immediately Invoked Function Expression",
+    "category": "Web/Dev",
+    "description": "JavaScript function that executes as soon as it is defined."
+  },
+  {
+    "acronym": "INP",
+    "full_name": "Interaction to Next Paint",
+    "category": "Web/Dev",
+    "description": "Metric measuring responsiveness of page interactions to be a Core Web Vital."
+  },
+  {
+    "acronym": "ISR",
+    "full_name": "Incremental Static Regeneration",
+    "category": "Web/Dev",
+    "description": "Next.js strategy combining static generation with on-demand revalidation."
+  },
+  {
+    "acronym": "JS",
+    "full_name": "JavaScript",
+    "category": "Web/Dev",
+    "description": "High-level, interpreted programming language that conforms to the ECMAScript specification."
+  },
+  {
+    "acronym": "JSON",
+    "full_name": "JavaScript Object Notation",
+    "category": "Web/Dev",
+    "description": "Lightweight, text-based data-interchange format using key-value pairs."
+  },
+  {
+    "acronym": "Jest",
+    "full_name": "Jest Testing Framework",
+    "category": "Web/Dev",
+    "description": "Delightful JavaScript testing framework with built-in mocking and code coverage."
+  },
+  {
+    "acronym": "LCP",
+    "full_name": "Largest Contentful Paint",
+    "category": "Web/Dev",
+    "description": "Core Web Vital measuring the render time of the largest visible content element."
+  },
+  {
+    "acronym": "LESS",
+    "full_name": "Leaner Style Sheets",
+    "category": "Web/Dev",
+    "description": "CSS preprocessor extending CSS with dynamic behavior features."
+  },
+  {
+    "acronym": "MPA",
+    "full_name": "Multi-Page Application",
+    "category": "Web/Dev",
+    "description": "Web application architecture where each page is a separate HTML document."
+  },
+  {
+    "acronym": "Next",
+    "full_name": "Next.js Framework",
+    "category": "Web/Dev",
+    "description": "React framework enabling SSR, SSG, and hybrid rendering strategies."
+  },
+  {
+    "acronym": "NoSQL",
+    "full_name": "Not Only SQL",
+    "category": "Web/Dev",
+    "description": "Database category embracing non-relational models such as document, key-value, and graph."
+  },
+  {
+    "acronym": "Nuxt",
+    "full_name": "Nuxt.js Framework",
+    "category": "Web/Dev",
+    "description": "Vue framework supporting SSR, SSG, and hybrid rendering."
+  },
+  {
+    "acronym": "ODM",
+    "full_name": "Object-Document Mapping",
+    "category": "Web/Dev",
+    "description": "Mapping layer between object-oriented code and document-oriented databases."
+  },
+  {
+    "acronym": "ORM",
+    "full_name": "Object-Relational Mapping",
+    "category": "Web/Dev",
+    "description": "Technique for converting data between incompatible type systems using OOP."
+  },
+  {
+    "acronym": "PWA",
+    "full_name": "Progressive Web Application",
+    "category": "Web/Dev",
+    "description": "Web application that uses modern capabilities to deliver an app-like experience."
+  },
+  {
+    "acronym": "Parcel",
+    "full_name": "Parcel Bundler",
+    "category": "Web/Dev",
+    "description": "Zero-configuration web application bundler."
+  },
+  {
+    "acronym": "Pinia",
+    "full_name": "Pinia State Management",
+    "category": "Web/Dev",
+    "description": "Vue state management library with TypeScript-first design."
+  },
+  {
+    "acronym": "Playwright",
+    "full_name": "Playwright Browser Automation",
+    "category": "Web/Dev",
+    "description": "Cross-browser automation library for reliable E2E testing."
+  },
+  {
+    "acronym": "Prettier",
+    "full_name": "Prettier Code Formatter",
+    "category": "Web/Dev",
+    "description": "Opinionated code formatter supporting multiple languages."
+  },
+  {
+    "acronym": "Puppeteer",
+    "full_name": "Puppeteer Headless Chrome",
+    "category": "Web/Dev",
+    "description": "Node library providing a high-level API over the Chrome DevTools Protocol."
+  },
+  {
+    "acronym": "RWD",
+    "full_name": "Responsive Web Design",
+    "category": "Web/Dev",
+    "description": "Design approach ensuring web pages render well on various screen sizes."
+  },
+  {
+    "acronym": "React",
+    "full_name": "React UI Library",
+    "category": "Web/Dev",
+    "description": "JavaScript library for building user interfaces with a component-based declarative model."
+  },
+  {
+    "acronym": "Redux",
+    "full_name": "Redux State Container",
+    "category": "Web/Dev",
+    "description": "Predictable state container for JavaScript apps with a unidirectional data flow."
+  },
+  {
+    "acronym": "Rome",
+    "full_name": "Rome Toolchain",
+    "category": "Web/Dev",
+    "description": "Unified toolchain for linting, formatting, and bundling JavaScript/TypeScript."
+  },
+  {
+    "acronym": "SEO",
+    "full_name": "Search Engine Optimization",
+    "category": "Web/Dev",
+    "description": "Practices to increase website visibility and ranking in search engine results."
+  },
+  {
+    "acronym": "SPA",
+    "full_name": "Single Page Application",
+    "category": "Web/Dev",
+    "description": "Web application that dynamically rewrites the current page rather than loading entire new pages."
+  },
+  {
+    "acronym": "SQL",
+    "full_name": "Structured Query Language",
+    "category": "Web/Dev",
+    "description": "Domain-specific language for managing and querying relational databases."
+  },
+  {
+    "acronym": "SSG",
+    "full_name": "Static Site Generator",
+    "category": "Web/Dev",
+    "description": "Tool that generates a complete static HTML site from raw data and templates at build time."
+  },
+  {
+    "acronym": "SSR",
+    "full_name": "Server-Side Rendering",
+    "category": "Web/Dev",
+    "description": "Rendering web pages on the server and sending fully rendered HTML to the client."
+  },
+  {
+    "acronym": "SSR",
+    "full_name": "Server-Side Rendering",
+    "category": "Web/Dev",
+    "description": "Rendering web page content on the server to send fully rendered HTML to clients."
+  },
+  {
+    "acronym": "SVG",
+    "full_name": "Scalable Vector Graphics",
+    "category": "Web/Dev",
+    "description": "XML-based vector image format for the web."
+  },
+  {
+    "acronym": "SWC",
+    "full_name": "Speedy Web Compiler",
+    "category": "Web/Dev",
+    "description": "Rust-based platform for compiling and bundling JavaScript/TypeScript."
+  },
+  {
+    "acronym": "SWR",
+    "full_name": "Stale-While-Revalidate",
+    "category": "Web/Dev",
+    "description": "Data-fetching strategy that returns cached data first, then revalidates in the background."
+  },
+  {
+    "acronym": "Sass",
+    "full_name": "Syntactically Awesome Style Sheets",
+    "category": "Web/Dev",
+    "description": "CSS preprocessor adding variables, nesting, and mixins."
+  },
+  {
+    "acronym": "Solid",
+    "full_name": "Solid.js Framework",
+    "category": "Web/Dev",
+    "description": "Reactive JavaScript framework with fine-grained reactivity and no virtual DOM."
+  },
+  {
+    "acronym": "Storybook",
+    "full_name": "Storybook UI Explorer",
+    "category": "Web/Dev",
+    "description": "Tool for developing and documenting UI components in isolation."
+  },
+  {
+    "acronym": "Svelte",
+    "full_name": "Svelte Compiler",
+    "category": "Web/Dev",
+    "description": "Compiled JavaScript framework that shifts work from runtime to build time."
+  },
+  {
+    "acronym": "TBT",
+    "full_name": "Total Blocking Time",
+    "category": "Web/Dev",
+    "description": "Sum of all time periods between FCP and TTI where main thread was blocked."
+  },
+  {
+    "acronym": "TS",
+    "full_name": "TypeScript",
+    "category": "Web/Dev",
+    "description": "Typed superset of JavaScript that compiles to plain JavaScript."
+  },
+  {
+    "acronym": "TTI",
+    "full_name": "Time to Interactive",
+    "category": "Web/Dev",
+    "description": "Time when a page becomes fully interactive with responsive event handlers."
+  },
+  {
+    "acronym": "Tailwind",
+    "full_name": "Tailwind CSS Framework",
+    "category": "Web/Dev",
+    "description": "Utility-first CSS framework with low-level composition classes."
+  },
+  {
+    "acronym": "TanStack",
+    "full_name": "TanStack Query",
+    "category": "Web/Dev",
+    "description": "Async state management library for server-state caching and synchronization."
+  },
+  {
+    "acronym": "Turbopack",
+    "full_name": "Turbopack Bundler",
+    "category": "Web/Dev",
+    "description": "Incremental bundler written in Rust, designed for large applications."
+  },
+  {
+    "acronym": "UI",
+    "full_name": "User Interface",
+    "category": "Web/Dev",
+    "description": "Visual and interactive elements through which users interact with a system."
+  },
+  {
+    "acronym": "URI",
+    "full_name": "Uniform Resource Identifier",
+    "category": "Web/Dev",
+    "description": "String of characters that unambiguously identifies a particular resource."
+  },
+  {
+    "acronym": "URL",
+    "full_name": "Uniform Resource Locator",
+    "category": "Web/Dev",
+    "description": "Reference to a web resource specifying its location on a computer network."
+  },
+  {
+    "acronym": "UX",
+    "full_name": "User Experience",
+    "category": "Web/Dev",
+    "description": "Overall experience a user has when interacting with a product or service."
+  },
+  {
+    "acronym": "Vite",
+    "full_name": "Vite Build Tool",
+    "category": "Web/Dev",
+    "description": "Fast build tool and dev server using native ES modules under the hood."
+  },
+  {
+    "acronym": "Vitest",
+    "full_name": "Vitest Testing Framework",
+    "category": "Web/Dev",
+    "description": "Vite-native unit testing framework with Jest-compatible API."
+  },
+  {
+    "acronym": "Vue",
+    "full_name": "Vue.js Framework",
+    "category": "Web/Dev",
+    "description": "Progressive JavaScript framework for building UIs with a reactive component model."
+  },
+  {
+    "acronym": "WCAG",
+    "full_name": "Web Content Accessibility Guidelines",
+    "category": "Web/Dev",
+    "description": "International standards for making web content accessible to people with disabilities."
+  },
+  {
+    "acronym": "WebGL",
+    "full_name": "Web Graphics Library",
+    "category": "Web/Dev",
+    "description": "JavaScript API for rendering 2D/3D graphics in the browser without plugins."
+  },
+  {
+    "acronym": "WebRTC",
+    "full_name": "Web Real-Time Communication",
+    "category": "Web/Dev",
+    "description": "Protocol enabling peer-to-peer audio, video, and data sharing in the browser."
+  },
+  {
+    "acronym": "WebSocket",
+    "full_name": "WebSocket Protocol",
+    "category": "Web/Dev",
+    "description": "Full-duplex communication protocol over a single TCP connection for real-time apps."
+  },
+  {
+    "acronym": "Webpack",
+    "full_name": "Webpack Module Bundler",
+    "category": "Web/Dev",
+    "description": "Static module bundler for JavaScript applications."
+  },
+  {
+    "acronym": "Webpack",
+    "full_name": "Webpack Bundler",
+    "category": "Web/Dev",
+    "description": "Module bundler that transforms frontend assets for production."
+  },
+  {
+    "acronym": "XML",
+    "full_name": "eXtensible Markup Language",
+    "category": "Web/Dev",
+    "description": "Markup language defining rules for encoding documents in a human- and machine-readable format."
+  },
+  {
+    "acronym": "XSS",
+    "full_name": "Cross-Site Scripting",
+    "category": "Web/Dev",
+    "description": "Security vulnerability allowing injection of malicious scripts into web pages."
+  },
+  {
+    "acronym": "YAML",
+    "full_name": "YAML Ain't Markup Language",
+    "category": "Web/Dev",
+    "description": "Human-readable data serialization standard used for configuration files."
+  },
+  {
+    "acronym": "Zustand",
+    "full_name": "Zustand State Management",
+    "category": "Web/Dev",
+    "description": "Tiny, fast, scalable state management library for React."
+  },
+  {
+    "acronym": "jQuery",
+    "full_name": "jQuery JavaScript Library",
+    "category": "Web/Dev",
+    "description": "Fast, small JavaScript library simplifying HTML document traversal and manipulation."
+  },
+  {
+    "acronym": "tRPC",
+    "full_name": "TypeScript Remote Procedure Call",
+    "category": "Web/Dev",
+    "description": "Full-stack TypeScript framework for building type-safe APIs without code generation."
+  }
+]

@@ -1,0 +1,542 @@
+acronym,full_name,category,description
+AGI,Artificial General Intelligence,AI/ML,Hypothetical AI with human-level reasoning across any domain.
+AI,Artificial Intelligence,AI/ML,"Simulation of human intelligence by machines, including learning, reasoning, and self-correction."
+AIOps,AI for IT Operations,AI/ML,"Application of ML to automate and enhance IT operations, anomaly detection, and incident management."
+API,Application Programming Interface,AI/ML,Interface enabling programmatic access to AI model inference endpoints.
+ASR,Automatic Speech Recognition,AI/ML,Technology that converts spoken language into written text.
+AUC,Area Under the Curve,AI/ML,Aggregate measure of classifier performance across all classification thresholds.
+AutoML,Automated Machine Learning,AI/ML,"Automation of the end-to-end ML pipeline including data prep, model selection, and hyperparameter tuning."
+BERT,Bidirectional Encoder Representations from Transformers,AI/ML,Transformer model pre-trained on masked language modeling for deep bidirectional context.
+BLEU,Bilingual Evaluation Understudy,AI/ML,N-gram precision-based metric for evaluating machine-translation quality.
+BLEU,Bilingual Evaluation Understudy,AI/ML,Metric comparing n-gram overlap between generated and reference translations.
+BPE,Byte-Pair Encoding,AI/ML,Subword tokenization algorithm that iteratively merges frequent byte pairs.
+BoW,Bag of Words,AI/ML,Text representation model that treats documents as unordered word-frequency vectors.
+CART,Classification and Regression Trees,AI/ML,Decision-tree algorithm supporting both categorical and continuous target variables.
+CBOW,Continuous Bag of Words,AI/ML,Word2vec training objective that predicts a word from its surrounding context.
+CER,Character Error Rate,AI/ML,Edit-distance-based metric for evaluating OCR and speech recognition at character level.
+CNN,Convolutional Neural Network,AI/ML,Neural network specialized for grid-like data such as images.
+COT,Chain of Thought,AI/ML,Prompting technique that elicits step-by-step reasoning in LLM outputs.
+CRF,Conditional Random Field,AI/ML,Probabilistic sequence-modeling framework for labeling structured data.
+CV,Computer Vision,AI/ML,AI field enabling machines to interpret and understand visual information from the world.
+CatBoost,Categorical Boosting,AI/ML,Gradient-boosting library with native support for categorical features.
+DAG,Directed Acyclic Graph,AI/ML,"Graph structure with directed edges and no cycles, used for probabilistic graphical models and ML pipelines."
+DL,Deep Learning,AI/ML,Multi-layered neural networks that learn hierarchical representations from data.
+DNN,Deep Neural Network,AI/ML,Neural network with multiple hidden layers between input and output.
+DPO,Direct Preference Optimization,AI/ML,RLHF alternative that directly optimizes a policy from preference data without an explicit reward model.
+DQN,Deep Q-Network,AI/ML,Deep neural network approximating the Q-value function for reinforcement learning.
+EM,Expectation-Maximization,AI/ML,Iterative method for finding maximum-likelihood estimates with latent variables.
+F1,F1 Score,AI/ML,"Harmonic mean of precision and recall, used for imbalanced classification evaluation."
+FPGA,Field-Programmable Gate Array,AI/ML,Reconfigurable semiconductor device used for low-latency ML inference acceleration.
+GAN,Generative Adversarial Network,AI/ML,Two-network architecture (generator + discriminator) that learns to produce realistic data.
+GPT,Generative Pre-trained Transformer,AI/ML,Decoder-only transformer model pre-trained on large text corpora for generative tasks.
+GPU,Graphics Processing Unit,AI/ML,"Parallel processor originally for graphics, now widely used for ML training and inference."
+GRU,Gated Recurrent Unit,AI/ML,Simplified RNN gating architecture with fewer parameters than LSTM.
+HMM,Hidden Markov Model,AI/ML,Statistical model for systems with hidden states that generate observable outputs.
+IoU,Intersection over Union,AI/ML,Evaluation metric measuring overlap between predicted and ground-truth bounding boxes.
+KNN,K-Nearest Neighbors,AI/ML,Non-parametric lazy-learning algorithm that classifies by majority of k nearest points.
+LIME,Local Interpretable Model-agnostic Explanations,AI/ML,Technique that approximates model behavior locally with an interpretable surrogate.
+LLM,Large Language Model,AI/ML,Transformer-based model with billions of parameters trained on vast text data.
+LSTM,Long Short-Term Memory,AI/ML,RNN variant with gating mechanisms that mitigate the vanishing-gradient problem.
+LightGBM,Light Gradient Boosting Machine,AI/ML,Fast gradient-boosting framework using histogram-based leaf-wise tree growth.
+LoRA,Low-Rank Adaptation,AI/ML,Parameter-efficient fine-tuning method that injects trainable low-rank matrices into frozen weights.
+MAB,Multi-Armed Bandit,AI/ML,Online learning framework balancing exploration of new options and exploitation of known rewards.
+MAP,Mean Average Precision,AI/ML,Average of precision scores at each relevant item rank across queries.
+MCMC,Markov Chain Monte Carlo,AI/ML,Class of sampling algorithms for approximating complex probability distributions.
+MDP,Markov Decision Process,AI/ML,Mathematical framework for modeling sequential decision-making under uncertainty.
+ML,Machine Learning,AI/ML,Algorithms that improve through experience without being explicitly programmed for every task.
+MLE,Machine Learning Engineer,AI/ML,"Role focused on building, deploying, and maintaining machine learning systems in production."
+MLOps,Machine Learning Operations,AI/ML,"Practices for deploying, monitoring, and maintaining ML models in production."
+MLP,Multilayer Perceptron,AI/ML,Feedforward neural network with at least one hidden layer and non-linear activation.
+MMLU,Massive Multitask Language Understanding,AI/ML,Benchmark covering 57 subjects to measure LLM knowledge and reasoning.
+MSE,Mean Squared Error,AI/ML,Average of squared differences between predicted and actual values.
+MoE,Mixture of Experts,AI/ML,Architecture where different sub-networks (experts) are activated conditionally per input.
+NCE,Noise Contrastive Estimation,AI/ML,Parameter estimation method that distinguishes observed data from artificial noise.
+NLG,Natural Language Generation,AI/ML,Automated production of human-readable text from structured data.
+NLP,Natural Language Processing,AI/ML,AI subfield focused on interaction between computers and human language.
+NLU,Natural Language Understanding,AI/ML,Machine comprehension of human language meaning and intent.
+NMS,Non-Maximum Suppression,AI/ML,Post-processing technique removing duplicate detections in object detection pipelines.
+NPU,Neural Processing Unit,AI/ML,Specialized processor designed for accelerating neural network inference.
+OCR,Optical Character Recognition,AI/ML,Conversion of images of printed or handwritten text into machine-encoded text.
+ONNX,Open Neural Network Exchange,AI/ML,Interchange format for deep-learning models across different frameworks.
+PCA,Principal Component Analysis,AI/ML,Unsupervised dimensionality-reduction technique that maximizes variance along orthogonal components.
+PPO,Proximal Policy Optimization,AI/ML,Policy-gradient RL algorithm that constrains update size for stable training.
+RAG,Retrieval-Augmented Generation,AI/ML,Hybrid architecture that retrieves relevant documents before generating an answer.
+RL,Reinforcement Learning,AI/ML,Learning paradigm where an agent maximizes cumulative reward through environment interaction.
+RLHF,Reinforcement Learning from Human Feedback,AI/ML,Fine-tuning approach that uses human preferences as reward signals for RL.
+RNN,Recurrent Neural Network,AI/ML,Neural network with internal memory for sequential data processing.
+ROC,Receiver Operating Characteristic,AI/ML,Graphical plot of true-positive vs false-positive rate across thresholds.
+ROUGE,Recall-Oriented Understudy for Gisting Evaluation,AI/ML,Set of recall-oriented metrics for automatic summarization evaluation.
+ReLU,Rectified Linear Unit,AI/ML,"Activation function outputting max(0, x), widely used in deep networks."
+SFT,Supervised Fine-Tuning,AI/ML,Training a pre-trained model on labeled task-specific data.
+SGD,Stochastic Gradient Descent,AI/ML,Iterative optimization method using random subsets of data per step.
+SHAP,SHapley Additive exPlanations,AI/ML,Game-theoretic approach to explain model predictions via Shapley values.
+SVM,Support Vector Machine,AI/ML,Supervised learning model that finds the optimal separating hyperplane.
+TF-IDF,Term Frequency–Inverse Document Frequency,AI/ML,Numerical statistic reflecting the importance of a word in a document corpus.
+TPU,Tensor Processing Unit,AI/ML,Google's custom ASIC for accelerating tensor computations in machine learning.
+TRL,Transformer Reinforcement Learning,AI/ML,"Library and methodology for fine-tuning transformers with RL, notably RLHF."
+TTS,Text-to-Speech,AI/ML,Synthesis of human-like speech from written text input.
+VAE,Variational Autoencoder,AI/ML,Generative model that learns latent probabilistic representations of input data.
+VLM,Vision-Language Model,AI/ML,Multimodal model that processes both visual and textual inputs jointly.
+WER,Word Error Rate,AI/ML,"Metric for evaluating speech recognition systems by counting word-level substitutions, insertions, and deletions."
+XAI,Explainable AI,AI/ML,Techniques and methods that make AI model decisions interpretable and transparent to humans.
+XGBoost,Extreme Gradient Boosting,AI/ML,Optimized gradient-boosting library with regularization and parallel processing.
+k-fold,k-Fold Cross-Validation,AI/ML,Resampling procedure evaluating model performance by rotating train/test splits across k folds.
+mAP,Mean Average Precision,AI/ML,Average of average precision scores across all classes in object detection tasks.
+t-SNE,t-Distributed Stochastic Neighbor Embedding,AI/ML,Non-linear dimensionality reduction for visualizing high-dimensional data in 2D/3D.
+AA,Account Abstraction,Blockchain,Ethereum standard enabling smart-contract wallets with programmable transaction logic.
+ABI,Application Binary Interface,Blockchain,Interface defining how to interact with a smart contract on EVM-compatible chains.
+AML,Anti-Money Laundering,Blockchain,Regulatory compliance framework preventing illicit financial flows.
+AMM,Automated Market Maker,Blockchain,Decentralized exchange mechanism using algorithmic pricing instead of order books.
+APR,Annual Percentage Rate,Blockchain,Simple annual interest rate without compounding.
+APY,Annual Percentage Yield,Blockchain,Effective annual rate of return including compounding effects.
+Aptos,Aptos L1 Blockchain,Blockchain,Move-based L1 blockchain with parallel execution and BFT consensus.
+Arbitrum,Arbitrum L2 Scaling,Blockchain,Optimistic rollup securing Ethereum transactions with interactive fraud proofs.
+Avalanche,Avalanche C-Chain,Blockchain,EVM-compatible Subnet with high throughput and sub-second finality.
+BIP-32,Bitcoin Improvement Proposal 32,Blockchain,Standard for hierarchical deterministic wallet key derivation.
+BIP-39,Bitcoin Improvement Proposal 39,Blockchain,Standard defining mnemonic seed phrases for deterministic wallets.
+BIP-44,Bitcoin Improvement Proposal 44,Blockchain,Multi-coin hierarchy for deterministic wallets with separate account paths.
+BPS,Basis Points,Blockchain,"Unit equal to 0.01%, commonly used for fees and spreads in DeFi."
+BTC,Bitcoin,Blockchain,"First decentralized cryptocurrency, enabling peer-to-peer transactions without intermediaries."
+Base,Base L2 Chain,Blockchain,Coinbase's EVM-equivalent L2 built on the OP Stack.
+Bridge,Blockchain Bridge,Blockchain,Protocol transferring assets or data between different blockchains.
+CCIP,Cross-Chain Interoperability Protocol,Blockchain,Chainlink's open standard for secure cross-chain messaging and token transfers.
+CEX,Centralized Exchange,Blockchain,Cryptocurrency exchange operated by a company that holds user funds.
+CEX,Centralized Exchange,Blockchain,Exchange operated by a company that holds user funds and matches orders internally.
+DAI,DAI Stablecoin,Blockchain,"Decentralized, collateral-backed stablecoin pegged to the US dollar."
+DAO,Decentralized Autonomous Organization,Blockchain,Organization governed by smart contracts and community voting rather than central management.
+DAO,Decentralized Autonomous Organization,Blockchain,Entity managed by coded rules and collective member voting on a blockchain.
+DApp,Decentralized Application,Blockchain,Application running on a peer-to-peer blockchain network rather than a central server.
+DEX,Decentralized Exchange,Blockchain,Peer-to-peer exchange operating without a central custodian of funds.
+DEX,Decentralized Exchange,Blockchain,Exchange operating autonomously via smart contracts without custodial control.
+DID,Decentralized Identifier,Blockchain,Self-sovereign identifier not dependent on any centralized registry.
+DPoS,Delegated Proof of Stake,Blockchain,PoS variant where token holders vote for delegates who validate transactions.
+DeFi,Decentralized Finance,Blockchain,Financial applications built on blockchain without traditional intermediaries.
+ECDSA,Elliptic Curve Digital Signature Algorithm,Blockchain,Cryptographic algorithm used for digital signatures in most blockchain protocols.
+EIP-1559,Ethereum Improvement Proposal 1559,Blockchain,Ethereum fee-market overhaul burning base fees and introducing variable block size.
+EIP-4844,Ethereum Improvement Proposal 4844 (Proto-Danksharding),Blockchain,EIP introducing blob-carrying transactions for cheaper L2 data availability.
+ERC-1155,Ethereum Request for Comment 1155,Blockchain,Multi-token standard supporting both fungible and non-fungible assets in one contract.
+ERC-20,Ethereum Request for Comment 20,Blockchain,Standard interface for fungible tokens on Ethereum.
+ERC-4337,Ethereum Request for Comment 4337,Blockchain,Account abstraction standard enabling smart-contract wallets without protocol changes.
+ERC-4626,Ethereum Request for Comment 4626,Blockchain,Standardized yield-bearing vault interface for tokenized strategies.
+ERC-721,Ethereum Request for Comment 721,Blockchain,Standard interface for non-fungible tokens (NFTs) on Ethereum.
+ETH,Ethereum,Blockchain,Decentralized smart-contract platform enabling programmable blockchain applications.
+EVM,Ethereum Virtual Machine,Blockchain,Runtime environment executing smart contracts on the Ethereum blockchain.
+FDV,Fully Diluted Valuation,Blockchain,Project market cap assuming all tokens are circulating at current price.
+GM,Gas Meter / Global Market,Blockchain,Common crypto slang for 'good morning' and shared community greeting.
+GMP,General Message Passing,Blockchain,Cross-chain communication standard enabling arbitrary data transfer between blockchains.
+HD Wallet,Hierarchical Deterministic Wallet,Blockchain,Wallet generating multiple key pairs from a single mnemonic seed.
+IBC,Inter-Blockchain Communication,Blockchain,Cosmos protocol enabling data and token transfers across heterogeneous blockchains.
+ICO,Initial Coin Offering,Blockchain,Crowdfunding method selling tokens to early investors.
+IDO,Initial DEX Offering,Blockchain,Token launch conducted on a decentralized exchange.
+IEO,Initial Exchange Offering,Blockchain,Token launch conducted through a centralized exchange.
+IPFS,InterPlanetary File System,Blockchain,Decentralized peer-to-peer hypermedia protocol for content-addressed storage.
+KYC,Know Your Customer,Blockchain,Identity verification processes required by regulated cryptocurrency platforms.
+L1,Layer 1 (Blockchain),Blockchain,"Base blockchain protocol handling consensus, security, and finality."
+L2,Layer 2 (Scaling),Blockchain,Off-chain or side-chain solution scaling a base blockchain's throughput.
+LP,Liquidity Provider,Blockchain,User who deposits tokens into a DeFi liquidity pool to earn fees.
+LayerZero,LayerZero Omnichain Protocol,Blockchain,Omnichain interoperability protocol enabling trustless cross-chain messaging.
+MC,Market Capitalization,Blockchain,Total circulating supply multiplied by current token price.
+MEV,Maximal Extractable Value,Blockchain,"Profit block producers can extract by reordering, including, or excluding transactions."
+MPC,Multi-Party Computation,Blockchain,Cryptographic protocol enabling joint computation without revealing private inputs.
+Merkle,Merkle Tree,Blockchain,Hash-based data structure allowing efficient verification of large data sets.
+Multisig,Multi-Signature Wallet,Blockchain,Wallet requiring multiple private key signatures to authorize a transaction.
+NEAR,NEAR Protocol,Blockchain,Sharded L1 blockchain with human-readable account names and Nightshade consensus.
+NFT,Non-Fungible Token,Blockchain,Unique cryptographic token representing ownership of a specific digital or physical asset.
+OR,Optimistic Rollup,Blockchain,Rollup that assumes transactions are valid unless challenged via fraud proof.
+Optimism,Optimism OP Stack,Blockchain,Optimistic rollup using single-round fraud proofs and EVM equivalence.
+Oracle,Blockchain Oracle,Blockchain,Service providing off-chain data to smart contracts on-chain.
+PBFT,Practical Byzantine Fault Tolerance,Blockchain,Consensus algorithm tolerating Byzantine faults in distributed networks.
+Plasma,Plasma Scaling Framework,Blockchain,Layer-2 framework with child chains committing state roots to the main chain.
+PoS,Proof of Stake,Blockchain,Consensus mechanism where validators stake tokens for transaction validation.
+PoW,Proof of Work,Blockchain,Consensus mechanism requiring computational work to validate transactions and mint blocks.
+Polygon,Polygon zkEVM,Blockchain,L2 scaling solution offering ZK-rollup with EVM compatibility.
+Rollup,Rollup Scaling Solution,Blockchain,L2 technology that bundles transactions off-chain and posts compressed data to L1.
+SHA-256,Secure Hash Algorithm 256-bit,Blockchain,Cryptographic hash function used in Bitcoin's proof-of-work and address generation.
+Seed Phrase,Seed Phrase / Mnemonic,Blockchain,Human-readable mnemonic encoding the entropy for HD wallet key derivation.
+Sidechain,Sidechain Scaling,Blockchain,Separate blockchain running in parallel to a main chain with its own consensus.
+Slippage,Slippage Tolerance,Blockchain,Allowed price deviation between trade submission and execution on a DEX.
+Solana,Solana L1 Blockchain,Blockchain,High-performance L1 blockchain using Proof of History for parallel transaction processing.
+StarkNet,StarkNet L2 Scaling,Blockchain,"ZK-rollup using STARK proofs for scalable, trustless computation."
+State Channel,State Channel Scaling,Blockchain,Off-chain transaction channel settled on the main chain only on open/close.
+Sui,Sui L1 Blockchain,Blockchain,Move-based L1 blockchain with object-centric data model and horizontal scaling.
+TGE,Token Generation Event,Blockchain,Event where a project creates and distributes its native tokens.
+TON,The Open Network,Blockchain,Telegram-backed L1 blockchain with sharding and asynchronous smart contracts.
+TVL,Total Value Locked,Blockchain,"Total value of assets deposited in a DeFi protocol, measured in USD."
+TVL,Total Value Locked,Blockchain,Capital deposited into a DeFi protocol's smart contracts.
+USDC,USD Coin,Blockchain,Regulated stablecoin pegged to the US dollar by Circle.
+USDT,Tether USD,Blockchain,"Stablecoin pegged to the US dollar, issued on multiple blockchains."
+Validium,Validium Scaling,Blockchain,L2 solution using validity proofs with off-chain data availability.
+WBTC,Wrapped Bitcoin,Blockchain,"ERC-20 token pegged 1:1 to Bitcoin, enabling BTC use on Ethereum."
+WETH,Wrapped Ether,Blockchain,ERC-20–wrapped version of Ether for DeFi composability.
+Wormhole,Wormhole Bridge Protocol,Blockchain,Cross-chain messaging bridge connecting multiple blockchains via guardian validators.
+ZK,Zero Knowledge,Blockchain,Cryptographic technique enabling verification of truth without revealing underlying data.
+ZKR,Zero-Knowledge Rollup,Blockchain,Rollup using validity proofs to instantly confirm transaction batches.
+zk-SNARK,Zero-Knowledge Succinct Non-Interactive Argument of Knowledge,Blockchain,Compact zero-knowledge proof requiring minimal verification computation.
+zk-STARK,Zero-Knowledge Scalable Transparent ARgument of Knowledge,Blockchain,"ZK proof without trusted setup, scalable via transparent verification."
+zkSync,zkSync Era,Blockchain,ZK-rollup L2 providing low-cost scaling with validity proofs.
+ACIDi,"Atomicity, Consistency, Isolation, Durability (infra)",Cloud/Infra,Infrastructure design principles ensuring reliable state changes akin to database ACID.
+AMI,Amazon Machine Image,Cloud/Infra,Pre-configured virtual machine template used to launch EC2 instances.
+API,Application Programming Interface,Cloud/Infra,Set of defined protocols enabling software components to communicate.
+APT,Advanced Package Tool,Cloud/Infra,Package management system used by Debian-based Linux distributions.
+Ansible,Ansible Automation,Cloud/Infra,Red Hat agentless configuration management and automation tool using YAML playbooks.
+CD,Continuous Delivery/Deployment,Cloud/Infra,Practice of automatically releasing integrated changes to production.
+CDN,Content Delivery Network,Cloud/Infra,Globally distributed network of proxy servers that deliver content with low latency.
+CI,Continuous Integration,Cloud/Infra,Practice of automatically building and testing code changes on every push.
+CLI,Command-Line Interface,Cloud/Infra,Text-based interface for issuing commands to a computer program.
+CNI,Container Network Interface,Cloud/Infra,Plugin-based networking layer for Linux containers.
+CORS,Cross-Origin Resource Sharing,Cloud/Infra,Browser security mechanism allowing controlled access to resources from a different origin.
+COS,Container-Optimized OS,Cloud/Infra,Google's minimal OS image for running containers on Compute Engine and GKE.
+CRD,Custom Resource Definition,Cloud/Infra,Kubernetes extension mechanism for defining custom resource types.
+CRI,Container Runtime Interface,Cloud/Infra,Kubernetes API enabling pluggable container runtimes.
+CSI,Container Storage Interface,Cloud/Infra,Standard interface for exposing storage systems to container workloads.
+CaaS,Containers as a Service,Cloud/Infra,Cloud service that provides container orchestration and management.
+Crossplane,Crossplane Control Plane,Cloud/Infra,Open-source control plane framework orchestrating infrastructure via Kubernetes CRDs.
+DDoS,Distributed Denial of Service,Cloud/Infra,Malicious attempt to disrupt service by overwhelming it with traffic from multiple sources.
+DHCP,Dynamic Host Configuration Protocol,Cloud/Infra,Network protocol that automatically assigns IP addresses and network configs to devices.
+DNS,Domain Name System,Cloud/Infra,Hierarchical naming system that translates domain names to IP addresses.
+Docker,Docker Container Engine,Cloud/Infra,"Platform for developing, shipping, and running applications in lightweight containers."
+EBS,Elastic Block Store,Cloud/Infra,AWS persistent block-level storage volume for EC2 instances.
+EC2,Elastic Compute Cloud,Cloud/Infra,AWS virtual server offering resizable compute capacity in the cloud.
+ECS,Elastic Container Service,Cloud/Infra,AWS container orchestration service supporting Docker containers.
+EKS,Elastic Kubernetes Service,Cloud/Infra,AWS managed Kubernetes service for container orchestration.
+FaaS,Function as a Service,Cloud/Infra,Serverless compute model where individual functions execute in response to events.
+Flatcar,Flatcar Container Linux,Cloud/Infra,Immutable Linux distribution optimized for container workloads and K8s.
+HAProxy,High Availability Proxy,Cloud/Infra,Open-source TCP/HTTP load balancer and proxy server.
+HPA,Horizontal Pod Autoscaler,Cloud/Infra,Kubernetes component that automatically scales pod replicas based on metrics.
+HTTPS,Hypertext Transfer Protocol Secure,Cloud/Infra,"HTTP over TLS/SSL, ensuring encrypted web communication."
+Helm,Helm Package Manager for Kubernetes,Cloud/Infra,Kubernetes package manager that simplifies deploying and managing applications.
+Hyper-V,Hyper-Visor,Cloud/Infra,Microsoft hardware virtualization product for running multiple OS instances.
+IAM,Identity and Access Management,Cloud/Infra,Framework of policies and technologies for managing digital identities and access.
+IaC,Infrastructure as Code,Cloud/Infra,Managing and provisioning infrastructure through machine-readable definition files.
+IaaS,Infrastructure as a Service,Cloud/Infra,Cloud model providing virtualized computing resources over the internet.
+K8s,Kubernetes,Cloud/Infra,"Open-source container orchestration platform for automating deployment, scaling, and management."
+KVM,Kernel-based Virtual Machine,Cloud/Infra,Linux kernel module providing full virtualization capabilities.
+LB,Load Balancer,Cloud/Infra,Device or software that distributes network traffic across multiple servers.
+LKE,Linode Kubernetes Engine,Cloud/Infra,Managed Kubernetes service on Linode cloud infrastructure.
+LVM,Logical Volume Manager,Cloud/Infra,Storage management layer providing flexible volume management for Linux.
+MTBF,Mean Time Between Failures,Cloud/Infra,"Average elapsed time between system failures, used as a reliability metric."
+MTTR,Mean Time to Recovery,Cloud/Infra,Average time required to restore a failed system to working state.
+NAT,Network Address Translation,Cloud/Infra,Method of remapping one IP address space to another by modifying packet headers.
+Nix,Nix Package Manager,Cloud/Infra,Purely functional package manager with reproducible builds and declarative configurations.
+NixOS,NixOS Linux Distribution,Cloud/Infra,Linux distribution built on Nix package manager with declarative system configuration.
+OIDC,OpenID Connect,Cloud/Infra,Identity authentication layer built on top of OAuth 2.0.
+PaaS,Platform as a Service,Cloud/Infra,Cloud model offering a platform for application development and deployment without managing underlying infrastructure.
+Pulumi,Pulumi Infrastructure as Code,Cloud/Infra,IaC tool using general-purpose programming languages instead of DSLs.
+QoS,Quality of Service,Cloud/Infra,Mechanisms to prioritize network traffic types and guarantee performance.
+RAID,Redundant Array of Independent Disks,Cloud/Infra,Data storage virtualization combining multiple drives for redundancy or performance.
+RBAC,Role-Based Access Control,Cloud/Infra,Authorization framework restricting system access based on user roles.
+RDS,Relational Database Service,Cloud/Infra,AWS managed relational database service supporting multiple database engines.
+REST,Representational State Transfer,Cloud/Infra,Architectural style for distributed hypermedia systems using stateless operations.
+RPM,Revolutions Per Minute / Red Hat Package Manager,Cloud/Infra,Package management system for Red Hat–based Linux distributions.
+S3,Simple Storage Service,Cloud/Infra,AWS object storage service with virtually unlimited scalability.
+SDK,Software Development Kit,Cloud/Infra,"Collection of tools, libraries, and documentation for building software on a platform."
+SELinux,Security-Enhanced Linux,Cloud/Infra,Linux kernel security module providing mandatory access control policies.
+SLA,Service Level Agreement,Cloud/Infra,"Contract defining expected service levels, uptime guarantees, and remedies."
+SLI,Service Level Indicator,Cloud/Infra,Quantitative metric measuring a specific aspect of service performance.
+SLO,Service Level Objective,Cloud/Infra,Target value or range for a service level indicator over a time window.
+SRE,Site Reliability Engineering,Cloud/Infra,Discipline applying software engineering to infrastructure operations and reliability.
+SSH,Secure Shell,Cloud/Infra,Cryptographic network protocol for secure remote login and command execution.
+SSL,Secure Sockets Layer,Cloud/Infra,"Predecessor to TLS, providing encrypted communication between client and server."
+SaaS,Software as a Service,Cloud/Infra,Software delivery model where applications are hosted and accessed via the internet.
+TDD,Time Division Duplexing,Cloud/Infra,Communication channel sharing technique where uplink and downlink use the same frequency but different time slots.
+TLS,Transport Layer Security,Cloud/Infra,Cryptographic protocol providing secure communication over a network.
+TUI,Text User Interface,Cloud/Infra,Full-screen terminal interface with interactive elements beyond plain CLI.
+Talos,Talos Linux,Cloud/Infra,Immutable Linux distribution designed specifically for Kubernetes deployment.
+Terraform,Terraform Infrastructure Provisioning,Cloud/Infra,"HashiCorp tool for building, changing, and versioning infrastructure declaratively."
+Terraform,Terraform by HashiCorp,Cloud/Infra,Declarative infrastructure-as-code tool provisioning resources across multiple cloud providers.
+VM,Virtual Machine,Cloud/Infra,Software emulation of a physical computer running an operating system and applications.
+VMware,Virtual Machine ware,Cloud/Infra,Virtualization platform enabling multiple VMs on a single physical host.
+VPA,Vertical Pod Autoscaler,Cloud/Infra,Kubernetes component that adjusts CPU/memory requests of containers dynamically.
+VPC,Virtual Private Cloud,Cloud/Infra,Isolated private network section within a public cloud environment.
+VPN,Virtual Private Network,Cloud/Infra,Encrypted tunnel that provides secure remote access to a private network.
+WAF,Web Application Firewall,Cloud/Infra,Security appliance that filters and monitors HTTP traffic to and from web applications.
+YUM,Yellowdog Updater Modified,Cloud/Infra,Command-line package manager for RPM-based Linux systems.
+gRPC,gRPC Remote Procedure Call,Cloud/Infra,High-performance RPC framework using HTTP/2 and Protocol Buffers.
+nginx,Engine X,Cloud/Infra,"High-performance web server, reverse proxy, and load balancer."
+ACID,"Atomicity, Consistency, Isolation, Durability",Data,Set of properties guaranteeing reliable processing of database transactions.
+AOF,Append-Only File,Data,Redis persistence method logging every write operation for crash recovery.
+Airflow,Apache Airflow,Data,"Workflow orchestration platform for authoring, scheduling, and monitoring data pipelines."
+Athena,AWS Athena,Data,Serverless interactive query service analyzing data directly in S3 using SQL.
+Avro,Apache Avro,Data,Row-oriented data serialization framework with rich schema evolution.
+B-tree,Balanced Tree Index,Data,Self-balancing tree data structure maintaining sorted data for efficient insertions and lookups.
+BASE,"Basically Available, Soft state, Eventually consistent",Data,Design philosophy for distributed databases prioritizing availability over strict consistency.
+BLOB,Binary Large Object,Data,"Database data type for storing binary files such as images, audio, or video."
+BWT,Burrows-Wheeler Transform,Data,Block-sorting data compression preprocessing used in bzip2.
+BigQuery,Google BigQuery,Data,Serverless multi-cloud data warehouse with built-in ML capabilities.
+Bloom Filter,Bloom Filter,Data,Probabilistic set membership data structure with configurable false-positive rate.
+CAP,"Consistency, Availability, Partition tolerance",Data,Theorem stating a distributed data system can guarantee only two of three properties at once.
+CDC,Change Data Capture,Data,Technique capturing database changes in real time for replication or streaming.
+CRUD,"Create, Read, Update, Delete",Data,Four basic operations of persistent storage in database systems.
+CSV,Comma-Separated Values,Data,Simple delimited text format for tabular data.
+CTE,Common Table Expression,Data,"Named temporary result set within a SQL query, improving readability and recursion."
+Cassandra,Apache Cassandra,Data,Distributed wide-column NoSQL database with high availability and no single point of failure.
+ClickHouse,ClickHouse Columnar DB,Data,Column-oriented DBMS for real-time analytical queries on large datasets.
+DCL,Data Control Language,Data,"SQL subset for access control (GRANT, REVOKE)."
+DDL,Data Definition Language,Data,"SQL subset for defining and modifying database structures (CREATE, ALTER, DROP)."
+DL,Data Lake,Data,Storage repository holding vast amounts of raw data in native formats.
+DM,Data Mart,Data,Subset of a data warehouse focused on a specific business domain.
+DML,Data Manipulation Language,Data,"SQL subset for manipulating data (INSERT, UPDATE, DELETE)."
+DQL,Data Query Language,Data,SQL subset for querying and reading data (SELECT statements).
+DW,Data Warehouse,Data,"Centralized repository for structured, cleaned data optimized for analytics and reporting."
+Dagster,Dagster Data Orchestrator,Data,Data orchestrator focusing on asset-based workflow definitions and observability.
+Data Fabric,Data Fabric Architecture,Data,"Architecture enabling automated, connected data management across hybrid environments."
+Data Mesh,Data Mesh Architecture,Data,Decentralized sociotechnical architecture treating data as a product by domain.
+Data Vault,Data Vault Modeling,Data,"Enterprise data warehouse modeling method with hubs, links, and satellites."
+DataOps,Data Operations,Data,Agile methodology for automating and orchestrating data pipeline lifecycles.
+Databricks,Databricks Lakehouse,Data,Unified data analytics platform combining data lake and warehouse capabilities.
+Delta Lake,Delta Lake,Data,Open-source storage layer bringing ACID transactions to data lakes.
+DuckDB,DuckDB Analytical Database,Data,In-process columnar analytical database optimized for data science and analytics.
+EDW,Enterprise Data Warehouse,Data,Centralized warehouse covering an entire organization's structured data.
+ELT,"Extract, Load, Transform",Data,Modern pipeline variant loading raw data first and transforming in the target database.
+ETL,"Extract, Transform, Load",Data,"Pipeline process of extracting data from sources, transforming it, and loading it into a target system."
+Elasticsearch,Elasticsearch Search Engine,Data,Distributed search and analytics engine based on the Lucene library.
+FK,Foreign Key,Data,Database constraint maintaining referential integrity between tables.
+Feast,Feast Feature Store,Data,Open-source feature store for managing and serving ML features.
+Flink,Apache Flink,Data,Stream-processing framework for stateful computations over data streams.
+Glue,AWS Glue,Data,Serverless ETL service for preparing and transforming data for analytics.
+Grafana,Grafana Observability,Data,Open-source analytics and monitoring platform for time-series data.
+Great Expectations,Great Expectations,Data,"Open-source data quality framework for validating, documenting, and profiling data."
+HBase,Apache HBase,Data,"Distributed, scalable, big data NoSQL store modeled after Google Bigtable."
+HDFS,Hadoop Distributed File System,Data,Distributed file system designed to run on commodity hardware for big data.
+Hadoop,Apache Hadoop,Data,Framework for distributed storage and processing of large datasets across clusters.
+Hive,Apache Hive,Data,Data warehouse infrastructure built on Hadoop for data summarization and querying.
+Hopsworks,Hopsworks Feature Store,Data,Feature store and ML platform with online and offline feature serving.
+HyperLogLog,HyperLogLog Cardinality Estimation,Data,Probabilistic algorithm for approximating the number of distinct elements.
+Index,Database Index,Data,Data structure improving the speed of data retrieval operations on a table.
+Inmon,Inmon Data Vault,Data,Data warehouse methodology emphasizing normalized enterprise data models.
+JSON,JavaScript Object Notation,Data,Lightweight data-interchange format based on key-value pairs and arrays.
+Kafka,Apache Kafka,Data,Distributed event-streaming platform for high-throughput data pipelines.
+Kibana,Kibana Visualization,Data,Data visualization dashboard for Elasticsearch data.
+Kimball,Kimball Dimensional Modeling,Data,Data warehouse methodology based on star schemas and dimension facts.
+Kubeflow,Kubeflow ML Platform,Data,Kubernetes-native platform for deploying and managing ML workflows.
+LSM,Log-Structured Merge-Tree,Data,Write-optimized data structure used by many NoSQL and time-series databases.
+Logstash,Logstash Data Pipeline,Data,Server-side data processing pipeline for ingesting and transforming logs.
+Looker,Looker BI Platform,Data,Business intelligence platform for data exploration and embedded analytics.
+MLOps,Machine Learning Operations,Data,Practices and tools for automating and managing production ML pipelines.
+MLflow,MLflow ML Platform,Data,"Open-source platform managing the ML lifecycle: experimentation, reproducibility, deployment."
+MVCC,Multi-Version Concurrency Control,Data,Concurrency control method providing snapshots of data for consistent reads without locking.
+MapReduce,MapReduce Programming Model,Data,Programming paradigm for processing large datasets in parallel across a cluster.
+MongoDB,MongoDB Document Database,Data,Document-oriented NoSQL database with flexible schemas and horizontal scaling.
+MySQL,MySQL RDBMS,Data,Popular open-source relational database management system.
+Neo4j,Neo4j Graph Database,Data,Leading graph database management system using labeled property graph model.
+NoSQL,Not Only SQL,Data,"Database paradigm embracing non-relational models including document, key-value, columnar, and graph."
+ODS,Operational Data Store,Data,Database integrating data from multiple source systems for operational reporting.
+OLAP,Online Analytical Processing,Data,Database workload optimized for complex analytical queries and aggregations.
+OLTP,Online Transaction Processing,Data,"Database workload characterized by high-volume, short, atomic transactions."
+ORC,Optimized Row Columnar,Data,"Columnar storage format from Apache Hive, optimized for large-scale read operations."
+PACELC,"Partition, Availability, Consistency — Else, Latency, Consistency",Data,Extension of CAP theorem addressing trade-offs during normal operation.
+PK,Primary Key,Data,Uniquely identifying column or column set for each row in a table.
+Parquet,Apache Parquet,Data,Columnar storage file format optimized for analytical workloads and compression.
+Postgres,PostgreSQL,Data,Advanced open-source relational database with extensibility and SQL compliance.
+Prefect,Prefect Workflow Orchestration,Data,Modern workflow orchestration framework with Python-native DAG definitions.
+Pub/Sub,Publish/Subscribe,Data,Messaging pattern where producers send messages to topics consumed by subscribers.
+Query,Database Query,Data,Request for data from a database using SQL or other query languages.
+RDB,Redis Database Snapshot,Data,Point-in-time Redis snapshot persistence file.
+RDBMS,Relational Database Management System,Data,Database system storing data in structured tables with defined relationships.
+RDP,Row-Level Security,Data,Database security feature restricting access to rows based on user context.
+RLE,Run-Length Encoding,Data,Data compression technique replacing repeated consecutive values with count-value pairs.
+RQ,Reservoir Sampling,Data,Algorithm for selecting a random sample of k items from a stream of unknown size.
+Redis,Redis In-Memory Store,Data,"In-memory data structure store used as cache, message broker, and database."
+Redshift,Amazon Redshift,Data,AWS cloud data warehouse using columnar storage and massively parallel processing.
+Replica,Database Replica,Data,"Copy of a database used for read scaling, availability, or disaster recovery."
+S3,Simple Storage Service,Data,AWS object storage commonly used as a data-lake foundation.
+SP,Stored Procedure,Data,Precompiled SQL routine stored in the database for reuse.
+SQL,Structured Query Language,Data,Standardized language for managing and querying relational databases.
+SQLite,SQLite Embedded Database,Data,"Self-contained, serverless, zero-config SQL database engine."
+SageMaker,AWS SageMaker,Data,"AWS managed service for building, training, and deploying ML models."
+Shard,Database Sharding,Data,Horizontal partitioning of a database across multiple servers.
+Snowflake,Snowflake Data Cloud,Data,Multi-cloud data platform with separate compute and storage for analytics.
+Spark,Apache Spark,Data,Unified analytics engine for large-scale data processing with in-memory computation.
+Superset,Apache Superset,Data,Open-source business intelligence web application with rich visualization.
+TCL,Transaction Control Language,Data,"SQL subset for managing transactions (COMMIT, ROLLBACK, SAVEPOINT)."
+TDE,Transparent Data Encryption,Data,Database feature encrypting data at rest without application changes.
+TFX,TensorFlow Extended,Data,Production ML pipeline platform for deploying and managing TF models.
+Tableau,Tableau Analytics,Data,Visual analytics platform for creating interactive dashboards and data discovery.
+TimescaleDB,TimescaleDB Time-Series DB,Data,PostgreSQL extension for time-series data with automatic partitioning.
+UDF,User-Defined Function,Data,Custom function created by a user extending a database's built-in capabilities.
+Vertex AI,Google Vertex AI,Data,"Managed ML platform for building, training, and deploying models at scale."
+View,Database View,Data,Virtual table representing the result of a stored query.
+WAL,Write-Ahead Log,Data,Database journaling technique ensuring durability by logging changes before applying them.
+Window,Window Function,Data,SQL function performing calculations across a set of rows related to the current row.
+YARN,Yet Another Resource Negotiator,Data,Hadoop cluster resource-management and job-scheduling layer.
+dbt,Data Build Tool,Data,Transformation tool enabling analytics engineers to transform data in warehouse using SQL.
+dbt,Data Build Tool,Data,Transformation workflow tool enabling SQL-first data modeling in warehouses.
+2FA,Two-Factor Authentication,Security,Authentication requiring exactly two distinct verification factors.
+ACL,Access Control List,Security,List of permissions attached to a resource defining who can access it and how.
+AD,Active Directory,Security,Microsoft directory service for managing domain networks and identity.
+APT,Advanced Persistent Threat,Security,"Covert, prolonged cyber attack by a sophisticated adversary."
+BYOD,Bring Your Own Device,Security,Organizational policy allowing employees to use personal devices for work.
+C2,Command and Control,Security,Infrastructure used by attackers to remotely control compromised systems.
+CA,Certificate Authority,Security,Entity that issues and signs digital certificates for identity verification.
+CASB,Cloud Access Security Broker,Security,Policy enforcement point between cloud service consumers and providers.
+CIEM,Cloud Infrastructure Entitlement Management,Security,Identity security solution managing cloud permissions and minimizing excessive access.
+CIS,Center for Internet Security,Security,Nonprofit publishing benchmark hardening guides and security configuration standards.
+CRL,Certificate Revocation List,Security,List of certificates that have been revoked before their expiration date.
+CSPM,Cloud Security Posture Management,Security,Automated tooling identifying misconfigurations and compliance violations in cloud environments.
+CSRF,Cross-Site Request Forgery,Security,Attack vector that forces authenticated users to execute unwanted actions.
+CVE,Common Vulnerabilities and Exposures,Security,Publicly disclosed cybersecurity vulnerabilities with unique identifiers.
+CVSS,Common Vulnerability Scoring System,Security,Standard framework for rating the severity of security vulnerabilities.
+CWPP,Cloud Workload Protection Platform,Security,Security solution protecting workloads across cloud environments.
+DAST,Dynamic Application Security Testing,Security,Black-box security testing scanning running applications for vulnerabilities.
+DDoS,Distributed Denial of Service,Security,DoS attack originating from many distributed sources simultaneously.
+DKIM,DomainKeys Identified Mail,Security,Email authentication method using digital signatures to verify sender domain.
+DLP,Data Loss Prevention,Security,Strategies and tools preventing unauthorized access or transmission of sensitive data.
+DMARC,"Domain-based Message Authentication, Reporting & Conformance",Security,Email authentication policy framework combining SPF and DKIM.
+DNSSEC,DNS Security Extensions,Security,Suite of extensions securing DNS data with digital signatures.
+DoS,Denial of Service,Security,Attack that makes a resource unavailable by overwhelming it with traffic or requests.
+EDR,Endpoint Detection and Response,Security,Security solution continuously monitoring endpoints for threats and automating responses.
+FDE,Full Disk Encryption,Security,Encryption converting all data on a drive to an unreadable format without the key.
+FedRAMP,Federal Risk and Authorization Management Program,Security,US government program standardizing security assessment for cloud services.
+GDPR,General Data Protection Regulation,Security,EU regulation governing data protection and privacy for individuals.
+HE,Homomorphic Encryption,Security,Encryption scheme allowing computation on ciphertexts without decrypting.
+HIPAA,Health Insurance Portability and Accountability Act,Security,US law establishing data privacy and security for medical information.
+HOTP,HMAC-Based One-Time Password,Security,Event-driven OTP generated from a counter increment.
+HSM,Hardware Security Module,Security,Physical device that safeguards and manages cryptographic keys.
+IAST,Interactive Application Security Testing,Security,Security testing combining SAST and DAST by instrumenting the running application.
+IDS,Intrusion Detection System,Security,System that monitors network traffic for suspicious activity and alerts.
+IOC,Indicator of Compromise,Security,Forensic evidence suggesting a system may be breached.
+IPS,Intrusion Prevention System,Security,System that actively blocks detected threats in addition to monitoring.
+IPSec,Internet Protocol Security,Security,Protocol suite for secure encrypted IP communication.
+ISO 27001,ISO 27001 Information Security Standard,Security,International standard for information security management systems.
+JWE,JSON Web Encryption,Security,JWT variant that provides encrypted claims.
+JWK,JSON Web Key,Security,JSON data structure representing a cryptographic key.
+JWS,JSON Web Signature,Security,JWT variant providing signed payloads.
+JWT,JSON Web Token,Security,Compact URL-safe token format for representing claims between parties.
+KMS,Key Management Service,Security,Cloud service managing encryption keys with HSM-backed security.
+LDAP,Lightweight Directory Access Protocol,Security,Open protocol for accessing and maintaining distributed directory information.
+MFA,Multi-Factor Authentication,Security,Authentication method requiring two or more verification factors.
+MITM,Man-in-the-Middle,Security,Attack where an adversary secretly intercepts and relays communications.
+NAC,Network Access Control,Security,Security solution enforcing access policies on devices connecting to a network.
+NIST,National Institute of Standards and Technology,Security,US agency producing cybersecurity frameworks and standards.
+OAuth,Open Authorization,Security,Open standard for token-based access delegation without sharing passwords.
+OCSP,Online Certificate Status Protocol,Security,Protocol for checking the revocation status of a digital certificate in real time.
+OTP,One-Time Password,Security,Password valid for only a single login session or transaction.
+OWASP,Open Web Application Security Project,Security,Nonprofit foundation improving software security through community-led open-source resources.
+PCI DSS,Payment Card Industry Data Security Standard,Security,Security standard for organizations handling cardholder data.
+PGP,Pretty Good Privacy,Security,Encryption program providing cryptographic privacy and authentication for data communication.
+PII,Personally Identifiable Information,Security,"Data that can identify an individual, such as name, SSN, or email."
+PKI,Public Key Infrastructure,Security,System managing public-key encryption and digital certificates.
+RASP,Runtime Application Self-Protection,Security,Security technology embedded in runtime environments detecting and blocking attacks.
+RAT,Remote Access Trojan,Security,Malware providing remote control of a compromised system.
+RCE,Remote Code Execution,Security,Vulnerability allowing an attacker to execute arbitrary code on a target system.
+SAML,Security Assertion Markup Language,Security,XML-based open standard for exchanging authentication and authorization data.
+SAST,Static Application Security Testing,Security,White-box security testing analyzing source code for vulnerabilities without executing it.
+SEIM,Security Event and Incident Management,Security,Real-time analysis of security alerts generated by network hardware and applications.
+SIEM,Security Information and Event Management,Security,System aggregating and analyzing security logs from across an organization.
+SOAR,"Security Orchestration, Automation, and Response",Security,Platform automating security incident response workflows.
+SOC,Security Operations Center,Security,Centralized team and facility monitoring and defending an organization's security posture.
+SOC2,Service Organization Control 2,Security,Auditing framework for service organizations' data security controls.
+SPF,Sender Policy Framework,Security,Email authentication method verifying sender IP against domain policies.
+SQLi,SQL Injection,Security,Attack exploiting unsafe database queries to execute arbitrary SQL.
+SSO,Single Sign-On,Security,Authentication scheme allowing users to log in once across multiple applications.
+SSRF,Server-Side Request Forgery,Security,Attack inducing a server to make unintended internal network requests.
+TEE,Trusted Execution Environment,Security,Secure area within a main processor ensuring sensitive data is stored and processed securely.
+TLS,Transport Layer Security,Security,Cryptographic protocol ensuring secure data transmission over networks.
+TOTP,Time-Based One-Time Password,Security,OTP that changes after a fixed time interval using a shared secret.
+TPM,Trusted Platform Module,Security,Dedicated microcontroller for hardware-level cryptographic operations.
+WAF,Web Application Firewall,Security,"Security appliance filtering, monitoring, and blocking malicious HTTP traffic."
+XDR,Extended Detection and Response,Security,Unified security platform integrating multiple detection and response capabilities.
+XSS,Cross-Site Scripting,Security,Injection attack where malicious scripts are inserted into trusted web pages.
+XXE,XML External Entity,Security,Attack exploiting XML parsers that process external entity references.
+ZKP,Zero-Knowledge Proof,Security,Cryptographic method allowing one party to prove knowledge without revealing the knowledge itself.
+ZTNA,Zero Trust Network Access,Security,Security model requiring strict identity verification for every access request.
+mTLS,Mutual Transport Layer Security,Security,TLS variant where both client and server authenticate each other.
+AJAX,Asynchronous JavaScript and XML,Web/Dev,Technique for creating asynchronous web requests without reloading the page.
+API,Application Programming Interface,Web/Dev,Defined protocol enabling software components to request and exchange data.
+ARIA,Accessible Rich Internet Applications,Web/Dev,W3C specification for improving web accessibility via HTML attributes.
+Angular,Angular Web Framework,Web/Dev,TypeScript-based web application framework developed by Google.
+Astro,Astro Web Framework,Web/Dev,Multi-page framework that ships zero JavaScript by default.
+BFF,Backend for Frontend,Web/Dev,Service layer tailored specifically to a single frontend client.
+BOM,Browser Object Model,Web/Dev,Browser-specific API exposing the browser window and navigator to JavaScript.
+Babel,Babel JavaScript Compiler,Web/Dev,Tool that transpiles modern JavaScript into backward-compatible versions.
+Biome,Biome Toolchain,Web/Dev,Modern toolchain for JavaScript/TypeScript including formatter and linter.
+Bootstrap,Bootstrap CSS Framework,Web/Dev,Popular CSS framework with pre-built responsive components and grid system.
+CJS,CommonJS,Web/Dev,Legacy JavaScript module system using require() and module.exports.
+CLS,Cumulative Layout Shift,Web/Dev,Core Web Vital measuring visual stability of a page during loading.
+CMS,Content Management System,Web/Dev,"Software that enables creating, editing, and publishing digital content."
+CQRS,Command Query Responsibility Segregation,Web/Dev,Pattern separating read and write operations into different models.
+CSR,Client-Side Rendering,Web/Dev,Rendering web pages entirely in the browser using JavaScript.
+CSR,Client-Side Rendering,Web/Dev,Rendering web page content entirely in the browser via JavaScript.
+CSRF,Cross-Site Request Forgery,Web/Dev,Attack that tricks a user into performing unintended actions on a web application.
+CSS,Cascading Style Sheets,Web/Dev,Stylesheet language for describing the presentation of a document written in HTML.
+Canvas,Canvas 2D API,Web/Dev,HTML5 element and JavaScript API for drawing 2D graphics programmatically.
+Cypress,Cypress E2E Testing,Web/Dev,End-to-end testing framework running in-browser with real-time reloading.
+DAM,Digital Asset Management,Web/Dev,"System for organizing, storing, and retrieving digital media assets."
+DOM,Document Object Model,Web/Dev,Cross-platform API that treats HTML/XML documents as a tree structure.
+ESBuild,ESBuild Bundler,Web/Dev,Extremely fast JavaScript bundler and minifier written in Go.
+ESLint,ESLint Linter,Web/Dev,Pluggable linting utility for JavaScript and TypeScript.
+ESM,ECMAScript Modules,Web/Dev,Standard module system for JavaScript using import/export syntax.
+FCP,First Contentful Paint,Web/Dev,Time when the browser first renders content like text or images.
+FID,First Input Delay,Web/Dev,Core Web Vital measuring the time from first user interaction to event handler response.
+FOUC,Flash of Unstyled Content,Web/Dev,Brief appearance of unstyled content before CSS loads during page rendering.
+FP,First Paint,Web/Dev,Time when the browser first renders any pixel on the screen.
+FSD,Feature-Sliced Design,Web/Dev,Frontend architectural methodology organizing code by business features and layers.
+GA,Google Analytics,Web/Dev,Web analytics service for tracking and reporting website traffic.
+GTM,Google Tag Manager,Web/Dev,Tag management system for deploying marketing and analytics tags.
+GraphQL,Graph Query Language,Web/Dev,API query language that allows clients to request exactly the data they need.
+HMR,Hot Module Replacement,Web/Dev,Dev-server feature that updates modified modules in-place without a full page reload.
+HTML,HyperText Markup Language,Web/Dev,Standard markup language for creating web pages and web applications.
+HTTP,Hypertext Transfer Protocol,Web/Dev,"Application protocol for distributed, collaborative hypermedia information systems."
+HTTPS,Hypertext Transfer Protocol Secure,Web/Dev,HTTP over TLS/SSL for secure web communication.
+IIFE,Immediately Invoked Function Expression,Web/Dev,JavaScript function that executes as soon as it is defined.
+INP,Interaction to Next Paint,Web/Dev,Metric measuring responsiveness of page interactions to be a Core Web Vital.
+ISR,Incremental Static Regeneration,Web/Dev,Next.js strategy combining static generation with on-demand revalidation.
+JS,JavaScript,Web/Dev,"High-level, interpreted programming language that conforms to the ECMAScript specification."
+JSON,JavaScript Object Notation,Web/Dev,"Lightweight, text-based data-interchange format using key-value pairs."
+Jest,Jest Testing Framework,Web/Dev,Delightful JavaScript testing framework with built-in mocking and code coverage.
+LCP,Largest Contentful Paint,Web/Dev,Core Web Vital measuring the render time of the largest visible content element.
+LESS,Leaner Style Sheets,Web/Dev,CSS preprocessor extending CSS with dynamic behavior features.
+MPA,Multi-Page Application,Web/Dev,Web application architecture where each page is a separate HTML document.
+Next,Next.js Framework,Web/Dev,"React framework enabling SSR, SSG, and hybrid rendering strategies."
+NoSQL,Not Only SQL,Web/Dev,"Database category embracing non-relational models such as document, key-value, and graph."
+Nuxt,Nuxt.js Framework,Web/Dev,"Vue framework supporting SSR, SSG, and hybrid rendering."
+ODM,Object-Document Mapping,Web/Dev,Mapping layer between object-oriented code and document-oriented databases.
+ORM,Object-Relational Mapping,Web/Dev,Technique for converting data between incompatible type systems using OOP.
+PWA,Progressive Web Application,Web/Dev,Web application that uses modern capabilities to deliver an app-like experience.
+Parcel,Parcel Bundler,Web/Dev,Zero-configuration web application bundler.
+Pinia,Pinia State Management,Web/Dev,Vue state management library with TypeScript-first design.
+Playwright,Playwright Browser Automation,Web/Dev,Cross-browser automation library for reliable E2E testing.
+Prettier,Prettier Code Formatter,Web/Dev,Opinionated code formatter supporting multiple languages.
+Puppeteer,Puppeteer Headless Chrome,Web/Dev,Node library providing a high-level API over the Chrome DevTools Protocol.
+RWD,Responsive Web Design,Web/Dev,Design approach ensuring web pages render well on various screen sizes.
+React,React UI Library,Web/Dev,JavaScript library for building user interfaces with a component-based declarative model.
+Redux,Redux State Container,Web/Dev,Predictable state container for JavaScript apps with a unidirectional data flow.
+Rome,Rome Toolchain,Web/Dev,"Unified toolchain for linting, formatting, and bundling JavaScript/TypeScript."
+SEO,Search Engine Optimization,Web/Dev,Practices to increase website visibility and ranking in search engine results.
+SPA,Single Page Application,Web/Dev,Web application that dynamically rewrites the current page rather than loading entire new pages.
+SQL,Structured Query Language,Web/Dev,Domain-specific language for managing and querying relational databases.
+SSG,Static Site Generator,Web/Dev,Tool that generates a complete static HTML site from raw data and templates at build time.
+SSR,Server-Side Rendering,Web/Dev,Rendering web pages on the server and sending fully rendered HTML to the client.
+SSR,Server-Side Rendering,Web/Dev,Rendering web page content on the server to send fully rendered HTML to clients.
+SVG,Scalable Vector Graphics,Web/Dev,XML-based vector image format for the web.
+SWC,Speedy Web Compiler,Web/Dev,Rust-based platform for compiling and bundling JavaScript/TypeScript.
+SWR,Stale-While-Revalidate,Web/Dev,"Data-fetching strategy that returns cached data first, then revalidates in the background."
+Sass,Syntactically Awesome Style Sheets,Web/Dev,"CSS preprocessor adding variables, nesting, and mixins."
+Solid,Solid.js Framework,Web/Dev,Reactive JavaScript framework with fine-grained reactivity and no virtual DOM.
+Storybook,Storybook UI Explorer,Web/Dev,Tool for developing and documenting UI components in isolation.
+Svelte,Svelte Compiler,Web/Dev,Compiled JavaScript framework that shifts work from runtime to build time.
+TBT,Total Blocking Time,Web/Dev,Sum of all time periods between FCP and TTI where main thread was blocked.
+TS,TypeScript,Web/Dev,Typed superset of JavaScript that compiles to plain JavaScript.
+TTI,Time to Interactive,Web/Dev,Time when a page becomes fully interactive with responsive event handlers.
+Tailwind,Tailwind CSS Framework,Web/Dev,Utility-first CSS framework with low-level composition classes.
+TanStack,TanStack Query,Web/Dev,Async state management library for server-state caching and synchronization.
+Turbopack,Turbopack Bundler,Web/Dev,"Incremental bundler written in Rust, designed for large applications."
+UI,User Interface,Web/Dev,Visual and interactive elements through which users interact with a system.
+URI,Uniform Resource Identifier,Web/Dev,String of characters that unambiguously identifies a particular resource.
+URL,Uniform Resource Locator,Web/Dev,Reference to a web resource specifying its location on a computer network.
+UX,User Experience,Web/Dev,Overall experience a user has when interacting with a product or service.
+Vite,Vite Build Tool,Web/Dev,Fast build tool and dev server using native ES modules under the hood.
+Vitest,Vitest Testing Framework,Web/Dev,Vite-native unit testing framework with Jest-compatible API.
+Vue,Vue.js Framework,Web/Dev,Progressive JavaScript framework for building UIs with a reactive component model.
+WCAG,Web Content Accessibility Guidelines,Web/Dev,International standards for making web content accessible to people with disabilities.
+WebGL,Web Graphics Library,Web/Dev,JavaScript API for rendering 2D/3D graphics in the browser without plugins.
+WebRTC,Web Real-Time Communication,Web/Dev,"Protocol enabling peer-to-peer audio, video, and data sharing in the browser."
+WebSocket,WebSocket Protocol,Web/Dev,Full-duplex communication protocol over a single TCP connection for real-time apps.
+Webpack,Webpack Module Bundler,Web/Dev,Static module bundler for JavaScript applications.
+Webpack,Webpack Bundler,Web/Dev,Module bundler that transforms frontend assets for production.
+XML,eXtensible Markup Language,Web/Dev,Markup language defining rules for encoding documents in a human- and machine-readable format.
+XSS,Cross-Site Scripting,Web/Dev,Security vulnerability allowing injection of malicious scripts into web pages.
+YAML,YAML Ain't Markup Language,Web/Dev,Human-readable data serialization standard used for configuration files.
+Zustand,Zustand State Management,Web/Dev,"Tiny, fast, scalable state management library for React."
+jQuery,jQuery JavaScript Library,Web/Dev,"Fast, small JavaScript library simplifying HTML document traversal and manipulation."
+tRPC,TypeScript Remote Procedure Call,Web/Dev,Full-stack TypeScript framework for building type-safe APIs without code generation.

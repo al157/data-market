@@ -1,0 +1,167 @@
+code,name,capital,currency,phone,tld,region,subregion,numeric
+AF,Afghanistan,Kabul,AFN,+93,.af,Asia,Southern Asia,004
+AL,Albania,Tirana,ALL,+355,.al,Europe,Southern Europe,008
+DZ,Algeria,Algiers,DZD,+213,.dz,Africa,Northern Africa,012
+AD,Andorra,Andorra la Vella,EUR,+376,.ad,Europe,Southern Europe,020
+AO,Angola,Luanda,AOA,+244,.ao,Africa,Middle Africa,024
+AR,Argentina,Buenos Aires,ARS,+54,.ar,Americas,South America,032
+AM,Armenia,Yerevan,AMD,+374,.am,Asia,Western Asia,051
+AU,Australia,Canberra,AUD,+61,.au,Oceania,Australia and New Zealand,036
+AT,Austria,Vienna,EUR,+43,.at,Europe,Western Europe,040
+AZ,Azerbaijan,Baku,AZN,+994,.az,Asia,Western Asia,031
+BH,Bahrain,Manama,BHD,+973,.bh,Asia,Western Asia,048
+BD,Bangladesh,Dhaka,BDT,+880,.bd,Asia,Southern Asia,050
+BY,Belarus,Minsk,BYN,+375,.by,Europe,Eastern Europe,112
+BE,Belgium,Brussels,EUR,+32,.be,Europe,Western Europe,056
+BZ,Belize,Belmopan,BZD,+501,.bz,Americas,Central America,084
+BJ,Benin,Porto-Novo,XOF,+229,.bj,Africa,Western Africa,204
+BT,Bhutan,Thimphu,BTN,+975,.bt,Asia,Southern Asia,064
+BO,Bolivia,Sucre,BOB,+591,.bo,Americas,South America,068
+BA,Bosnia and Herzegovina,Sarajevo,BAM,+387,.ba,Europe,Southern Europe,070
+BW,Botswana,Gaborone,BWP,+267,.bw,Africa,Southern Africa,072
+BR,Brazil,Brasília,BRL,+55,.br,Americas,South America,076
+BN,Brunei,Bandar Seri Begawan,BND,+673,.bn,Asia,South-Eastern Asia,096
+BG,Bulgaria,Sofia,BGN,+359,.bg,Europe,Eastern Europe,100
+KH,Cambodia,Phnom Penh,KHR,+855,.kh,Asia,South-Eastern Asia,116
+CM,Cameroon,Yaoundé,XAF,+237,.cm,Africa,Middle Africa,120
+CA,Canada,Ottawa,CAD,+1,.ca,Americas,Northern America,124
+CV,Cape Verde,Praia,CVE,+238,.cv,Africa,Western Africa,132
+CF,Central African Republic,Bangui,XAF,+236,.cf,Africa,Middle Africa,140
+TD,Chad,N'Djamena,XAF,+235,.td,Africa,Middle Africa,148
+CL,Chile,Santiago,CLP,+56,.cl,Americas,South America,152
+CN,China,Beijing,CNY,+86,.cn,Asia,Eastern Asia,156
+CO,Colombia,Bogotá,COP,+57,.co,Americas,South America,170
+KM,Comoros,Moroni,KMF,+269,.km,Africa,Eastern Africa,174
+CG,Congo,Brazzaville,XAF,+242,.cg,Africa,Middle Africa,178
+CD,Congo (DRC),Kinshasa,CDF,+243,.cd,Africa,Middle Africa,180
+CR,Costa Rica,San José,CRC,+506,.cr,Americas,Central America,188
+HR,Croatia,Zagreb,EUR,+385,.hr,Europe,Southern Europe,191
+CU,Cuba,Havana,CUP,+53,.cu,Americas,Caribbean,192
+CY,Cyprus,Nicosia,EUR,+357,.cy,Europe,Southern Europe,196
+CZ,Czech Republic,Prague,CZK,+420,.cz,Europe,Eastern Europe,203
+DK,Denmark,Copenhagen,DKK,+45,.dk,Europe,Northern Europe,208
+DJ,Djibouti,Djibouti,DJF,+253,.dj,Africa,Eastern Africa,262
+DO,Dominican Republic,Santo Domingo,DOP,+1-809,.do,Americas,Caribbean,214
+EC,Ecuador,Quito,USD,+593,.ec,Americas,South America,218
+EG,Egypt,Cairo,EGP,+20,.eg,Africa,Northern Africa,818
+SV,El Salvador,San Salvador,USD,+503,.sv,Americas,Central America,222
+EE,Estonia,Tallinn,EUR,+372,.ee,Europe,Northern Europe,233
+SZ,Eswatini,Mbabane,SZL,+268,.sz,Africa,Southern Africa,748
+ET,Ethiopia,Addis Ababa,ETB,+251,.et,Africa,Eastern Africa,231
+FJ,Fiji,Suva,FJD,+679,.fj,Oceania,Melanesia,242
+FI,Finland,Helsinki,EUR,+358,.fi,Europe,Northern Europe,246
+FR,France,Paris,EUR,+33,.fr,Europe,Western Europe,250
+GA,Gabon,Libreville,XAF,+241,.ga,Africa,Middle Africa,266
+GM,Gambia,Banjul,GMD,+220,.gm,Africa,Western Africa,270
+GE,Georgia,Tbilisi,GEL,+995,.ge,Asia,Western Asia,268
+DE,Germany,Berlin,EUR,+49,.de,Europe,Western Europe,276
+GH,Ghana,Accra,GHS,+233,.gh,Africa,Western Africa,288
+GR,Greece,Athens,EUR,+30,.gr,Europe,Southern Europe,300
+GT,Guatemala,Guatemala City,GTQ,+502,.gt,Americas,Central America,320
+GN,Guinea,Conakry,GNF,+224,.gn,Africa,Western Africa,324
+GY,Guyana,Georgetown,GYD,+592,.gy,Americas,South America,328
+HT,Haiti,Port-au-Prince,HTG,+509,.ht,Americas,Caribbean,332
+HN,Honduras,Tegucigalpa,HNL,+504,.hn,Americas,Central America,340
+HU,Hungary,Budapest,HUF,+36,.hu,Europe,Eastern Europe,348
+IS,Iceland,Reykjavik,ISK,+354,.is,Europe,Northern Europe,352
+IN,India,New Delhi,INR,+91,.in,Asia,Southern Asia,356
+ID,Indonesia,Jakarta,IDR,+62,.id,Asia,South-Eastern Asia,360
+IR,Iran,Tehran,IRR,+98,.ir,Asia,Southern Asia,364
+IQ,Iraq,Baghdad,IQD,+964,.iq,Asia,Western Asia,368
+IE,Ireland,Dublin,EUR,+353,.ie,Europe,Northern Europe,372
+IL,Israel,Jerusalem,ILS,+972,.il,Asia,Western Asia,376
+IT,Italy,Rome,EUR,+39,.it,Europe,Southern Europe,380
+CI,Ivory Coast,Yamoussoukro,XOF,+225,.ci,Africa,Western Africa,384
+JM,Jamaica,Kingston,JMD,+1-876,.jm,Americas,Caribbean,388
+JP,Japan,Tokyo,JPY,+81,.jp,Asia,Eastern Asia,392
+JO,Jordan,Amman,JOD,+962,.jo,Asia,Western Asia,400
+KZ,Kazakhstan,Astana,KZT,+7,.kz,Asia,Central Asia,398
+KE,Kenya,Nairobi,KES,+254,.ke,Africa,Eastern Africa,404
+KW,Kuwait,Kuwait City,KWD,+965,.kw,Asia,Western Asia,414
+KG,Kyrgyzstan,Bishkek,KGS,+996,.kg,Asia,Central Asia,417
+LA,Laos,Vientiane,LAK,+856,.la,Asia,South-Eastern Asia,418
+LV,Latvia,Riga,EUR,+371,.lv,Europe,Northern Europe,428
+LB,Lebanon,Beirut,LBP,+961,.lb,Asia,Western Asia,422
+LY,Libya,Tripoli,LYD,+218,.ly,Africa,Northern Africa,434
+LI,Liechtenstein,Vaduz,CHF,+423,.li,Europe,Western Europe,438
+LT,Lithuania,Vilnius,EUR,+370,.lt,Europe,Northern Europe,440
+LU,Luxembourg,Luxembourg City,EUR,+352,.lu,Europe,Western Europe,442
+MG,Madagascar,Antananarivo,MGA,+261,.mg,Africa,Eastern Africa,450
+MY,Malaysia,Kuala Lumpur,MYR,+60,.my,Asia,South-Eastern Asia,458
+MV,Maldives,Malé,MVR,+960,.mv,Asia,Southern Asia,462
+ML,Mali,Bamako,XOF,+223,.ml,Africa,Western Africa,466
+MT,Malta,Valletta,EUR,+356,.mt,Europe,Southern Europe,470
+MR,Mauritania,Nouakchott,MRU,+222,.mr,Africa,Western Africa,478
+MU,Mauritius,Port Louis,MUR,+230,.mu,Africa,Eastern Africa,480
+MX,Mexico,Mexico City,MXN,+52,.mx,Americas,Central America,484
+MC,Monaco,Monaco,EUR,+377,.mc,Europe,Western Europe,492
+MN,Mongolia,Ulaanbaatar,MNT,+976,.mn,Asia,Eastern Asia,496
+ME,Montenegro,Podgorica,EUR,+382,.me,Europe,Southern Europe,499
+MA,Morocco,Rabat,MAD,+212,.ma,Africa,Northern Africa,504
+MM,Myanmar,Naypyidaw,MMK,+95,.mm,Asia,South-Eastern Asia,104
+NA,Namibia,Windhoek,NAD,+264,.na,Africa,Southern Africa,516
+NP,Nepal,Kathmandu,NPR,+977,.np,Asia,Southern Asia,524
+NL,Netherlands,Amsterdam,EUR,+31,.nl,Europe,Western Europe,528
+NZ,New Zealand,Wellington,NZD,+64,.nz,Oceania,Australia and New Zealand,554
+NI,Nicaragua,Managua,NIO,+505,.ni,Americas,Central America,558
+NE,Niger,Niamey,XOF,+227,.ne,Africa,Western Africa,562
+NG,Nigeria,Abuja,NGN,+234,.ng,Africa,Western Africa,566
+KP,North Korea,Pyongyang,KPW,+850,.kp,Asia,Eastern Asia,408
+MK,North Macedonia,Skopje,MKD,+389,.mk,Europe,Southern Europe,807
+NO,Norway,Oslo,NOK,+47,.no,Europe,Northern Europe,578
+OM,Oman,Muscat,OMR,+968,.om,Asia,Western Asia,512
+PK,Pakistan,Islamabad,PKR,+92,.pk,Asia,Southern Asia,586
+PA,Panama,Panama City,PAB,+507,.pa,Americas,Central America,591
+PG,Papua New Guinea,Port Moresby,PGK,+675,.pg,Oceania,Melanesia,598
+PY,Paraguay,Asunción,PYG,+595,.py,Americas,South America,600
+PE,Peru,Lima,PEN,+51,.pe,Americas,South America,604
+PH,Philippines,Manila,PHP,+63,.ph,Asia,South-Eastern Asia,608
+PL,Poland,Warsaw,PLN,+48,.pl,Europe,Eastern Europe,616
+PT,Portugal,Lisbon,EUR,+351,.pt,Europe,Southern Europe,620
+QA,Qatar,Doha,QAR,+974,.qa,Asia,Western Asia,634
+RO,Romania,Bucharest,RON,+40,.ro,Europe,Eastern Europe,642
+RU,Russia,Moscow,RUB,+7,.ru,Europe,Eastern Europe,643
+RW,Rwanda,Kigali,RWF,+250,.rw,Africa,Eastern Africa,646
+SM,San Marino,San Marino,EUR,+378,.sm,Europe,Southern Europe,674
+SA,Saudi Arabia,Riyadh,SAR,+966,.sa,Asia,Western Asia,682
+SN,Senegal,Dakar,XOF,+221,.sn,Africa,Western Africa,686
+RS,Serbia,Belgrade,RSD,+381,.rs,Europe,Southern Europe,688
+SC,Seychelles,Victoria,SCR,+248,.sc,Africa,Eastern Africa,690
+SL,Sierra Leone,Freetown,SLL,+232,.sl,Africa,Western Africa,694
+SG,Singapore,Singapore,SGD,+65,.sg,Asia,South-Eastern Asia,702
+SK,Slovakia,Bratislava,EUR,+421,.sk,Europe,Eastern Europe,703
+SI,Slovenia,Ljubljana,EUR,+386,.si,Europe,Southern Europe,705
+SB,Solomon Islands,Honiara,SBD,+677,.sb,Oceania,Melanesia,090
+SO,Somalia,Mogadishu,SOS,+252,.so,Africa,Eastern Africa,706
+ZA,South Africa,Pretoria,ZAR,+27,.za,Africa,Southern Africa,710
+KR,South Korea,Seoul,KRW,+82,.kr,Asia,Eastern Asia,410
+ES,Spain,Madrid,EUR,+34,.es,Europe,Southern Europe,724
+LK,Sri Lanka,Sri Jayawardenepura Kotte,LKR,+94,.lk,Asia,Southern Asia,144
+SD,Sudan,Khartoum,SDG,+249,.sd,Africa,Northern Africa,729
+SE,Sweden,Stockholm,SEK,+46,.se,Europe,Northern Europe,752
+CH,Switzerland,Bern,CHF,+41,.ch,Europe,Western Europe,756
+SY,Syria,Damascus,SYP,+963,.sy,Asia,Western Asia,760
+TW,Taiwan,Taipei,TWD,+886,.tw,Asia,Eastern Asia,158
+TJ,Tajikistan,Dushanbe,TJS,+992,.tj,Asia,Central Asia,762
+TZ,Tanzania,Dodoma,TZS,+255,.tz,Africa,Eastern Africa,834
+TH,Thailand,Bangkok,THB,+66,.th,Asia,South-Eastern Asia,764
+TL,Timor-Leste,Dili,USD,+670,.tl,Asia,South-Eastern Asia,626
+TG,Togo,Lomé,XOF,+228,.tg,Africa,Western Africa,768
+TO,Tonga,Nuku'alofa,TOP,+676,.to,Oceania,Polynesia,776
+TN,Tunisia,Tunis,TND,+216,.tn,Africa,Northern Africa,788
+TR,Turkey,Ankara,TRY,+90,.tr,Asia,Western Asia,792
+TM,Turkmenistan,Ashgabat,TMT,+993,.tm,Asia,Central Asia,795
+UG,Uganda,Kampala,UGX,+256,.ug,Africa,Eastern Africa,800
+UA,Ukraine,Kyiv,UAH,+380,.ua,Europe,Eastern Europe,804
+AE,United Arab Emirates,Abu Dhabi,AED,+971,.ae,Asia,Western Asia,784
+GB,United Kingdom,London,GBP,+44,.uk,Europe,Northern Europe,826
+US,United States,"Washington, D.C.",USD,+1,.us,Americas,Northern America,840
+UY,Uruguay,Montevideo,UYU,+598,.uy,Americas,South America,858
+UZ,Uzbekistan,Tashkent,UZS,+998,.uz,Asia,Central Asia,860
+VU,Vanuatu,Port Vila,VUV,+678,.vu,Oceania,Melanesia,548
+VA,Vatican City,Vatican City,EUR,+379,.va,Europe,Southern Europe,336
+VE,Venezuela,Caracas,VES,+58,.ve,Americas,South America,862
+VN,Vietnam,Hanoi,VND,+84,.vn,Asia,South-Eastern Asia,704
+YE,Yemen,Sana'a,YER,+967,.ye,Asia,Western Asia,887
+ZM,Zambia,Lusaka,ZMW,+260,.zm,Africa,Eastern Africa,894
+ZW,Zimbabwe,Harare,ZWL,+263,.zw,Africa,Eastern Africa,716

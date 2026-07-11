@@ -1,0 +1,385 @@
+{
+  "schema": [
+    "mime_type",
+    "extensions",
+    "description",
+    "category"
+  ],
+  "count": 62,
+  "updated": "2026-07-11",
+  "source": "IANA Media Types",
+  "data": [
+    {
+      "mime_type": "text/plain",
+      "extensions": "txt,text,log,md",
+      "description": "Plain text",
+      "category": "Text"
+    },
+    {
+      "mime_type": "text/html",
+      "extensions": "html,htm,shtml",
+      "description": "HTML document",
+      "category": "Text"
+    },
+    {
+      "mime_type": "text/css",
+      "extensions": "css",
+      "description": "Cascading Style Sheets",
+      "category": "Text"
+    },
+    {
+      "mime_type": "text/javascript",
+      "extensions": "js,mjs,cjs",
+      "description": "JavaScript",
+      "category": "Text"
+    },
+    {
+      "mime_type": "text/csv",
+      "extensions": "csv",
+      "description": "Comma-separated values",
+      "category": "Text"
+    },
+    {
+      "mime_type": "text/markdown",
+      "extensions": "md,markdown",
+      "description": "Markdown",
+      "category": "Text"
+    },
+    {
+      "mime_type": "text/xml",
+      "extensions": "xml,xsl,xsd,rss",
+      "description": "XML",
+      "category": "Text"
+    },
+    {
+      "mime_type": "text/yaml",
+      "extensions": "yaml,yml",
+      "description": "YAML",
+      "category": "Text"
+    },
+    {
+      "mime_type": "text/tab-separated-values",
+      "extensions": "tsv",
+      "description": "Tab-separated values",
+      "category": "Text"
+    },
+    {
+      "mime_type": "application/json",
+      "extensions": "json,map",
+      "description": "JSON",
+      "category": "Application"
+    },
+    {
+      "mime_type": "application/pdf",
+      "extensions": "pdf",
+      "description": "PDF document",
+      "category": "Application"
+    },
+    {
+      "mime_type": "application/zip",
+      "extensions": "zip",
+      "description": "ZIP archive",
+      "category": "Application"
+    },
+    {
+      "mime_type": "application/gzip",
+      "extensions": "gz",
+      "description": "GZip compressed",
+      "category": "Application"
+    },
+    {
+      "mime_type": "application/x-tar",
+      "extensions": "tar",
+      "description": "Tape Archive",
+      "category": "Application"
+    },
+    {
+      "mime_type": "application/x-www-form-urlencoded",
+      "extensions": "N/A",
+      "description": "URL-encoded form data",
+      "category": "Application"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "extensions": "bin,dmg,iso",
+      "description": "Generic binary",
+      "category": "Application"
+    },
+    {
+      "mime_type": "application/xml",
+      "extensions": "xml,xsl",
+      "description": "XML (application)",
+      "category": "Application"
+    },
+    {
+      "mime_type": "application/ld+json",
+      "extensions": "jsonld",
+      "description": "JSON-LD",
+      "category": "Application"
+    },
+    {
+      "mime_type": "application/dns-message",
+      "extensions": "N/A",
+      "description": "DNS over HTTPS",
+      "category": "Application"
+    },
+    {
+      "mime_type": "application/grpc",
+      "extensions": "N/A",
+      "description": "gRPC",
+      "category": "Application"
+    },
+    {
+      "mime_type": "application/protobuf",
+      "extensions": "pb,proto",
+      "description": "Protocol Buffers",
+      "category": "Application"
+    },
+    {
+      "mime_type": "application/wasm",
+      "extensions": "wasm",
+      "description": "WebAssembly",
+      "category": "Application"
+    },
+    {
+      "mime_type": "application/x-sh",
+      "extensions": "sh",
+      "description": "Shell script",
+      "category": "Application"
+    },
+    {
+      "mime_type": "application/x-python",
+      "extensions": "py",
+      "description": "Python script",
+      "category": "Application"
+    },
+    {
+      "mime_type": "application/typescript",
+      "extensions": "ts,tsx",
+      "description": "TypeScript",
+      "category": "Application"
+    },
+    {
+      "mime_type": "application/x-httpd-php",
+      "extensions": "php",
+      "description": "PHP script",
+      "category": "Application"
+    },
+    {
+      "mime_type": "application/x-java-archive",
+      "extensions": "jar",
+      "description": "JAR archive",
+      "category": "Application"
+    },
+    {
+      "mime_type": "application/graphql",
+      "extensions": "graphql,gql",
+      "description": "GraphQL",
+      "category": "Application"
+    },
+    {
+      "mime_type": "application/openapi+json",
+      "extensions": "N/A",
+      "description": "OpenAPI spec",
+      "category": "Application"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "extensions": "jpg,jpeg,jpe",
+      "description": "JPEG image",
+      "category": "Image"
+    },
+    {
+      "mime_type": "image/png",
+      "extensions": "png",
+      "description": "PNG image",
+      "category": "Image"
+    },
+    {
+      "mime_type": "image/gif",
+      "extensions": "gif",
+      "description": "GIF image",
+      "category": "Image"
+    },
+    {
+      "mime_type": "image/webp",
+      "extensions": "webp",
+      "description": "WebP image",
+      "category": "Image"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "extensions": "svg,svgz",
+      "description": "SVG vector",
+      "category": "Image"
+    },
+    {
+      "mime_type": "image/avif",
+      "extensions": "avif",
+      "description": "AVIF image",
+      "category": "Image"
+    },
+    {
+      "mime_type": "image/bmp",
+      "extensions": "bmp",
+      "description": "BMP image",
+      "category": "Image"
+    },
+    {
+      "mime_type": "image/tiff",
+      "extensions": "tif,tiff",
+      "description": "TIFF image",
+      "category": "Image"
+    },
+    {
+      "mime_type": "image/x-icon",
+      "extensions": "ico",
+      "description": "Icon",
+      "category": "Image"
+    },
+    {
+      "mime_type": "image/heic",
+      "extensions": "heic,heif",
+      "description": "HEIC image",
+      "category": "Image"
+    },
+    {
+      "mime_type": "audio/mpeg",
+      "extensions": "mp3",
+      "description": "MP3 audio",
+      "category": "Audio"
+    },
+    {
+      "mime_type": "audio/ogg",
+      "extensions": "ogg,oga",
+      "description": "OGG audio",
+      "category": "Audio"
+    },
+    {
+      "mime_type": "audio/wav",
+      "extensions": "wav",
+      "description": "WAV audio",
+      "category": "Audio"
+    },
+    {
+      "mime_type": "audio/webm",
+      "extensions": "weba",
+      "description": "WebM audio",
+      "category": "Audio"
+    },
+    {
+      "mime_type": "audio/aac",
+      "extensions": "aac",
+      "description": "AAC audio",
+      "category": "Audio"
+    },
+    {
+      "mime_type": "audio/flac",
+      "extensions": "flac",
+      "description": "FLAC audio",
+      "category": "Audio"
+    },
+    {
+      "mime_type": "audio/opus",
+      "extensions": "opus",
+      "description": "Opus audio",
+      "category": "Audio"
+    },
+    {
+      "mime_type": "audio/midi",
+      "extensions": "mid,midi",
+      "description": "MIDI",
+      "category": "Audio"
+    },
+    {
+      "mime_type": "video/mp4",
+      "extensions": "mp4,m4v",
+      "description": "MP4 video",
+      "category": "Video"
+    },
+    {
+      "mime_type": "video/webm",
+      "extensions": "webm",
+      "description": "WebM video",
+      "category": "Video"
+    },
+    {
+      "mime_type": "video/ogg",
+      "extensions": "ogv",
+      "description": "OGG video",
+      "category": "Video"
+    },
+    {
+      "mime_type": "video/avi",
+      "extensions": "avi",
+      "description": "AVI video",
+      "category": "Video"
+    },
+    {
+      "mime_type": "video/mkv",
+      "extensions": "mkv",
+      "description": "Matroska video",
+      "category": "Video"
+    },
+    {
+      "mime_type": "video/quicktime",
+      "extensions": "mov",
+      "description": "QuickTime video",
+      "category": "Video"
+    },
+    {
+      "mime_type": "video/x-msvideo",
+      "extensions": "avi",
+      "description": "AVI video",
+      "category": "Video"
+    },
+    {
+      "mime_type": "font/woff",
+      "extensions": "woff",
+      "description": "WOFF font",
+      "category": "Font"
+    },
+    {
+      "mime_type": "font/woff2",
+      "extensions": "woff2",
+      "description": "WOFF2 font",
+      "category": "Font"
+    },
+    {
+      "mime_type": "font/ttf",
+      "extensions": "ttf",
+      "description": "TrueType font",
+      "category": "Font"
+    },
+    {
+      "mime_type": "font/otf",
+      "extensions": "otf",
+      "description": "OpenType font",
+      "category": "Font"
+    },
+    {
+      "mime_type": "multipart/form-data",
+      "extensions": "N/A",
+      "description": "Form data (multipart)",
+      "category": "Multipart"
+    },
+    {
+      "mime_type": "model/gltf+json",
+      "extensions": "gltf",
+      "description": "glTF model",
+      "category": "Model"
+    },
+    {
+      "mime_type": "model/gltf-binary",
+      "extensions": "glb",
+      "description": "glTF binary",
+      "category": "Model"
+    },
+    {
+      "mime_type": "model/obj",
+      "extensions": "obj",
+      "description": "OBJ 3D model",
+      "category": "Model"
+    }
+  ]
+}
