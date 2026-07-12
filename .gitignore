@@ -3,3 +3,6 @@ node_modules/
 dist/
 .dev.vars
 .wrangler/
+# Data files (managed via R2, not git)
+data/
+weather-*.json
