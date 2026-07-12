@@ -13,6 +13,27 @@ import { DATASET_CATALOG } from "../datasets/catalog";
  */
 const discoveryRoutes = new Hono<{ Bindings: Env }>();
 
+// ── 根路由 — Agent 发现入口 ──
+discoveryRoutes.get("/", (c) => {
+  const baseUrl = "https://data-market.alickzheng618.workers.dev";
+  return c.json({
+    service: "Curated Datasets Marketplace",
+    description: "AI-purchasable structured datasets via x402 micropayments",
+    payment: { protocol: "x402", network: "Base (eip155:8453)", facilitator: "https://x402.org/facilitator" },
+    discovery: {
+      "Agent Resource Manifest (JSON-LD)": `${baseUrl}/.well-known/ai.json`,
+      "LLM Catalog (llms.txt)": `${baseUrl}/llms.txt`,
+      "MCP Server Manifest": `${baseUrl}/mcp.json`,
+      "OpenAPI Specification": `${baseUrl}/openapi.json`,
+      "Health Check": `${baseUrl}/health`,
+    },
+    datasets: "GET /datasets/:id.json — paywalled, returns 402 without payment",
+    docs: "https://github.com/al157/data-market",
+  }, 200, {
+    "Cache-Control": "public, max-age=3600",
+  });
+});
+
 // ── LLMs.txt — AI Agent 的站点地图 ──
 // 标准参考：https://llmstxt.org/
 discoveryRoutes.get("/llms.txt", (c) => {
@@ -53,7 +74,7 @@ discoveryRoutes.get("/llms.txt", (c) => {
     "- SDK: @x402/fetch, @x402/hono",
     "",
     "## Contact",
-    "- Endpoint: https://data-market.example.workers.dev",
+    "- Endpoint: https://data-market.alickzheng618.workers.dev",
     "- Health: GET /health",
     "",
   ].join("\n");
@@ -189,7 +210,7 @@ discoveryRoutes.get("/openapi.json", (c) => {
       version: "0.1.0",
       description: "x402-paywalled data API for AI agents",
     },
-    servers: [{ url: "https://data-market.example.workers.dev" }],
+    servers: [{ url: "https://data-market.alickzheng618.workers.dev" }],
     paths: {
       "/health": {
         get: {
